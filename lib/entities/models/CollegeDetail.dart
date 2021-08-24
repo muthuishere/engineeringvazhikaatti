@@ -1,6 +1,6 @@
 import 'package:engineeringvazhikaatti/entities/models/Caste.dart';
 import 'package:engineeringvazhikaatti/entities/models/YearDetail.dart';
-import 'package:engineeringvazhikaatti/entities/user/UserPreferences.dart';
+import '../Filter.dart';
 import 'package:engineeringvazhikaatti/shared/Search.dart';
 
 import 'CollegeLocation.dart';
@@ -70,7 +70,7 @@ class CollegeDetail {
     return data;
   }
 
-  sameDistrictAndBranch(List<String> districts, List<String> branchcodes) {
+  districtAndBranchExists(List<String> districts, List<String> branchcodes) {
     return districtExists(districts) && branchExists(branchcodes);
   }
 
@@ -92,18 +92,26 @@ class CollegeDetail {
 
   bool canGetIntoBranch(
       String branchcode, CommunityGroup communityGroup, double cutOff) {
-    return yearsAllowedFor(branchcode, communityGroup, cutOff).length > 0;
+    return yearsAllowedForCommunityAndCutOff(branchcode, communityGroup, cutOff).length > 0;
   }
 
-  List<YearDetail> yearsAllowedFor(
+  List<YearDetail> yearsAllowedForCommunityAndCutOff(
       String branchcode, CommunityGroup communityGroup, double cutOff) {
+    return this
+        .yearsAllowedFor(branchcode)
+        .where((element) =>
+        element.isCutOffEnoughForCommunityGroup(cutOff, communityGroup))
+        .toList();
+
+    ;
+  }
+  List<YearDetail> yearsAllowedFor(
+      String branchcode) {
     return this
         .branches!
         .where((element) => element.code == branchcode)
         .map((e) => e.history)
         .expand((element) => element)
-        .where((element) =>
-        element.isCutOffEnoughForCommunityGroup(cutOff, communityGroup))
         .toList();
 
     ;

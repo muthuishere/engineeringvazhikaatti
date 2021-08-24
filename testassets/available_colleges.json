@@ -1,0 +1,3083 @@
+[
+  {
+    "address": "Loyola-ICAM College of Engineering and Technology, Loyola College Campus, Nungambakkam, Chennai 600034",
+    "district": "Chennai",
+    "id": 1450,
+    "name": "Loyola-ICAM College of Engineering and Technology",
+    "pincode": "600034",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 10,
+            "cutoff": 178.0,
+            "rank": 9615
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 6,
+            "cutoff": 172.0,
+            "rank": 14069
+          },
+          {
+            "year": 2019,
+            "branchRank": 7,
+            "cutoff": 169.5,
+            "rank": 15696
+          },
+          {
+            "year": 2018,
+            "branchRank": 9,
+            "cutoff": 180.75,
+            "rank": 22121
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0606,
+      "longitude": 80.2344
+    }
+  },
+  {
+    "address": "St. Joseph’s College of Engineering, Old Mahabalipuram Road (OMR), Chennai 600 119",
+    "district": "Chennai",
+    "id": 1317,
+    "name": "St. Joseph’s College of Engineering",
+    "pincode": "600119",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 12,
+            "cutoff": 179.5,
+            "rank": 8802
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 9,
+            "cutoff": 165.5,
+            "rank": 18602
+          },
+          {
+            "year": 2019,
+            "branchRank": 7,
+            "cutoff": 167.5,
+            "rank": 17137
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.89,
+      "longitude": 80.2313
+    }
+  },
+  {
+    "address": "R M K Engineering College (Autonomous), Kavaraipettai, Gummidipoondi, Thiruvallur District 601206",
+    "district": "Thiruvallur",
+    "id": 1113,
+    "name": "R M K Engineering College (Autonomous)",
+    "pincode": "601206",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 15,
+            "cutoff": 178.0,
+            "rank": 10138
+          },
+          {
+            "year": 2019,
+            "branchRank": 12,
+            "cutoff": 179.0,
+            "rank": 8946
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 6,
+            "cutoff": 170.5,
+            "rank": 14934
+          },
+          {
+            "year": 2019,
+            "branchRank": 6,
+            "cutoff": 174.0,
+            "rank": 12257
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.361,
+      "longitude": 80.1056
+    }
+  },
+  {
+    "address": "Easwari Engineering College (Autonomous), Ramapuram, Chennai 600089",
+    "district": "Chennai",
+    "id": 1304,
+    "name": "Easwari Engineering College (Autonomous)",
+    "pincode": "600089",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 16,
+            "cutoff": 175.0,
+            "rank": 12124
+          },
+          {
+            "year": 2019,
+            "branchRank": 19,
+            "cutoff": 172.0,
+            "rank": 13924
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 10,
+            "cutoff": 167.0,
+            "rank": 17672
+          },
+          {
+            "year": 2019,
+            "branchRank": 14,
+            "cutoff": 157.0,
+            "rank": 25121
+          },
+          {
+            "year": 2018,
+            "branchRank": 11,
+            "cutoff": 177.0,
+            "rank": 26433
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0582,
+      "longitude": 80.24
+    }
+  },
+  {
+    "address": "Sri Sairam Enginering College (Autonomous), West Tambaram, Chennai 600044",
+    "district": "Chennai",
+    "id": 1419,
+    "name": "Sri Sairam Enginering College (Autonomous)",
+    "pincode": "600044",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 18,
+            "cutoff": 175.0,
+            "rank": 12202
+          },
+          {
+            "year": 2019,
+            "branchRank": 15,
+            "cutoff": 170.5,
+            "rank": 15133
+          },
+          {
+            "year": 2018,
+            "branchRank": 30,
+            "cutoff": 178.5,
+            "rank": 24610
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 14,
+            "cutoff": 159.0,
+            "rank": 23685
+          },
+          {
+            "year": 2019,
+            "branchRank": 19,
+            "cutoff": 153.5,
+            "rank": 27715
+          },
+          {
+            "year": 2018,
+            "branchRank": 23,
+            "cutoff": 169.75,
+            "rank": 34356
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8072,
+      "longitude": 80.0591
+    }
+  },
+  {
+    "address": "Chennai Institute of Technology, Puduper Village, Nandambakkam Post, Kundrathur, Chennai 600069",
+    "district": "Chennai",
+    "id": 1399,
+    "name": "Chennai Institute of Technology",
+    "pincode": "600069",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 19,
+            "cutoff": 173.0,
+            "rank": 13394
+          },
+          {
+            "year": 2019,
+            "branchRank": 19,
+            "cutoff": 171.0,
+            "rank": 14680
+          },
+          {
+            "year": 2018,
+            "branchRank": 22,
+            "cutoff": 175.5,
+            "rank": 28081
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 12,
+            "cutoff": 167.0,
+            "rank": 17577
+          },
+          {
+            "year": 2019,
+            "branchRank": 14,
+            "cutoff": 156.25,
+            "rank": 25755
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.978,
+      "longitude": 80.0678
+    }
+  },
+  {
+    "address": "Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai 600024",
+    "district": "Chennai",
+    "id": 1309,
+    "name": "Meenakshi Sundararajan Engineering College",
+    "pincode": "600024",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 21,
+            "cutoff": 173.5,
+            "rank": 13051
+          },
+          {
+            "year": 2019,
+            "branchRank": 17,
+            "cutoff": 176.0,
+            "rank": 11080
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 14,
+            "cutoff": 161.5,
+            "rank": 21520
+          },
+          {
+            "year": 2019,
+            "branchRank": 11,
+            "cutoff": 160.0,
+            "rank": 22913
+          },
+          {
+            "year": 2018,
+            "branchRank": 19,
+            "cutoff": 174.5,
+            "rank": 29113
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0481,
+      "longitude": 80.2214
+    }
+  },
+  {
+    "address": "R M D Engineering College, Kavaraipettai, Gummidipoondi, Thiruvallur District 601206",
+    "district": "Thiruvallur",
+    "id": 1112,
+    "name": "R M D Engineering College",
+    "pincode": "601206",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 27,
+            "cutoff": 165.0,
+            "rank": 18893
+          },
+          {
+            "year": 2019,
+            "branchRank": 27,
+            "cutoff": 169.0,
+            "rank": 16259
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 17,
+            "cutoff": 162.0,
+            "rank": 21342
+          },
+          {
+            "year": 2019,
+            "branchRank": 16,
+            "cutoff": 162.5,
+            "rank": 21029
+          },
+          {
+            "year": 2018,
+            "branchRank": 12,
+            "cutoff": 179.5,
+            "rank": 23470
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.361,
+      "longitude": 80.1056
+    }
+  },
+  {
+    "address": "Panimalar Engineering College, Nazarethpet, Poonamallee, Chennai 602103",
+    "district": "Chennai",
+    "id": 1210,
+    "name": "Panimalar Engineering College",
+    "pincode": "602103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 29,
+            "cutoff": 162.0,
+            "rank": 21199
+          },
+          {
+            "year": 2019,
+            "branchRank": 28,
+            "cutoff": 167.0,
+            "rank": 17553
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 21,
+            "cutoff": 152.0,
+            "rank": 29554
+          },
+          {
+            "year": 2019,
+            "branchRank": 23,
+            "cutoff": 155.75,
+            "rank": 26128
+          },
+          {
+            "year": 2018,
+            "branchRank": 17,
+            "cutoff": 174.75,
+            "rank": 28788
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.144443,
+      "longitude": 79.894005
+    }
+  },
+  {
+    "address": "SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai 603203",
+    "district": "Chennai",
+    "id": 1422,
+    "name": "SRM Valliammai Engineering College (Autonomous)",
+    "pincode": "603203",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 34,
+            "cutoff": 152.5,
+            "rank": 28839
+          },
+          {
+            "year": 2019,
+            "branchRank": 52,
+            "cutoff": 150.0,
+            "rank": 30838
+          },
+          {
+            "year": 2018,
+            "branchRank": 58,
+            "cutoff": 169.75,
+            "rank": 34349
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 26,
+            "cutoff": 144.5,
+            "rank": 35846
+          },
+          {
+            "year": 2019,
+            "branchRank": 33,
+            "cutoff": 137.0,
+            "rank": 41716
+          },
+          {
+            "year": 2018,
+            "branchRank": 33,
+            "cutoff": 151.0,
+            "rank": 52792
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.2796,
+      "longitude": 79.9098
+    }
+  },
+  {
+    "address": "Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai 600066",
+    "district": "Chennai",
+    "id": 1120,
+    "name": "Velammal Engineering College (Autonomous)",
+    "pincode": "600066",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 39,
+            "cutoff": 151.0,
+            "rank": 30293
+          },
+          {
+            "year": 2019,
+            "branchRank": 36,
+            "cutoff": 158.5,
+            "rank": 23809
+          },
+          {
+            "year": 2018,
+            "branchRank": 41,
+            "cutoff": 175.25,
+            "rank": 28435
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 22,
+            "cutoff": 150.5,
+            "rank": 30799
+          },
+          {
+            "year": 2019,
+            "branchRank": 25,
+            "cutoff": 151.5,
+            "rank": 29472
+          },
+          {
+            "year": 2018,
+            "branchRank": 24,
+            "cutoff": 169.75,
+            "rank": 34232
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0063,
+      "longitude": 79.8869
+    }
+  },
+  {
+    "address": "Sri Sai Ram Institute of Technology (Autonomous), West Tambaram, Chennai 600044",
+    "district": "Chennai",
+    "id": 1324,
+    "name": "Sri Sai Ram Institute of Technology (Autonomous)",
+    "pincode": "600044",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 39,
+            "cutoff": 153.0,
+            "rank": 28327
+          },
+          {
+            "year": 2019,
+            "branchRank": 48,
+            "cutoff": 146.0,
+            "rank": 33817
+          },
+          {
+            "year": 2018,
+            "branchRank": 61,
+            "cutoff": 164.75,
+            "rank": 39268
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 25,
+            "cutoff": 146.5,
+            "rank": 34029
+          },
+          {
+            "year": 2019,
+            "branchRank": 30,
+            "cutoff": 140.5,
+            "rank": 38527
+          },
+          {
+            "year": 2018,
+            "branchRank": 43,
+            "cutoff": 145.25,
+            "rank": 58166
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8072,
+      "longitude": 80.0591
+    }
+  },
+  {
+    "address": "St. Josephs Institute of Technology, Jeppiaar Nagar, Old Mahabalipuram Road (OMR), Chennai 600119",
+    "district": "Chennai",
+    "id": 1149,
+    "name": "St. Josephs Institute of Technology",
+    "pincode": "600119",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 43,
+            "cutoff": 152.5,
+            "rank": 29100
+          },
+          {
+            "year": 2019,
+            "branchRank": 44,
+            "cutoff": 148.5,
+            "rank": 31752
+          },
+          {
+            "year": 2018,
+            "branchRank": 44,
+            "cutoff": 171.5,
+            "rank": 32432
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 32,
+            "cutoff": 139.0,
+            "rank": 40866
+          },
+          {
+            "year": 2019,
+            "branchRank": 32,
+            "cutoff": 143.0,
+            "rank": 36526
+          },
+          {
+            "year": 2018,
+            "branchRank": 34,
+            "cutoff": 152.75,
+            "rank": 51203
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.89,
+      "longitude": 80.2313
+    }
+  },
+  {
+    "address": "R M K College of Engineering and Technology, Puduvoyal, Gummidipoondi Taluk, Thiruvallur District 601206",
+    "district": "Thiruvallur",
+    "id": 1128,
+    "name": "R M K College of Engineering and Technology",
+    "pincode": "601206",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 47,
+            "cutoff": 145.5,
+            "rank": 34993
+          },
+          {
+            "year": 2019,
+            "branchRank": 39,
+            "cutoff": 156.5,
+            "rank": 25641
+          },
+          {
+            "year": 2018,
+            "branchRank": 34,
+            "cutoff": 177.75,
+            "rank": 25611
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.361,
+      "longitude": 80.1056
+    }
+  },
+  {
+    "address": "Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College (Autonomous), Avadi-Alamathi Road, Chennai 600 062",
+    "district": "Chennai",
+    "id": 1118,
+    "name": "Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College (Autonomous)",
+    "pincode": "600062",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 59,
+            "cutoff": 137.5,
+            "rank": 42551
+          },
+          {
+            "year": 2019,
+            "branchRank": 66,
+            "cutoff": 145.0,
+            "rank": 34735
+          },
+          {
+            "year": 2018,
+            "branchRank": 72,
+            "cutoff": 146.75,
+            "rank": 56812
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 51,
+            "cutoff": 121.0,
+            "rank": 60244
+          },
+          {
+            "year": 2019,
+            "branchRank": 34,
+            "cutoff": 135.0,
+            "rank": 43630
+          },
+          {
+            "year": 2018,
+            "branchRank": 75,
+            "cutoff": 85.25,
+            "rank": 101711
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.158,
+      "longitude": 80.1063
+    }
+  },
+  {
+    "address": "Panimalar Institute of Technology, Nazarethpet, Poonamallee, Chennai 602103",
+    "district": "Chennai",
+    "id": 1231,
+    "name": "Panimalar Institute of Technology",
+    "pincode": "602103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 62,
+            "cutoff": 142.0,
+            "rank": 38231
+          },
+          {
+            "year": 2019,
+            "branchRank": 57,
+            "cutoff": 150.0,
+            "rank": 30859
+          },
+          {
+            "year": 2018,
+            "branchRank": 48,
+            "cutoff": 172.0,
+            "rank": 31747
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 38,
+            "cutoff": 133.0,
+            "rank": 47186
+          },
+          {
+            "year": 2019,
+            "branchRank": 39,
+            "cutoff": 135.0,
+            "rank": 43617
+          },
+          {
+            "year": 2018,
+            "branchRank": 28,
+            "cutoff": 153.25,
+            "rank": 50760
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.144443,
+      "longitude": 79.894005
+    }
+  },
+  {
+    "address": "Jeppiar Engineering College, Old Mahabalipuram Road (OMR), Chennai 600119",
+    "district": "Chennai",
+    "id": 1306,
+    "name": "Jeppiar Engineering College",
+    "pincode": "600119",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 66,
+            "cutoff": 140.0,
+            "rank": 40034
+          },
+          {
+            "year": 2019,
+            "branchRank": 53,
+            "cutoff": 150.0,
+            "rank": 30602
+          },
+          {
+            "year": 2018,
+            "branchRank": 52,
+            "cutoff": 170.0,
+            "rank": 33917
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 50,
+            "cutoff": 118.5,
+            "rank": 62765
+          },
+          {
+            "year": 2019,
+            "branchRank": 41,
+            "cutoff": 135.0,
+            "rank": 43474
+          },
+          {
+            "year": 2018,
+            "branchRank": 30,
+            "cutoff": 155.75,
+            "rank": 48318
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.89,
+      "longitude": 80.2313
+    }
+  },
+  {
+    "address": "K C G College of Technology, Karappakkam, Chennai 600096",
+    "district": "Chennai",
+    "id": 1311,
+    "name": "K C G College of Technology",
+    "pincode": "600096",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 70,
+            "cutoff": 135.0,
+            "rank": 45020
+          },
+          {
+            "year": 2019,
+            "branchRank": 83,
+            "cutoff": 131.5,
+            "rank": 46683
+          },
+          {
+            "year": 2018,
+            "branchRank": 88,
+            "cutoff": 148.75,
+            "rank": 54953
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 46,
+            "cutoff": 123.0,
+            "rank": 57925
+          },
+          {
+            "year": 2019,
+            "branchRank": 57,
+            "cutoff": 127.0,
+            "rank": 51120
+          },
+          {
+            "year": 2018,
+            "branchRank": 53,
+            "cutoff": 135.25,
+            "rank": 67303
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9609,
+      "longitude": 80.2409
+    }
+  },
+  {
+    "address": "Velammal Institute of Technology, Chennai-Kolkatta Highway, Panchetti Village, Ponneri Taluk, Thiruvallur District 601204",
+    "district": "Thiruvallur",
+    "id": 1237,
+    "name": "Velammal Institute of Technology",
+    "pincode": "601204",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 84,
+            "cutoff": 122.5,
+            "rank": 58483
+          },
+          {
+            "year": 2019,
+            "branchRank": 89,
+            "cutoff": 131.0,
+            "rank": 47428
+          },
+          {
+            "year": 2018,
+            "branchRank": 73,
+            "cutoff": 155.25,
+            "rank": 48728
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 59,
+            "cutoff": 112.5,
+            "rank": 69443
+          },
+          {
+            "year": 2019,
+            "branchRank": 66,
+            "cutoff": 123.0,
+            "rank": 55485
+          },
+          {
+            "year": 2018,
+            "branchRank": 48,
+            "cutoff": 142.25,
+            "rank": 61001
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.3302,
+      "longitude": 80.1546
+    }
+  },
+  {
+    "address": "Prince Shri Venkateshwara  Padmavathy Enginering College, Ponmar, Chennai 600048",
+    "district": "Chennai",
+    "id": 1414,
+    "name": "Prince Shri Venkateshwara  Padmavathy Enginering College",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 85,
+            "cutoff": 120.0,
+            "rank": 61122
+          },
+          {
+            "year": 2019,
+            "branchRank": 61,
+            "cutoff": 132.0,
+            "rank": 46430
+          },
+          {
+            "year": 2018,
+            "branchRank": 74,
+            "cutoff": 141.0,
+            "rank": 62259
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 80,
+            "cutoff": 98.0,
+            "rank": 86794
+          },
+          {
+            "year": 2019,
+            "branchRank": 73,
+            "cutoff": 108.5,
+            "rank": 71111
+          },
+          {
+            "year": 2018,
+            "branchRank": 71,
+            "cutoff": 117.5,
+            "rank": 82579
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  },
+  {
+    "address": "Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College, Avadi-Alamathi Road, Chennai 600 062",
+    "district": "Chennai",
+    "id": 1122,
+    "name": "Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College",
+    "pincode": "600062",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 90,
+            "cutoff": 120.5,
+            "rank": 60339
+          },
+          {
+            "year": 2019,
+            "branchRank": 75,
+            "cutoff": 134.0,
+            "rank": 44460
+          },
+          {
+            "year": 2018,
+            "branchRank": 135,
+            "cutoff": 131.25,
+            "rank": 71041
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 48,
+            "cutoff": 115.5,
+            "rank": 66303
+          },
+          {
+            "year": 2019,
+            "branchRank": 62,
+            "cutoff": 122.0,
+            "rank": 56543
+          },
+          {
+            "year": 2018,
+            "branchRank": 69,
+            "cutoff": 116.25,
+            "rank": 83515
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.158,
+      "longitude": 80.1063
+    }
+  },
+  {
+    "address": "Misrimal Navajee Munoth Jain Engineering College, Rajiv Gandhi Salai (OMR), Thorappakkam, Chennai 600096",
+    "district": "Chennai",
+    "id": 1310,
+    "name": "Misrimal Navajee Munoth Jain Engineering College",
+    "pincode": "600096",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 98,
+            "cutoff": 81.5,
+            "rank": 107152
+          },
+          {
+            "year": 2019,
+            "branchRank": 105,
+            "cutoff": 112.5,
+            "rank": 66332
+          },
+          {
+            "year": 2018,
+            "branchRank": 109,
+            "cutoff": 122.75,
+            "rank": 78234
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 87,
+            "cutoff": 82.0,
+            "rank": 106198
+          },
+          {
+            "year": 2019,
+            "branchRank": 106,
+            "cutoff": 99.0,
+            "rank": 81789
+          },
+          {
+            "year": 2018,
+            "branchRank": 76,
+            "cutoff": 95.75,
+            "rank": 97381
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9609,
+      "longitude": 80.2409
+    }
+  },
+  {
+    "address": "Prathyusha Engineering college, Aranvoyalkuppam, Thiruvallur District 602025",
+    "district": "Thiruvallur",
+    "id": 1110,
+    "name": "Prathyusha Engineering college",
+    "pincode": "602025",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 99,
+            "cutoff": 104.0,
+            "rank": 79383
+          },
+          {
+            "year": 2019,
+            "branchRank": 141,
+            "cutoff": 101.5,
+            "rank": 78910
+          },
+          {
+            "year": 2018,
+            "branchRank": 135,
+            "cutoff": 114.0,
+            "rank": 85321
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 79,
+            "cutoff": 102.0,
+            "rank": 81881
+          },
+          {
+            "year": 2019,
+            "branchRank": 102,
+            "cutoff": 95.5,
+            "rank": 85508
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0944,
+      "longitude": 79.9529
+    }
+  },
+  {
+    "address": "S A Engineering College (Autonomous), Thiruverkadu, Chennai 600077",
+    "district": "Chennai",
+    "id": 1114,
+    "name": "S A Engineering College (Autonomous)",
+    "pincode": "600077",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 105,
+            "cutoff": 115.5,
+            "rank": 65969
+          },
+          {
+            "year": 2019,
+            "branchRank": 118,
+            "cutoff": 115.0,
+            "rank": 63942
+          },
+          {
+            "year": 2018,
+            "branchRank": 103,
+            "cutoff": 140.0,
+            "rank": 63197
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 54,
+            "cutoff": 112.0,
+            "rank": 69909
+          },
+          {
+            "year": 2019,
+            "branchRank": 65,
+            "cutoff": 118.5,
+            "rank": 60277
+          },
+          {
+            "year": 2018,
+            "branchRank": 62,
+            "cutoff": 135.25,
+            "rank": 67404
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9591,
+      "longitude": 80.1436
+    }
+  },
+  {
+    "address": "Dhanalakshmi College of  Engineering, Manimangalam, Chennai 601301",
+    "district": "Chennai",
+    "id": 1405,
+    "name": "Dhanalakshmi College of  Engineering",
+    "pincode": "601301",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 113,
+            "cutoff": 88.5,
+            "rank": 92821
+          },
+          {
+            "year": 2018,
+            "branchRank": 109,
+            "cutoff": 121.5,
+            "rank": 79292
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.921,
+      "longitude": 80.025
+    }
+  },
+  {
+    "address": "Jeppiaar SRR Engineering College, Old Mahabalipuram Road, Chengalpattu District 603103",
+    "district": "Chengalpattu",
+    "id": 1320,
+    "name": "Jeppiaar SRR Engineering College",
+    "pincode": "603103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 116,
+            "cutoff": 113.0,
+            "rank": 68982
+          },
+          {
+            "year": 2019,
+            "branchRank": 131,
+            "cutoff": 116.0,
+            "rank": 62950
+          },
+          {
+            "year": 2018,
+            "branchRank": 115,
+            "cutoff": 131.0,
+            "rank": 71376
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 107,
+            "cutoff": 96.5,
+            "rank": 88602
+          },
+          {
+            "year": 2019,
+            "branchRank": 102,
+            "cutoff": 89.5,
+            "rank": 92026
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9194,
+      "longitude": 79.6717
+    }
+  },
+  {
+    "address": "Jerusalem College of Engineering (Autonomous), Narayanapuram, Pallikaranai, Chennai 600 100",
+    "district": "Chennai",
+    "id": 1307,
+    "name": "Jerusalem College of Engineering (Autonomous)",
+    "pincode": "600100",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 123,
+            "cutoff": 105.5,
+            "rank": 77902
+          },
+          {
+            "year": 2019,
+            "branchRank": 127,
+            "cutoff": 82.0,
+            "rank": 98971
+          },
+          {
+            "year": 2018,
+            "branchRank": 162,
+            "cutoff": 87.0,
+            "rank": 101113
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 88,
+            "cutoff": 94.0,
+            "rank": 91119
+          },
+          {
+            "year": 2019,
+            "branchRank": 84,
+            "cutoff": 81.5,
+            "rank": 99356
+          },
+          {
+            "year": 2018,
+            "branchRank": 76,
+            "cutoff": 111.5,
+            "rank": 87220
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9377,
+      "longitude": 80.2153
+    }
+  },
+  {
+    "address": "Meenakshi College of Engineering, Vembuliamman Koil Street, K K Nagar (West), Chennai 600078",
+    "district": "Chennai",
+    "id": 1509,
+    "name": "Meenakshi College of Engineering",
+    "pincode": "600078",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 123,
+            "cutoff": 93.0,
+            "rank": 92380
+          },
+          {
+            "year": 2019,
+            "branchRank": 144,
+            "cutoff": 103.0,
+            "rank": 77315
+          },
+          {
+            "year": 2018,
+            "branchRank": 133,
+            "cutoff": 103.75,
+            "rank": 92557
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 146,
+            "cutoff": 80.5,
+            "rank": 108456
+          },
+          {
+            "year": 2019,
+            "branchRank": 135,
+            "cutoff": 80.0,
+            "rank": 100735
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9591,
+      "longitude": 80.1436
+    }
+  },
+  {
+    "address": "Tagore Engineering College, Rathnamangalam, Vandalur Post, Chennai 600048",
+    "district": "Chennai",
+    "id": 1420,
+    "name": "Tagore Engineering College",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 128,
+            "cutoff": 83.0,
+            "rank": 105427
+          },
+          {
+            "year": 2019,
+            "branchRank": 280,
+            "cutoff": 80.0,
+            "rank": 101225
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 138,
+            "cutoff": 82.0,
+            "rank": 106505
+          },
+          {
+            "year": 2019,
+            "branchRank": 146,
+            "cutoff": 85.0,
+            "rank": 96396
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  },
+  {
+    "address": "GRT Institute of Engineering and Technology, GRT Mahalakshmi Nagar, Chennai-Tirupathi Highway, Tiruttani Taluk, Thiruvallur District 631209",
+    "district": "Thiruvallur",
+    "id": 1238,
+    "name": "GRT Institute of Engineering and Technology",
+    "pincode": "631209",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 129,
+            "cutoff": 94.0,
+            "rank": 91522
+          },
+          {
+            "year": 2019,
+            "branchRank": 99,
+            "cutoff": 88.5,
+            "rank": 92971
+          },
+          {
+            "year": 2018,
+            "branchRank": 175,
+            "cutoff": 93.75,
+            "rank": 98364
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1971,
+      "longitude": 79.605
+    }
+  },
+  {
+    "address": "PERI Institute of Technology, Mannivakkam, West Tambaram, Chennai 600048",
+    "district": "Chennai",
+    "id": 1452,
+    "name": "PERI Institute of Technology",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 132,
+            "cutoff": 80.5,
+            "rank": 108796
+          },
+          {
+            "year": 2019,
+            "branchRank": 136,
+            "cutoff": 80.0,
+            "rank": 100498
+          },
+          {
+            "year": 2018,
+            "branchRank": 63,
+            "cutoff": 125.75,
+            "rank": 75772
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  },
+  {
+    "address": "Loyola Institute of Technology, Mevaloorkuppam, B Village, Palanchoor, Nazarethpet Post, Chennai 600123",
+    "district": "Chennai",
+    "id": 1225,
+    "name": "Loyola Institute of Technology",
+    "pincode": "600123",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 133,
+            "cutoff": 100.5,
+            "rank": 83735
+          },
+          {
+            "year": 2019,
+            "branchRank": 94,
+            "cutoff": 114.0,
+            "rank": 65121
+          },
+          {
+            "year": 2018,
+            "branchRank": 112,
+            "cutoff": 103.0,
+            "rank": 93153
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 85,
+            "cutoff": 95.0,
+            "rank": 89898
+          },
+          {
+            "year": 2019,
+            "branchRank": 75,
+            "cutoff": 106.5,
+            "rank": 73652
+          },
+          {
+            "year": 2018,
+            "branchRank": 81,
+            "cutoff": 87.0,
+            "rank": 101111
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.2431,
+      "longitude": 79.94
+    }
+  },
+  {
+    "address": "Agni College of Technology, Old Mahabalipuram Road (OMR), Thalambur Village, Chengalpattu District 603103",
+    "district": "Chengalpattu",
+    "id": 1316,
+    "name": "Agni College of Technology",
+    "pincode": "603103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 138,
+            "cutoff": 81.5,
+            "rank": 107201
+          },
+          {
+            "year": 2019,
+            "branchRank": 148,
+            "cutoff": 81.0,
+            "rank": 99972
+          },
+          {
+            "year": 2018,
+            "branchRank": 129,
+            "cutoff": 115.5,
+            "rank": 84081
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 63,
+            "cutoff": 81.5,
+            "rank": 107171
+          },
+          {
+            "year": 2019,
+            "branchRank": 67,
+            "cutoff": 80.0,
+            "rank": 100896
+          },
+          {
+            "year": 2018,
+            "branchRank": 66,
+            "cutoff": 86.25,
+            "rank": 101387
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9194,
+      "longitude": 79.6717
+    }
+  },
+  {
+    "address": "Jawahar Engineering College, Kaveri Rangan Nagar, Saligramam, Chennai 600093",
+    "district": "Chennai",
+    "id": 1447,
+    "name": "Jawahar Engineering College",
+    "pincode": "600093",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 143,
+            "cutoff": 81.5,
+            "rank": 99496
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0647,
+      "longitude": 80.2523
+    }
+  },
+  {
+    "address": "Aalim Muhammed Salegh College of Engineering, Muthapudupet, Avadi IAF, Chennai 600055",
+    "district": "Chennai",
+    "id": 1101,
+    "name": "Aalim Muhammed Salegh College of Engineering",
+    "pincode": "600055",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 144,
+            "cutoff": 82.0,
+            "rank": 106134
+          },
+          {
+            "year": 2019,
+            "branchRank": 141,
+            "cutoff": 96.5,
+            "rank": 84474
+          },
+          {
+            "year": 2018,
+            "branchRank": 171,
+            "cutoff": 92.5,
+            "rank": 98954
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 122,
+            "cutoff": 97.0,
+            "rank": 88064
+          },
+          {
+            "year": 2019,
+            "branchRank": 82,
+            "cutoff": 86.5,
+            "rank": 94814
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1547,
+      "longitude": 80.0694
+    }
+  },
+  {
+    "address": "Mohamed Sathak A J College of Engineering, Old Mahabalipuram Road (OMR), Egattur, Chengalpattu District 603103",
+    "district": "Chengalpattu",
+    "id": 1301,
+    "name": "Mohamed Sathak A J College of Engineering",
+    "pincode": "603103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 148,
+            "cutoff": 93.0,
+            "rank": 92407
+          },
+          {
+            "year": 2019,
+            "branchRank": 138,
+            "cutoff": 98.5,
+            "rank": 82450
+          },
+          {
+            "year": 2018,
+            "branchRank": 195,
+            "cutoff": 122.75,
+            "rank": 78303
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 88,
+            "cutoff": 93.0,
+            "rank": 92376
+          },
+          {
+            "year": 2019,
+            "branchRank": 118,
+            "cutoff": 91.5,
+            "rank": 89729
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9194,
+      "longitude": 79.6717
+    }
+  },
+  {
+    "address": "Adhiparasakthi Engineering College, Melmaruvathur, Chengalpattu District 603319",
+    "district": "Chengalpattu",
+    "id": 1401,
+    "name": "Adhiparasakthi Engineering College",
+    "pincode": "603319",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 156,
+            "cutoff": 85.0,
+            "rank": 102741
+          },
+          {
+            "year": 2019,
+            "branchRank": 183,
+            "cutoff": 83.0,
+            "rank": 98254
+          },
+          {
+            "year": 2018,
+            "branchRank": 200,
+            "cutoff": 91.75,
+            "rank": 99373
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 109,
+            "cutoff": 86.5,
+            "rank": 100406
+          },
+          {
+            "year": 2019,
+            "branchRank": 50,
+            "cutoff": 101.5,
+            "rank": 78811
+          },
+          {
+            "year": 2018,
+            "branchRank": 71,
+            "cutoff": 86.25,
+            "rank": 101389
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.4541,
+      "longitude": 79.8031
+    }
+  },
+  {
+    "address": "Sri Ramanujar Engineering College, Vandalur, Kolappakkam, Chennai 600048",
+    "district": "Chennai",
+    "id": 1426,
+    "name": "Sri Ramanujar Engineering College",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 159,
+            "cutoff": 80.0,
+            "rank": 101167
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  },
+  {
+    "address": "Anand Institute of Higher Technology, Old Mahabalipuram Road (OMR), Kazhipattur, Chengalpattu District  603103",
+    "district": "Chengalpattu",
+    "id": 1303,
+    "name": "Anand Institute of Higher Technology",
+    "pincode": "603103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 167,
+            "cutoff": 81.5,
+            "rank": 107207
+          },
+          {
+            "year": 2019,
+            "branchRank": 174,
+            "cutoff": 83.0,
+            "rank": 98169
+          },
+          {
+            "year": 2018,
+            "branchRank": 143,
+            "cutoff": 92.75,
+            "rank": 98940
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 104,
+            "cutoff": 80.0,
+            "rank": 110301
+          },
+          {
+            "year": 2019,
+            "branchRank": 137,
+            "cutoff": 89.5,
+            "rank": 91918
+          },
+          {
+            "year": 2018,
+            "branchRank": 98,
+            "cutoff": 112.0,
+            "rank": 86866
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.9194,
+      "longitude": 79.6717
+    }
+  },
+  {
+    "address": "New Prince Shri Bhavani College of Engineering and Technology, Vengaivasal Main Road, Gowriwakkam, Chennai 600073",
+    "district": "Chennai",
+    "id": 1431,
+    "name": "New Prince Shri Bhavani College of Engineering and Technology",
+    "pincode": "600073",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 201,
+            "cutoff": 80.0,
+            "rank": 109194
+          },
+          {
+            "year": 2019,
+            "branchRank": 228,
+            "cutoff": 82.0,
+            "rank": 99054
+          },
+          {
+            "year": 2018,
+            "branchRank": 199,
+            "cutoff": 106.5,
+            "rank": 90810
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 150,
+            "cutoff": 81.0,
+            "rank": 107842
+          },
+          {
+            "year": 2019,
+            "branchRank": 139,
+            "cutoff": 80.0,
+            "rank": 100924
+          },
+          {
+            "year": 2018,
+            "branchRank": 113,
+            "cutoff": 88.25,
+            "rank": 100691
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.6952,
+      "longitude": 79.9479
+    }
+  },
+  {
+    "address": "Sri Venkateswara College of Engineering and Technology, Thirupachur, Thiruvallur District 631203",
+    "district": "Thiruvallur",
+    "id": 1116,
+    "name": "Sri Venkateswara College of Engineering and Technology",
+    "pincode": "631203",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 210,
+            "cutoff": 84.5,
+            "rank": 103362
+          },
+          {
+            "year": 2019,
+            "branchRank": 174,
+            "cutoff": 89.0,
+            "rank": 92302
+          },
+          {
+            "year": 2018,
+            "branchRank": 169,
+            "cutoff": 101.25,
+            "rank": 94185
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1146,
+      "longitude": 79.8605
+    }
+  },
+  {
+    "address": "T J S Engineering College, Peruvoyal, Near Kavaraipettai, Gummidipoondi Taluk, Thiruvallur District 601206",
+    "district": "Thiruvallur",
+    "id": 1241,
+    "name": "T J S Engineering College",
+    "pincode": "601206",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 225,
+            "cutoff": 85.5,
+            "rank": 95814
+          },
+          {
+            "year": 2018,
+            "branchRank": 215,
+            "cutoff": 91.0,
+            "rank": 99643
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.361,
+      "longitude": 80.1056
+    }
+  },
+  {
+    "address": "D M I College of Engineering, Palanchoor, Nazrethpet, Chennai 602103",
+    "district": "Chennai",
+    "id": 1202,
+    "name": "D M I College of Engineering",
+    "pincode": "602103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 228,
+            "cutoff": 80.0,
+            "rank": 110202
+          },
+          {
+            "year": 2019,
+            "branchRank": 213,
+            "cutoff": 80.0,
+            "rank": 100831
+          },
+          {
+            "year": 2018,
+            "branchRank": 222,
+            "cutoff": 87.75,
+            "rank": 100837
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 131,
+            "cutoff": 80.0,
+            "rank": 110249
+          },
+          {
+            "year": 2019,
+            "branchRank": 95,
+            "cutoff": 82.5,
+            "rank": 98678
+          },
+          {
+            "year": 2018,
+            "branchRank": 92,
+            "cutoff": 104.75,
+            "rank": 91929
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.144443,
+      "longitude": 79.894005
+    }
+  },
+  {
+    "address": "Sri Ram Engineering College, Perumalpattu, Veppampattu (R S), Thiruvallur District 602 024",
+    "district": "Thiruvallur",
+    "id": 1115,
+    "name": "Sri Ram Engineering College",
+    "pincode": "602024",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 228,
+            "cutoff": 80.0,
+            "rank": 108946
+          },
+          {
+            "year": 2019,
+            "branchRank": 296,
+            "cutoff": 81.0,
+            "rank": 99677
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0202,
+      "longitude": 80.0441
+    }
+  },
+  {
+    "address": "Dhanalakshmi Srinivasan College of Engineering and Technology, East Coast Road, Poonjeri, Chennai 603104",
+    "district": "Chennai",
+    "id": 1322,
+    "name": "Dhanalakshmi Srinivasan College of Engineering and Technology",
+    "pincode": "603104",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 232,
+            "cutoff": 80.0,
+            "rank": 110463
+          },
+          {
+            "year": 2019,
+            "branchRank": 258,
+            "cutoff": 79.0,
+            "rank": 101560
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 136,
+            "cutoff": 82.5,
+            "rank": 105758
+          },
+          {
+            "year": 2019,
+            "branchRank": 128,
+            "cutoff": 80.0,
+            "rank": 100993
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 11.8723,
+      "longitude": 79.9328
+    }
+  },
+  {
+    "address": "S K R Engineering College, Poonamallee, Chennai 600123",
+    "district": "Chennai",
+    "id": 1213,
+    "name": "S K R Engineering College",
+    "pincode": "600123",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 237,
+            "cutoff": 86.0,
+            "rank": 95546
+          },
+          {
+            "year": 2018,
+            "branchRank": 219,
+            "cutoff": 86.0,
+            "rank": 101451
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.2431,
+      "longitude": 79.94
+    }
+  },
+  {
+    "address": "Sree Sastha Institute of Engineering and Technology, Chembarambakkam, Chennai 600103",
+    "district": "Chennai",
+    "id": 1217,
+    "name": "Sree Sastha Institute of Engineering and Technology",
+    "pincode": "600103",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 237,
+            "cutoff": 98.0,
+            "rank": 83132
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.3062,
+      "longitude": 80.1565
+    }
+  },
+  {
+    "address": "Prince Dr. K Vasudevan College of Engineering and Technology, Medavakkam-Mambakkam Road, Ponmar, Chennai 600048",
+    "district": "Chennai",
+    "id": 1442,
+    "name": "Prince Dr. K Vasudevan College of Engineering and Technology",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 261,
+            "cutoff": 85.0,
+            "rank": 102371
+          },
+          {
+            "year": 2019,
+            "branchRank": 219,
+            "cutoff": 88.5,
+            "rank": 93009
+          },
+          {
+            "year": 2018,
+            "branchRank": 227,
+            "cutoff": 86.0,
+            "rank": 101438
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  },
+  {
+    "address": "J N N Institute of Engineering, Ushaa Garden, Kannigaipair Village, Uthukottai Taluk, Thiruvallur District 601102",
+    "district": "Thiruvallur",
+    "id": 1126,
+    "name": "J N N Institute of Engineering",
+    "pincode": "601102",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 269,
+            "cutoff": 80.0,
+            "rank": 110250
+          },
+          {
+            "year": 2018,
+            "branchRank": 243,
+            "cutoff": 90.25,
+            "rank": 99978
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1879,
+      "longitude": 79.7968
+    }
+  },
+  {
+    "address": "Thangavelu Engineering College, Karappakkam, Chennai 600097",
+    "district": "Chennai",
+    "id": 1319,
+    "name": "Thangavelu Engineering College",
+    "pincode": "600097",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2018,
+            "branchRank": 271,
+            "cutoff": 91.0,
+            "rank": 99626
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2018,
+            "branchRank": 119,
+            "cutoff": 94.75,
+            "rank": 97886
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8503,
+      "longitude": 80.0707
+    }
+  },
+  {
+    "address": "Jaya Engineering College, Thirunindravur, Chennai 602024",
+    "district": "Chennai",
+    "id": 1106,
+    "name": "Jaya Engineering College",
+    "pincode": "602024",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 294,
+            "cutoff": 81.0,
+            "rank": 108147
+          },
+          {
+            "year": 2019,
+            "branchRank": 253,
+            "cutoff": 80.0,
+            "rank": 101321
+          },
+          {
+            "year": 2018,
+            "branchRank": 348,
+            "cutoff": 86.5,
+            "rank": 101311
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0202,
+      "longitude": 80.0441
+    }
+  },
+  {
+    "address": "Sri Muthukumaran Institute of Technology, Near Mangadu, Chennai 600069",
+    "district": "Chennai",
+    "id": 1218,
+    "name": "Sri Muthukumaran Institute of Technology",
+    "pincode": "600069",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 299,
+            "cutoff": 80.0,
+            "rank": 110707
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.978,
+      "longitude": 80.0678
+    }
+  },
+  {
+    "address": "Dhaanish Ahmed College of Engineering, Padappai, Chennai 601301",
+    "district": "Chennai",
+    "id": 1424,
+    "name": "Dhaanish Ahmed College of Engineering",
+    "pincode": "601301",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 302,
+            "cutoff": 80.0,
+            "rank": 110476
+          },
+          {
+            "year": 2019,
+            "branchRank": 333,
+            "cutoff": 77.5,
+            "rank": 101680
+          },
+          {
+            "year": 2018,
+            "branchRank": 232,
+            "cutoff": 115.0,
+            "rank": 84465
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.921,
+      "longitude": 80.025
+    }
+  },
+  {
+    "address": "Karpagavinayaga College of Engineering and Technology, Palayanoor Post, Maduranthagam Taluk, Chengalpattu District 603308",
+    "district": "Chengalpattu",
+    "id": 1409,
+    "name": "Karpagavinayaga College of Engineering and Technology",
+    "pincode": "603308",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 312,
+            "cutoff": 81.5,
+            "rank": 107203
+          },
+          {
+            "year": 2019,
+            "branchRank": 149,
+            "cutoff": 91.0,
+            "rank": 90393
+          },
+          {
+            "year": 2018,
+            "branchRank": 225,
+            "cutoff": 87.75,
+            "rank": 100844
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.5338,
+      "longitude": 79.7983
+    }
+  },
+  {
+    "address": "Gojan School of Business and Technology, Alamathi, Chennai 600062",
+    "district": "Chennai",
+    "id": 1123,
+    "name": "Gojan School of Business and Technology",
+    "pincode": "600062",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 312,
+            "cutoff": 80.0,
+            "rank": 109509
+          },
+          {
+            "year": 2019,
+            "branchRank": 370,
+            "cutoff": 77.5,
+            "rank": 101675
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 138,
+            "cutoff": 83.5,
+            "rank": 97836
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.158,
+      "longitude": 80.1063
+    }
+  },
+  {
+    "address": "G K M College of  Engineering and Technology, Alappakkam-Mappedu Road, Chennai 600063",
+    "district": "Chennai",
+    "id": 1407,
+    "name": "G K M College of  Engineering and Technology",
+    "pincode": "600063",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 324,
+            "cutoff": 80.0,
+            "rank": 109502
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0063,
+      "longitude": 79.8869
+    }
+  },
+  {
+    "address": "St. Peters College of Engineering and Technology, College Road, Avadi, Chennai 600 054",
+    "district": "Chennai",
+    "id": 1127,
+    "name": "St. Peters College of Engineering and Technology",
+    "pincode": "600054",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 332,
+            "cutoff": 82.5,
+            "rank": 105565
+          },
+          {
+            "year": 2019,
+            "branchRank": 258,
+            "cutoff": 79.5,
+            "rank": 101454
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 73,
+            "cutoff": 104.5,
+            "rank": 75902
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1147,
+      "longitude": 80.1098
+    }
+  },
+  {
+    "address": "Sri Venkateswara Institute of Science and Technology, Kozhundalur, Thiruvallur District 631203",
+    "district": "Thiruvallur",
+    "id": 1121,
+    "name": "Sri Venkateswara Institute of Science and Technology",
+    "pincode": "631203",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 353,
+            "cutoff": 80.0,
+            "rank": 100517
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1146,
+      "longitude": 79.8605
+    }
+  },
+  {
+    "address": "Madha Institute of Engineering and Technology, Erandamkattalai Village, Sadhananthapuram, Thandalam Post, Chennai  602101",
+    "district": "Chennai",
+    "id": 1243,
+    "name": "Madha Institute of Engineering and Technology",
+    "pincode": "602101",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 357,
+            "cutoff": 80.0,
+            "rank": 101086
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 169,
+            "cutoff": 77.5,
+            "rank": 101692
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.834174,
+      "longitude": 79.703644
+    }
+  },
+  {
+    "address": "Indira Institute of Engineering and Technology, VGR Gardens, Pandur, Thiruvallur District 631203",
+    "district": "Thiruvallur",
+    "id": 1229,
+    "name": "Indira Institute of Engineering and Technology",
+    "pincode": "631203",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 361,
+            "cutoff": 80.0,
+            "rank": 100558
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.1146,
+      "longitude": 79.8605
+    }
+  },
+  {
+    "address": "Jaya Sakthi Engineering College, Thirunindravur, Chennai 602024",
+    "district": "Chennai",
+    "id": 1416,
+    "name": "Jaya Sakthi Engineering College",
+    "pincode": "602024",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 370,
+            "cutoff": 81.5,
+            "rank": 99513
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 13.0202,
+      "longitude": 80.0441
+    }
+  },
+  {
+    "address": "Madha Engineering College, Kundrathur, Chennai 600069",
+    "district": "Chennai",
+    "id": 1411,
+    "name": "Madha Engineering College",
+    "pincode": "600069",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 376,
+            "cutoff": 80.0,
+            "rank": 110318
+          },
+          {
+            "year": 2018,
+            "branchRank": 216,
+            "cutoff": 93.0,
+            "rank": 98761
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Information Technology",
+        "yearDetails": [
+          {
+            "year": 2019,
+            "branchRank": 157,
+            "cutoff": 80.75,
+            "rank": 100092
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.978,
+      "longitude": 80.0678
+    }
+  },
+  {
+    "address": "Annai Veilankannis College of Engineering, Gandhi Road, Nedungundram, Chennai 600048",
+    "district": "Chennai",
+    "id": 1133,
+    "name": "Annai Veilankannis College of Engineering",
+    "pincode": "600048",
+    "rank": "",
+    "state": "TamilNadu",
+    "branches": [
+      {
+        "code": "CS",
+        "name": "Computer Science and Engineering",
+        "yearDetails": [
+          {
+            "year": 2020,
+            "branchRank": 382,
+            "cutoff": 79.0,
+            "rank": 110931
+          },
+          {
+            "year": 2019,
+            "branchRank": 289,
+            "cutoff": 80.0,
+            "rank": 101376
+          }
+        ]
+      }
+    ],
+    "location": {
+      "latitude": 12.8924,
+      "longitude": 80.0808
+    }
+  }
+]

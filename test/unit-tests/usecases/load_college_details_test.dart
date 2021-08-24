@@ -10,7 +10,7 @@ void main() {
     var loadCollegeDetails =  CollegeDetailsStore();
 
 
-    List<CollegeDetail> collegeDetails = loadCollegeDetails.from(contents);
+    List<CollegeDetail> collegeDetails = loadCollegeDetails.load(contents);
     // "id": 1,
     // "name": "University Departments of Anna University",
     // "address": "University Departments of Anna University, Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",

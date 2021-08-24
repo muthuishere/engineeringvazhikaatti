@@ -1,1 +1,378 @@
-[{"name":"Civil Engineering","code":"CE"},{"name":"Bio- Medical Engineering (SS)","code":"BY"},{"name":"Computer Science and Engineering (SS)","code":"CM"},{"name":"Electronics and Communication Engineering","code":"EC"},{"name":"Computer Science and Engineering","code":"CS"},{"name":"Geo-Informatics","code":"GI"},{"name":"Industrial Engineering","code":"IE"},{"name":"Information Tech. (SS)","code":"IM"},{"name":"Material Science and Engineering (SS)","code":"MA"},{"name":"Mechanical Engineering","code":"ME"},{"name":"Mining Engineering","code":"MI"},{"name":"Electrical and Electronics Engineering","code":"EE"},{"name":"Electronics and Communication Engg. (SS)","code":"EM"},{"name":"Manufacturing Engineering","code":"MN"},{"name":"Printing Technology","code":"PT"},{"name":"Civil Engineering (Tamil Medium)","code":"XC"},{"name":"Mechanical Engineering (Tamil Medium)","code":"XM"},{"name":"Apparel Technology (SS)","code":"AP"},{"name":"Chemical Engineering","code":"CH"},{"name":"Chemical Engineering (SS)","code":"CL"},{"name":"Ceramic Technology (SS)","code":"CR"},{"name":"Food Technology (SS)","code":"FS"},{"name":"Industrial Bio-Technology","code":"IB"},{"name":"Industrial Bio-Tech. (SS)","code":"IS"},{"name":"Leather Technology","code":"LE"},{"name":"Pharmaceutical Tech (SS)","code":"PM"},{"name":"Petroleum Engineering and Technology (SS)","code":"PP"},{"name":"Textile Technology","code":"TX"},{"name":"Aeronautical Engineering","code":"AE"},{"name":"Automobile Engineering (SS)","code":"AS"},{"name":"Automobile Engineering","code":"AU"},{"name":"Electronics and Instrumentation Engineering","code":"EI"},{"name":"Mechanical Engg. (SS)","code":"MF"},{"name":"Production Engineering","code":"PR"},{"name":"Rubber and Plastic Tech.","code":"RP"},{"name":"Computer Science and Engineering (AI and Machine Learning)","code":"AM"},{"name":"Computer Science and Engineering (Big Data Analytics)","code":"BD"},{"name":"Information Technology","code":"IT"},{"name":"Civil and Structural Engineering","code":"CZ"},{"name":"Mechanical (Manufacturing)","code":"MM"},{"name":"Food Technology","code":"FD"},{"name":"Artificial Intelligence and Data Science","code":"AD"},{"name":"Bio Technology","code":"BT"},{"name":"Mechatronics Engineering","code":"MZ"},{"name":"Computer Science and Business System","code":"CB"},{"name":"Bio- Medical Engineering","code":"BM"},{"name":"Robotics and Automation","code":"RM"},{"name":"Marine Engineering","code":"MR"},{"name":"Agricultural Engineering","code":"AG"},{"name":"Computer and Communication Engineering","code":"CO"},{"name":"Artificial Intelligence and Machine Learning","code":"AL"},{"name":"Petroleum Engineering","code":"PE"},{"name":"Medical Electronics Engg.","code":"MD"},{"name":"Aerospace Engineering","code":"AO"},{"name":"Fashion Technology","code":"FT"},{"name":"Mechanical  and Automation Engineering","code":"MU"},{"name":"Instrumentation and Control Engineering","code":"IC"},{"name":"Plastic Technology","code":"PA"},{"name":"Cyber Security","code":"CY"},{"name":"Bio Technology (SS)","code":"BS"},{"name":"Civil Engineering (SS)","code":"CN"},{"name":"Fashion Technology (SS)","code":"FY"},{"name":"Electrical and Electronics (Sandwich) (SS)","code":"ES"},{"name":"Instrumentation and Control Engineering (SS)","code":"IY"},{"name":"Mechanical Engineering (Sandwich) (SS)","code":"MS"},{"name":"Metallurgical Engineering","code":"MT"},{"name":"Metallurgical Engg. (SS)","code":"MY"},{"name":"Production Engineering (SS)","code":"PN"},{"name":"Production Engineering (Sandwich) (SS)","code":"PS"},{"name":"Robotics and Automation (SS)","code":"RA"},{"name":"Textile Technology (SS)","code":"TT"},{"name":"Elec. And Electronics Engg (SS)","code":"EY"},{"name":"Handloom and Textile Technology","code":"HT"},{"name":"Nano Science and Technology","code":"NS"},{"name":"Mechatronics","code":"MC"},{"name":"Pharmaceutical Technology","code":"PH"},{"name":"Safety and Fire Engineering","code":"SF"},{"name":"Petro Chemical Technology","code":"PC"},{"name":"Textile Chemistry","code":"TC"},{"name":"Computer Science and Technology","code":"TS"},{"name":"Petrochemical Engineering","code":"PD"},{"name":"Computer Technology","code":"CT"},{"name":"Information Science and Engineering","code":"SE"},{"name":"Electronics and Telecommunication Engg.","code":"ET"},{"name":"Computer Science and Engineering (Cyber Security)","code":"SC"},{"name":"M.Tech. Computer Science and Engineering (Integrated 5 years)","code":"CJ"},{"name":"Mechanical and Mechatronics Engineering (Additive Manufacturing)","code":"MO"},{"name":"CSE(Internet of Things and Cyber Security including Block chain technology)`","code":"SB"},{"name":"Bio Technology and Bio Chemical Engineering","code":"BC"},{"name":"Industrial Engineering and Management","code":"IN"},{"name":"Polymer Technology","code":"PL"},{"name":"Computer Science and Business System (SS)","code":"CW"},{"name":"Mechatronics (SS)","code":"MG"},{"name":"Chemical and Electro Chemical Engineering (SS)","code":"CC"}]
+[
+  {
+    "name": "Civil Engineering",
+    "code": "CE"
+  },
+  {
+    "name": "Bio- Medical Engineering (SS)",
+    "code": "BY"
+  },
+  {
+    "name": "Computer Science and Engineering (SS)",
+    "code": "CM"
+  },
+  {
+    "name": "Electronics and Communication Engineering",
+    "code": "EC"
+  },
+  {
+    "name": "Computer Science and Engineering",
+    "code": "CS"
+  },
+  {
+    "name": "Geo-Informatics",
+    "code": "GI"
+  },
+  {
+    "name": "Industrial Engineering",
+    "code": "IE"
+  },
+  {
+    "name": "Information Tech. (SS)",
+    "code": "IM"
+  },
+  {
+    "name": "Material Science and Engineering (SS)",
+    "code": "MA"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "code": "ME"
+  },
+  {
+    "name": "Mining Engineering",
+    "code": "MI"
+  },
+  {
+    "name": "Electrical and Electronics Engineering",
+    "code": "EE"
+  },
+  {
+    "name": "Electronics and Communication Engg. (SS)",
+    "code": "EM"
+  },
+  {
+    "name": "Manufacturing Engineering",
+    "code": "MN"
+  },
+  {
+    "name": "Printing Technology",
+    "code": "PT"
+  },
+  {
+    "name": "Civil Engineering (Tamil Medium)",
+    "code": "XC"
+  },
+  {
+    "name": "Mechanical Engineering (Tamil Medium)",
+    "code": "XM"
+  },
+  {
+    "name": "Apparel Technology (SS)",
+    "code": "AP"
+  },
+  {
+    "name": "Chemical Engineering",
+    "code": "CH"
+  },
+  {
+    "name": "Chemical Engineering (SS)",
+    "code": "CL"
+  },
+  {
+    "name": "Ceramic Technology (SS)",
+    "code": "CR"
+  },
+  {
+    "name": "Food Technology (SS)",
+    "code": "FS"
+  },
+  {
+    "name": "Industrial Bio-Technology",
+    "code": "IB"
+  },
+  {
+    "name": "Industrial Bio-Tech. (SS)",
+    "code": "IS"
+  },
+  {
+    "name": "Leather Technology",
+    "code": "LE"
+  },
+  {
+    "name": "Pharmaceutical Tech (SS)",
+    "code": "PM"
+  },
+  {
+    "name": "Petroleum Engineering and Technology (SS)",
+    "code": "PP"
+  },
+  {
+    "name": "Textile Technology",
+    "code": "TX"
+  },
+  {
+    "name": "Aeronautical Engineering",
+    "code": "AE"
+  },
+  {
+    "name": "Automobile Engineering (SS)",
+    "code": "AS"
+  },
+  {
+    "name": "Automobile Engineering",
+    "code": "AU"
+  },
+  {
+    "name": "Electronics and Instrumentation Engineering",
+    "code": "EI"
+  },
+  {
+    "name": "Mechanical Engg. (SS)",
+    "code": "MF"
+  },
+  {
+    "name": "Production Engineering",
+    "code": "PR"
+  },
+  {
+    "name": "Rubber and Plastic Tech.",
+    "code": "RP"
+  },
+  {
+    "name": "Computer Science and Engineering (AI and Machine Learning)",
+    "code": "AM"
+  },
+  {
+    "name": "Computer Science and Engineering (Big Data Analytics)",
+    "code": "BD"
+  },
+  {
+    "name": "Information Technology",
+    "code": "IT"
+  },
+  {
+    "name": "Civil and Structural Engineering",
+    "code": "CZ"
+  },
+  {
+    "name": "Mechanical (Manufacturing)",
+    "code": "MM"
+  },
+  {
+    "name": "Food Technology",
+    "code": "FD"
+  },
+  {
+    "name": "Artificial Intelligence and Data Science",
+    "code": "AD"
+  },
+  {
+    "name": "Bio Technology",
+    "code": "BT"
+  },
+  {
+    "name": "Mechatronics Engineering",
+    "code": "MZ"
+  },
+  {
+    "name": "Computer Science and Business System",
+    "code": "CB"
+  },
+  {
+    "name": "Bio- Medical Engineering",
+    "code": "BM"
+  },
+  {
+    "name": "Robotics and Automation",
+    "code": "RM"
+  },
+  {
+    "name": "Marine Engineering",
+    "code": "MR"
+  },
+  {
+    "name": "Agricultural Engineering",
+    "code": "AG"
+  },
+  {
+    "name": "Computer and Communication Engineering",
+    "code": "CO"
+  },
+  {
+    "name": "Artificial Intelligence and Machine Learning",
+    "code": "AL"
+  },
+  {
+    "name": "Petroleum Engineering",
+    "code": "PE"
+  },
+  {
+    "name": "Medical Electronics Engg.",
+    "code": "MD"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "code": "AO"
+  },
+  {
+    "name": "Fashion Technology",
+    "code": "FT"
+  },
+  {
+    "name": "Mechanical  and Automation Engineering",
+    "code": "MU"
+  },
+  {
+    "name": "Instrumentation and Control Engineering",
+    "code": "IC"
+  },
+  {
+    "name": "Plastic Technology",
+    "code": "PA"
+  },
+  {
+    "name": "Cyber Security",
+    "code": "CY"
+  },
+  {
+    "name": "Bio Technology (SS)",
+    "code": "BS"
+  },
+  {
+    "name": "Civil Engineering (SS)",
+    "code": "CN"
+  },
+  {
+    "name": "Fashion Technology (SS)",
+    "code": "FY"
+  },
+  {
+    "name": "Electrical and Electronics (Sandwich) (SS)",
+    "code": "ES"
+  },
+  {
+    "name": "Instrumentation and Control Engineering (SS)",
+    "code": "IY"
+  },
+  {
+    "name": "Mechanical Engineering (Sandwich) (SS)",
+    "code": "MS"
+  },
+  {
+    "name": "Metallurgical Engineering",
+    "code": "MT"
+  },
+  {
+    "name": "Metallurgical Engg. (SS)",
+    "code": "MY"
+  },
+  {
+    "name": "Production Engineering (SS)",
+    "code": "PN"
+  },
+  {
+    "name": "Production Engineering (Sandwich) (SS)",
+    "code": "PS"
+  },
+  {
+    "name": "Robotics and Automation (SS)",
+    "code": "RA"
+  },
+  {
+    "name": "Textile Technology (SS)",
+    "code": "TT"
+  },
+  {
+    "name": "Elec. And Electronics Engg (SS)",
+    "code": "EY"
+  },
+  {
+    "name": "Handloom and Textile Technology",
+    "code": "HT"
+  },
+  {
+    "name": "Nano Science and Technology",
+    "code": "NS"
+  },
+  {
+    "name": "Mechatronics",
+    "code": "MC"
+  },
+  {
+    "name": "Pharmaceutical Technology",
+    "code": "PH"
+  },
+  {
+    "name": "Safety and Fire Engineering",
+    "code": "SF"
+  },
+  {
+    "name": "Petro Chemical Technology",
+    "code": "PC"
+  },
+  {
+    "name": "Textile Chemistry",
+    "code": "TC"
+  },
+  {
+    "name": "Computer Science and Technology",
+    "code": "TS"
+  },
+  {
+    "name": "Petrochemical Engineering",
+    "code": "PD"
+  },
+  {
+    "name": "Computer Technology",
+    "code": "CT"
+  },
+  {
+    "name": "Information Science and Engineering",
+    "code": "SE"
+  },
+  {
+    "name": "Electronics and Telecommunication Engg.",
+    "code": "ET"
+  },
+  {
+    "name": "Computer Science and Engineering (Cyber Security)",
+    "code": "SC"
+  },
+  {
+    "name": "M.Tech. Computer Science and Engineering (Integrated 5 years)",
+    "code": "CJ"
+  },
+  {
+    "name": "Mechanical and Mechatronics Engineering (Additive Manufacturing)",
+    "code": "MO"
+  },
+  {
+    "name": "CSE(Internet of Things and Cyber Security including Block chain technology)`",
+    "code": "SB"
+  },
+  {
+    "name": "Bio Technology and Bio Chemical Engineering",
+    "code": "BC"
+  },
+  {
+    "name": "Industrial Engineering and Management",
+    "code": "IN"
+  },
+  {
+    "name": "Polymer Technology",
+    "code": "PL"
+  },
+  {
+    "name": "Computer Science and Business System (SS)",
+    "code": "CW"
+  },
+  {
+    "name": "Mechatronics (SS)",
+    "code": "MG"
+  },
+  {
+    "name": "Chemical and Electro Chemical Engineering (SS)",
+    "code": "CC"
+  }
+]

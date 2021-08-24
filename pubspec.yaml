@@ -32,6 +32,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   rxdart: ^0.27.1
   equatable: ^2.0.3
+  json_annotation: ^4.0.1
+  geolocator: ^7.4.0
+
 
 dev_dependencies:
   flutter_test:

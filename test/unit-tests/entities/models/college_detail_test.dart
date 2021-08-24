@@ -21,7 +21,7 @@ void main() {
     List<String> districts=["villupuram","Chennai"];
     List<String> branchCodes=["CE","MI"];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),true);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),true);
   });
   test('sameDistrictAndBranch should return false for different district', () {
     CollegeDetail collegeDetail = getCollegeDetail();
@@ -29,7 +29,7 @@ void main() {
     List<String> districts=["villupuram","madurai"];
     List<String> branchCodes=["CE","MI"];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),false);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),false);
   });
   test('sameDistrictAndBranch should return false for different Branch', () {
     CollegeDetail collegeDetail = getCollegeDetail();
@@ -37,7 +37,7 @@ void main() {
     List<String> districts=["villupuram","madurai","Chennai"];
     List<String> branchCodes=["LUII"];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),false);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),false);
   });
   test('sameDistrictAndBranch should return true  if district exists and no Branch specified', () {
     CollegeDetail collegeDetail = getCollegeDetail();
@@ -45,7 +45,7 @@ void main() {
     List<String> districts=["villupuram","madurai","Chennai"];
     List<String> branchCodes=[];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),true);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),true);
   });
 
   test('sameDistrictAndBranch should return true  if branch exists and no district specified', () {
@@ -54,7 +54,7 @@ void main() {
     List<String> districts=[];
     List<String> branchCodes=["CE"];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),true);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),true);
   });
 
   test('sameDistrictAndBranch should return true  if everything is empty', () {
@@ -63,7 +63,7 @@ void main() {
     List<String> districts=[];
     List<String> branchCodes=[];
 
-    expect(collegeDetail.sameDistrictAndBranch(districts, branchCodes),true);
+    expect(collegeDetail.districtAndBranchExists(districts, branchCodes),true);
   });
 
 

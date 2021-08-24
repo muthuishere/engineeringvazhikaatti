@@ -20,7 +20,7 @@ class EnggBranch {
         data['code'] = this.code;
         data['name'] = this.name;
         if (this.history != null) {
-            data['years'] = this.history?.map((v) => v.toJson()).toList();
+            data['years'] = this.history.map((v) => v.toJson()).toList();
         }
         return data;
     }

@@ -12,7 +12,7 @@ class Rank {
     int? sc;
     int? sca;
     int? st;
-    HashMap values = new HashMap<CommunityGroup,int>();
+    HashMap values = new HashMap<CommunityGroup,int?>();
 
     Rank({this.bc, this.bcm, this.mbc, this.oc, this.sc, this.sca, this.st}){
         values[CommunityGroup.BC] = this.bc;
@@ -49,7 +49,7 @@ class Rank {
         data['ST'] = this.st;
         return data;
     }
-    double rankFor(CommunityGroup communityGroup){
+    int? rankFor(CommunityGroup communityGroup){
         return values[communityGroup];
     }
 }

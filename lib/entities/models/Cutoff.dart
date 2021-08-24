@@ -12,7 +12,7 @@ class Cutoff {
     double? sca;
     double? st;
 
-    HashMap values = new HashMap<CommunityGroup,double>();
+    HashMap values = new HashMap<CommunityGroup,double?>();
 
     Cutoff({this.bc, this.bcm, this.mbc, this.oc, this.sc, this.sca, this.st}){
         values[CommunityGroup.BC] = this.bc;
@@ -50,7 +50,7 @@ class Cutoff {
         data['ST'] = this.st;
         return data;
     }
-    double markFor(CommunityGroup communityGroup){
+    double? markFor(CommunityGroup communityGroup){
         return values[communityGroup];
     }
 }

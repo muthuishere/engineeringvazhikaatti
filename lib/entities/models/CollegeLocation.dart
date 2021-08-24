@@ -1,4 +1,6 @@
+import 'package:engineeringvazhikaatti/adapters/DistanceCalculator.dart';
 import 'package:engineeringvazhikaatti/shared/Convert.dart';
+
 
 class CollegeLocation {
     double? latitude;
@@ -25,4 +27,8 @@ class CollegeLocation {
     bool hasLocation(){
         return null != longitude && null != latitude;
     }
+
+
+
+
 }
