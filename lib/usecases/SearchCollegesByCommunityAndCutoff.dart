@@ -5,7 +5,7 @@ import 'package:engineeringvazhikaatti/entities/models/Caste.dart';
 import 'package:engineeringvazhikaatti/entities/models/CollegeDetail.dart';
 import 'package:engineeringvazhikaatti/entities/results/AvailableBranch.dart';
 import 'package:engineeringvazhikaatti/entities/results/AvailableCollege.dart';
-import 'package:engineeringvazhikaatti/entities/results/AvailableCollegeBuilderForCommunityAndCutoff.dart';
+import 'package:engineeringvazhikaatti/entities/results/AvailableYearDetail.dart';
 import '../entities/Filter.dart';
 import 'package:engineeringvazhikaatti/usecases/store/AppConfigStore.dart';
 import 'package:engineeringvazhikaatti/usecases/store/CollegeDetailsStore.dart';
