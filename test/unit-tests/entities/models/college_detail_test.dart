@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/CollegeDetail.dart';
+import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
 import 'package:test/test.dart';
 
 

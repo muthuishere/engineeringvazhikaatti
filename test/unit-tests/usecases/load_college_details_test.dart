@@ -1,7 +1,8 @@
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/CollegeDetail.dart';
-import '../../../lib/usecases/store/CollegeDetailsStore.dart';
+import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
+import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
+
 import 'package:test/test.dart';
 
 void main() {

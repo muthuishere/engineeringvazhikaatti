@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/YearDetail.dart';
+import 'package:engineeringvazhikaatti/entities/models/year_detail.dart';
 import 'package:test/test.dart';
 
 void main() {

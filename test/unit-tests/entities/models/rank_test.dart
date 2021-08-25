@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/Rank.dart';
+import 'package:engineeringvazhikaatti/entities/models/rank.dart';
 import 'package:test/test.dart';
 
 void main() {

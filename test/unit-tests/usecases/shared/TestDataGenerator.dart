@@ -1,9 +1,15 @@
+import 'dart:convert';
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/Filter.dart';
-import 'package:engineeringvazhikaatti/usecases/PreferencesUpdater.dart';
-import 'package:engineeringvazhikaatti/usecases/store/AppConfigStore.dart';
-import 'package:engineeringvazhikaatti/usecases/store/CollegeDetailsStore.dart';
+import 'package:engineeringvazhikaatti/adapters/distance_calculator.dart';
+import 'package:engineeringvazhikaatti/entities/filter.dart';
+import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
+import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
+import 'package:engineeringvazhikaatti/providers/gps/greatcircle/great_circle_distance_calculator.dart';
+import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
+import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
+import 'package:engineeringvazhikaatti/usecases/search_filter_updater.dart';
+
 
 class TestDataGenerator {
   static AppConfigStore getAppConfigStore() {
@@ -23,6 +29,18 @@ class TestDataGenerator {
     return collegeDetailsStore;
   }
 
+  static List<CollegeDetail> getCollegeDetails() {
+
+    return getCollegeDetailsStore().collegeDetails;
+  }
+  static CollegeDetail getMockedCollegeDetail() {
+
+    return getCollegeDetails()[0];
+  }
+  static DistanceCalculator getDistanceCalculator() {
+    return GreatCircleDistanceCalculator();
+  }
+
   static Filter getPreferences() {
     var updater = Filter();
     updater.setBranchCodes(["CS", "IT"]);
@@ -30,4 +48,13 @@ class TestDataGenerator {
 
     return updater;
   }
+  List<AvailableCollege> getMockedAvailableCollegeDetails() {
+    String contents =
+    File('testassets/available_colleges.json').readAsStringSync();
+    Iterable iterableContents = json.decode(contents);
+    var items =
+    iterableContents.map((content) => AvailableCollege.fromJson(content));
+    return List<AvailableCollege>.from(items);
+  }
+
 }

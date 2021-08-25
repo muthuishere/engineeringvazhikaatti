@@ -1,0 +1,3 @@
+enum DataStatus{
+  LOADING,SUCCESS,NODATA,ERROR
+}

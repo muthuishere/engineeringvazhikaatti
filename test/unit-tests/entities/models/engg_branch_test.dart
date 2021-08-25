@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/EnggBranch.dart';
+import 'package:engineeringvazhikaatti/entities/models/engg_branch.dart';
 import 'package:test/test.dart';
 
 void main() {

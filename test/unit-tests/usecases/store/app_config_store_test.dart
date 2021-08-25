@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/usecases/store/AppConfigStore.dart';
 import 'package:test/test.dart';
 
 import '../shared/TestDataGenerator.dart';

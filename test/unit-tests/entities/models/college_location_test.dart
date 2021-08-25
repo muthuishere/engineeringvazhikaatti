@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/CollegeLocation.dart';
-import 'package:engineeringvazhikaatti/entities/models/Cutoff.dart';
+import 'package:engineeringvazhikaatti/entities/models/college_location.dart';
+import 'package:engineeringvazhikaatti/entities/models/cutoff.dart';
 import 'package:test/test.dart';
 import 'dart:convert';
 

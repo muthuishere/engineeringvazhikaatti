@@ -1,16 +1,18 @@
-import 'package:engineeringvazhikaatti/entities/Settings.dart';
-import 'package:engineeringvazhikaatti/entities/models/Caste.dart';
-import 'package:engineeringvazhikaatti/usecases/SearchColleges.dart';
+import 'package:engineeringvazhikaatti/entities/settings.dart';
+import 'package:engineeringvazhikaatti/entities/models/caste.dart';
+import 'package:engineeringvazhikaatti/usecases/search_colleges.dart';
 import 'package:test/test.dart';
 
 import '../../shared/JsonConvert.dart';
 import 'shared/TestDataGenerator.dart';
 
 void main() {
+  var distanceCalculator = TestDataGenerator.getDistanceCalculator();
+  var collegeDetailStore = TestDataGenerator.getCollegeDetailsStore();
+  var searchColleges = SearchColleges( collegeDetailStore,distanceCalculator);
+
   test('Search ByPreferences should work fine', () {
-    var appConfigStore = TestDataGenerator.getAppConfigStore();
-    var collegeDetailStore = TestDataGenerator.getCollegeDetailsStore();
-    var searchColleges = SearchColleges(appConfigStore, collegeDetailStore);
+
     var userPreferences = TestDataGenerator.getPreferences();
     var results = searchColleges.byBranchAndDistricts(userPreferences.branchCodes,userPreferences.districts);
 
@@ -19,12 +21,10 @@ void main() {
     expect(results.length, 75);
   });
   test('Search ByPreferencesandprofile should work fine', () {
-    var appConfigStore = TestDataGenerator.getAppConfigStore();
-    var collegeDetailStore = TestDataGenerator.getCollegeDetailsStore();
-    var searchColleges = SearchColleges(appConfigStore, collegeDetailStore);
+
     var userPreferences = TestDataGenerator.getPreferences();
     Settings profile = Settings(physics: 88.21, chemistry: 89.64, maths: 91.83, communityGroup: CommunityGroup.BC);
-    var results = searchColleges.byPreferencesAndProfileAndSortDefault(userPreferences,profile);
+    var results = searchColleges.byBranchAndDistricts(userPreferences.branchCodes,userPreferences.districts);
 
     results.forEach((element) {
       element.branches!.forEach((branch) {
