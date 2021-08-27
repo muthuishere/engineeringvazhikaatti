@@ -1,3 +1,4 @@
+import 'package:badges/badges.dart';
 import 'package:engineeringvazhikaatti/entities/filter.dart';
 import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
@@ -63,33 +64,37 @@ class FilterPanel extends StatelessWidget {
   }
 
   Widget branchesDropDown(context, form, child) {
-    return ElevatedButton(
-      onPressed: () {
-        print(form.control('selectedBranches').value);
 
-        branchesDetail.showMultiSelectBranches(
-            appConfigStore,
-            form.control('selectedBranches').value,
-            context,
-            (evt) => onBranchesDropDownSelected(evt, form));
-      },
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: <Widget>[
-          Text(
-            'Branches',
-            style: TextStyle(
-              fontSize: 10,
+    return   ElevatedButton(
+        onPressed: () {
+          print(form.control('selectedBranches').value);
+
+          branchesDetail.showMultiSelectBranches(
+              appConfigStore,
+              form.control('selectedBranches').value,
+              context,
+                  (evt) => onBranchesDropDownSelected(evt, form));
+        },
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Text(
+              'Branches',
+              style: TextStyle(
+                fontSize: 10,
+                color: Colors.white,
+              ),
+            ),
+            Icon(
+              Icons.arrow_drop_down,
               color: Colors.white,
             ),
-          ),
-          Icon(
-            Icons.arrow_drop_down,
-            color: Colors.white,
-          ),
-        ],
-      ),
-    );
+          ],
+        ),
+      );
+
+
+
   }
 
   void onDistanceDropDownSelected(int value, form) {
