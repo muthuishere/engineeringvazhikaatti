@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:engineeringvazhikaatti/entities/DistanceConfig.dart';
 import 'package:engineeringvazhikaatti/entities/app_config.dart';
 import 'package:engineeringvazhikaatti/entities/models/engg_branch.dart';
 import 'package:engineeringvazhikaatti/shared/convert.dart';
@@ -15,9 +16,21 @@ class AppConfigStore {
     return appConfig.districts;
   }
 
-  List<int> getPincodes() {
+  List<String> getPincodes() {
     return appConfig.pincodes;
   }
+
+
+  List<DistanceConfig> getDistances() {
+    return [
+      DistanceConfig("Less than 50 Kms",50),
+      DistanceConfig("Less than 100 Kms",100),
+      DistanceConfig("Less than 200 Kms",200),
+      DistanceConfig("Less than 500 Kms",500),
+      DistanceConfig("Across Tamilnadu",2500),
+    ];
+  }
+
 
   List<EnggBranch> branchesFrom(String contents) {
     Iterable iterableContents = json.decode(contents);
@@ -35,7 +48,7 @@ class AppConfigStore {
   }
 
   void loadPincodes(String contents) {
-    appConfig.pincodes=Convert.asListOfIntegers(contents);;
+    appConfig.pincodes=Convert.asListofStrings(contents);;
   }
 
   void loadDistrictsFromFuture(Future<String> districts) {

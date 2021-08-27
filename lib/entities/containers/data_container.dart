@@ -1,6 +1,6 @@
 import '../datastatus.dart';
 
-class Container<T>{
+class DataContainer<T>{
   T? item = null;
   DataStatus dataStatus = DataStatus.LOADING;
   String message = "";
@@ -21,10 +21,10 @@ class Container<T>{
     item = null;
   }
 
-  Container();
+  DataContainer();
 
-  static Container fromData<T>(T contents) {
-    var res = Container<T>();
+  static DataContainer fromData<T>(T contents) {
+    var res = DataContainer<T>();
     if (null != contents)
       res.setData(contents);
     else

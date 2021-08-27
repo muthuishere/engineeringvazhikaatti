@@ -1,7 +1,5 @@
-import 'dart:ffi';
+
 import 'package:engineeringvazhikaatti/entities/models/caste.dart';
-import 'package:equatable/equatable.dart';
-import 'package:meta/meta.dart';
 
 class Settings {
   double physics;

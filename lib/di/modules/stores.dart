@@ -2,6 +2,7 @@ import 'package:engineeringvazhikaatti/providers/io/flutter_file_reader.dart';
 import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
 import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
 import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
+import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
 import 'package:injector/injector.dart';
 
 class Stores {
@@ -27,6 +28,7 @@ class Stores {
     injector.registerSingleton<AppConfigStore>(() => getAppConfigStore());
 
     injector.registerSingleton<AvailableCollegesStore>(() => AvailableCollegesStore());
+    injector.registerSingleton<SearchFilterStore>(() => SearchFilterStore());
 
 
   }

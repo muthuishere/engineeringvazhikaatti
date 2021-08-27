@@ -37,6 +37,11 @@ dependencies:
   shared_preferences: ^2.0.7
   injector: ^2.0.0
   dartz: ^0.10.0
+  settings_ui: ^1.0.0
+  reactive_forms: ^10.6.0
+  reactive_dropdown_search: ^0.2.1
+  reactive_advanced_switch: ^0.0.5
+  multi_select_flutter: ^4.0.0
 
 
 dev_dependencies:
@@ -62,6 +67,14 @@ flutter:
      - assets/districts.json
      - assets/pincodes.json
 
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 200
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 600
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

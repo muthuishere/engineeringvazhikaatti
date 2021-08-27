@@ -1,9 +1,10 @@
 class Filter{
 
-   List<String> branchCodes=List.empty();
-   List<String> districts=List.empty();
+   List<String> branchCodes=[];
+   List<String> districts=[];
 
 
+   int? distanceInKms=0;
 
    void setBranchCodes(List<String> branches){
     this.branchCodes=branches;
@@ -12,5 +13,7 @@ class Filter{
    void setDistricts(List<String> districts){
     this.districts=districts;
   }
+
+
 
 }
