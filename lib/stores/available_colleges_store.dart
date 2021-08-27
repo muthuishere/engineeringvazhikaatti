@@ -15,7 +15,7 @@ class AvailableCollegesStore {
   send(List<AvailableCollege> contents) {
 
     var fromData = ListContainer.fromData<AvailableCollege>(contents);
-    print("data going to" );
+
     _subject.sink.add(fromData);
   }
   showLoading() {
@@ -37,6 +37,12 @@ class AvailableCollegesStore {
   void testUpdate() {
 
 
+  }
+
+  void showError(String s) {
+    var fromData = ListContainer.fromError<AvailableCollege>(s);
+
+    _subject.sink.add(fromData);
   }
 
 

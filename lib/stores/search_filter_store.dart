@@ -21,6 +21,8 @@ class SearchFilterStore {
   }
 
 
+
+
   dispose(){
     _searchByDistricts.close();
   }
@@ -35,6 +37,15 @@ class SearchFilterStore {
 
   void send(Filter searchFilter) {
     this.searchFilter=searchFilter;
+  }
+
+  void setDistanceInKms(value) {
+    searchFilter.distanceInKms=value;
+  }
+
+  void setSearchByDistricts(value) {
+    searchByDistrictsEnabled=value;
+
   }
 
 

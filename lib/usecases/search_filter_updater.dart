@@ -1,6 +1,6 @@
 
 import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
-import 'package:flutter/cupertino.dart';
+
 
 import '../entities/filter.dart';
 
@@ -31,4 +31,13 @@ class SearchFilterUpdater{
   }
 
   SearchFilterUpdater(this.searchFilterStore);
+
+  void setDistanceInKms(value) {
+    this.searchFilterStore.setDistanceInKms(value);
+  }
+
+  void setSearchByDistricts(value) {
+    this.searchFilterStore.setSearchByDistricts(value);
+
+  }
 }

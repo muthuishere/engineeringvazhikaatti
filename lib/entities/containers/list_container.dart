@@ -33,6 +33,14 @@ class ListContainer<T>{
     return res;
   }
 
+  static ListContainer<T> fromError<T>(String msg) {
+    var res = ListContainer<T>();
+
+      res.setError(msg);
+
+    return res;
+  }
+
   void setNoData() {
     this.dataStatus = DataStatus.NODATA;
     this.message = "No Data for selected criteria";

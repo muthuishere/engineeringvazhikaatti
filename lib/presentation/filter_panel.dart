@@ -59,8 +59,17 @@ class FilterPanel extends StatelessWidget {
         });
   }
 
+  updateInStore(FormGroup form){
+    print(form.value);
+    searchFilterUpdater!.setDistricts(form.control('selectedDistricts').value);
+    searchFilterUpdater!.setBranchCodes(form.control('selectedBranches').value);
+    searchFilterUpdater!.setDistanceInKms(form.control('distanceInKms').value);
+    searchFilterUpdater!.setSearchByDistricts(form.control('searchByDistricts').value);
+    dashboardApi!.updateDashboard();
+  }
   void onBranchesDropDownSelected(List<String> values, form) {
     form.control('selectedBranches').value = values;
+    updateInStore(form);
   }
 
   Widget branchesDropDown(context, form, child) {
@@ -99,6 +108,7 @@ class FilterPanel extends StatelessWidget {
 
   void onDistanceDropDownSelected(int value, form) {
     form.control('distanceInKms').value = value;
+    updateInStore(form);
   }
 
   Widget distanceDropDown(context, form, child) {
@@ -130,12 +140,10 @@ class FilterPanel extends StatelessWidget {
   }
 
   void onDistrictsDropDownSelected(List<String> values, form) {
-    print("BEFORE form value" +
-        form.control('selectedDistricts').value.toString());
+
 
     form.control('selectedDistricts').value = values;
-    print(
-        "SET form value" + form.control('selectedDistricts').value.toString());
+    updateInStore(form);
   }
 
   Widget districtsDropDown(context, form, child) {

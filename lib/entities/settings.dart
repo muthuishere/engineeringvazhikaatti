@@ -29,4 +29,8 @@ class Settings {
   double getCutOff() {
     return (this.physics / 2) + (this.chemistry / 2) + this.maths;
   }
+
+  bool hasAllData(){
+    return getCutOff() >0 && null != communityGroup;
+  }
 }
