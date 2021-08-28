@@ -4,14 +4,12 @@ class TextStyles {
   static TextStyle noData(BuildContext context) {
     return Theme.of(context)
         .textTheme
-        .headline4!
-        .copyWith(color: Colors.blueGrey);
+        .bodyText2!;
   }
   static TextStyle loading(BuildContext context) {
     return Theme.of(context)
         .textTheme
-        .headline4!
-        .copyWith(color: Colors.blue);
+        .bodyText2!;
   }
 
   static TextStyle error(BuildContext context) {

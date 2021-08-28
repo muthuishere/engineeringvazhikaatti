@@ -15,12 +15,4 @@ class Filter{
   }
 
 
-  bool hasDistricts(){
-     return this.districts.isNotEmpty;
-  }
-
-  bool hasDistanceInKms(){
-     return this.distanceInKms! > 5;
-  }
-
 }

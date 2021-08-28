@@ -60,7 +60,7 @@ class FilterPanel extends StatelessWidget {
   }
 
   updateInStore(FormGroup form){
-    print(form.value);
+   // print(form.value);
     searchFilterUpdater!.setDistricts(form.control('selectedDistricts').value);
     searchFilterUpdater!.setBranchCodes(form.control('selectedBranches').value);
     searchFilterUpdater!.setDistanceInKms(form.control('distanceInKms').value);
@@ -76,7 +76,7 @@ class FilterPanel extends StatelessWidget {
 
     return   ElevatedButton(
         onPressed: () {
-          print(form.control('selectedBranches').value);
+       //   print(form.control('selectedBranches').value);
 
           branchesDetail.showMultiSelectBranches(
               appConfigStore,

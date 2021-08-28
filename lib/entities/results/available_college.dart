@@ -102,6 +102,10 @@ class AvailableCollege {
     return data;
   }
 
+  hasAnyYears() {
+    return branches!.where((element) => element.isValidBranch()).length >0;
+  }
+
 
 
 }

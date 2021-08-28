@@ -20,9 +20,9 @@ class CollegeDetailsStore {
     this._collegeDetails = _from(contents);
   }
 
-  static fromFuture(Future<String> contentsInFuture) {
+  static from(String contents) {
     var collegeDetailsStore = CollegeDetailsStore();
-    contentsInFuture.then((value) => collegeDetailsStore.load(value));
+    collegeDetailsStore.load(contents);
     return collegeDetailsStore;
   }
 }

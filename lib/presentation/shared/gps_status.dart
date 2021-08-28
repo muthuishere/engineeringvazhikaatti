@@ -1,0 +1,3 @@
+enum GpsStatus {
+  NO_STATUS,LOADING,COMPLETED,ERROR
+}

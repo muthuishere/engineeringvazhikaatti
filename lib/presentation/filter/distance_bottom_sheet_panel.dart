@@ -49,7 +49,7 @@ class DistanceBottomSheetPanel {
             items: getAllDistances(appConfigStore),
             initialValue: getSelectedDistances(appConfigStore,distanceInKm),
             onConfirm: (values) {
-              print(values);
+             // print(values);
               if(null != values && values.length > 0)
                 callback(values[0]);
             });

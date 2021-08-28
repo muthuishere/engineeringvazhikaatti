@@ -42,10 +42,10 @@ class FlutterPreferences implements Preferences{
     await prefs.setString(key, contents);
   }
 
- getObjectAsJson<T>(String key) async{
+ getObjectAsJson(String key) async{
     var prefs = await getPreferencesInstance();
 
-    String? contents = (prefs.getString('counter') ?? null) ;
+    String? contents = (prefs.getString(key) ?? null) ;
     Map<String, dynamic> jsonObject = {};
 
     if(null != contents){

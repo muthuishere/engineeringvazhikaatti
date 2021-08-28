@@ -11,8 +11,10 @@ class SearchFilterStore {
 
   bool searchByDistrictsEnabled = false;
   var searchFilter =Filter();
+  String searchMsg ="";
   BehaviorSubject<bool> _searchByDistricts =
       new BehaviorSubject<bool>();
+
 
   toggle() {
     searchByDistrictsEnabled=!searchByDistrictsEnabled;
@@ -46,6 +48,14 @@ class SearchFilterStore {
   void setSearchByDistricts(value) {
     searchByDistrictsEnabled=value;
 
+  }
+
+  bool hasDistrictsSelected(){
+    return this.searchFilter.districts.isNotEmpty;
+  }
+
+  bool hasDistanceInKmsSelected(){
+    return this.searchFilter.distanceInKms! > 5;
   }
 
 

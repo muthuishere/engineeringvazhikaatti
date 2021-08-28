@@ -72,4 +72,27 @@ class AvailableBranch {
   getCutOff() {
     return (null != currentYear) ? currentYear?.cutoff! : -1;
   }
+
+  String getYearsSelected() {
+    String result = "";
+
+    yearDetails.forEach((e) {
+      result = result + e.cutoff!.toString() + "(" + e.year!.toString() + ")";
+    });
+    return result;
+  }
+
+
+  double? cutOffForYear(int year) {
+    List<double?> cutoffs = yearDetails.where(
+            (element) => element.year == year
+    ).map((e) => e.cutoff).toList();
+
+    if(null != cutoffs && cutoffs.length >0 )
+      return cutoffs[0];
+    else
+      return null;
+
+
+  }
 }

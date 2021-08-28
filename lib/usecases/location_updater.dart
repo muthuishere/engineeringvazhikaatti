@@ -1,10 +1,6 @@
 
 import 'package:engineeringvazhikaatti/adapters/preferences.dart';
 import 'package:engineeringvazhikaatti/entities/models/college_location.dart';
-import 'package:engineeringvazhikaatti/entities/settings.dart';
-import 'package:engineeringvazhikaatti/entities/models/caste.dart';
-import 'package:engineeringvazhikaatti/mark.dart';
-import 'package:rxdart/rxdart.dart';
 
 class LocationUpdater{
 
@@ -15,7 +11,7 @@ class LocationUpdater{
 
   }
 
-  hasLocation(){
+  bool hasLocation(){
     return null != _userLocation;
   }
   getLocation(){
@@ -28,8 +24,6 @@ class LocationUpdater{
       longitude: lon,
     );
 
-    // double? longitude2 = _userLocation?.longitude;
-    // print("updated location"+longitude2.toString());
   }
 }
 

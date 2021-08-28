@@ -7,31 +7,36 @@ import 'package:injector/injector.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 class SettingsPage extends StatelessWidget {
-
-
-
   late final SettingsUpdater settingsUpdater;
-  late var appform =null;
-
+  late var appform = null;
 
   SettingsPage({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
     settingsUpdater = injector.get<SettingsUpdater>();
-
   }
 
-  markValidator(){
+
+  static final RegExp numberRegex = RegExp(r'^-?[0-9]+$');
+  /// Validates that control's value must be `true`
+  Map<String, dynamic>? _requiredTrue(AbstractControl<dynamic> control) {
+    return (control.value == null) ||
+        !numberRegex.hasMatch(control.value.toString())
+        ? <String, dynamic>{ValidationMessage.number: true}
+        : null;
+  }
+
+
+  markValidator() {
     return [
       Validators.required,
-      Validators.number,
       Validators.min(35),
       Validators.max(100)
     ];
   }
-  getFormGroup(){
-    Settings settings =settingsUpdater.settings;
-    return () =>
-        fb.group(<String, Object>{
+
+  getFormGroup() {
+    Settings settings = settingsUpdater.settings;
+    return () => fb.group(<String, Object>{
           'maths': FormControl<double>(
             value: settings.maths,
             validators: markValidator(),
@@ -44,71 +49,67 @@ class SettingsPage extends StatelessWidget {
             value: settings.chemistry,
             validators: markValidator(),
           ),
-          'communitygroup': FormControl<CommunityGroup>(
+          'communityGroup': FormControl<CommunityGroup>(
             value: settings.communityGroup,
             validators: [Validators.required],
           ),
         });
-
   }
-  final String title = "Settings";
 
+  final String title = "Settings";
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Settings"),
-        actions: <Widget>[
+        appBar: AppBar(
+          title: Text("Settings"),
+          actions: <Widget>[
+            IconButton(
 
+                onPressed: () {
+                  saveapp(context);
+                },
+                icon: Icon(
+                  Icons.save,
+                  color: Colors.white,
+                )
+                )
 
+          ],
+        ),
+        body: Padding(
+          // Even Padding On All Sides
+          padding: EdgeInsets.all(15.0),
 
-          IconButton(
-            icon: const Icon(Icons.save),
-            tooltip: 'Save Settings',
-            onPressed: () {
-              saveapp(context);
-            },
-          ),
-        ],
-      ),
-      body: Padding(
-        // Even Padding On All Sides
-          padding: EdgeInsets.all(10.0),
-
-          child:settingsFor(context)
-      ,
-    )
-
-    );
+          child: settingsFor(context),
+        ));
   }
 
-   getAllCommunityGroups(){
-
-    List<DropdownMenuItem<CommunityGroup>> items=[];
+  getAllCommunityGroups() {
+    List<DropdownMenuItem<CommunityGroup>> items = [];
 
     for (var currentValue in CommunityGroup.values) {
-      items.add(  DropdownMenuItem(
+      items.add(DropdownMenuItem(
         value: currentValue,
         child: Text(currentValue.toValidString()),
       ));
     }
     return items;
   }
-  Widget getMarkWidget(String name){
 
+  Widget getMarkWidget(String name) {
     return ReactiveTextField<double>(
       formControlName: name,
-      validationMessages: (control) =>
-      {
-        ValidationMessage.required: name.toTitleCase() + ' Marks should not be empty',
-        ValidationMessage.min:'The Minimum marks should be 35',
-        ValidationMessage.max:'The Maximum mark should be less than or equal to 100',
-
+      validationMessages: (control) => {
+        ValidationMessage.required:
+            name.toTitleCase() + ' Marks should not be empty',
+        ValidationMessage.min: 'The Minimum marks should be 35',
+        ValidationMessage.max:
+            'The Maximum mark should be less than or equal to 100',
       },
       textInputAction: TextInputAction.next,
-      decoration:  InputDecoration(
-        labelText:name.toTitleCase() + ' Marks',
+      decoration: InputDecoration(
+        labelText: name.toTitleCase() + ' Marks',
         helperText: '',
         helperStyle: TextStyle(height: 0.7),
         labelStyle: TextStyle(height: 0.7),
@@ -116,16 +117,26 @@ class SettingsPage extends StatelessWidget {
       ),
     );
   }
+
   void saveapp(BuildContext context) {
+    //print(appform!.value);
+   // print(appform!.valid);
+    FocusScope.of(context).requestFocus(FocusNode());
 
     if (appform!.valid) {
-      settingsUpdater.update(appform!.value['physics'],appform!.value['chemistry'],appform!.value['maths'],appform!.value['communityGroup']);
+      settingsUpdater.update(
+          appform!.value['physics'],
+          appform!.value['chemistry'],
+          appform!.value['maths'],
+          appform!.value['communityGroup']);
+      Navigator.pop(context);
     } else {
       appform!.markAllAsTouched();
     }
   }
+
   Widget formUiBuilder(context, form, child) {
-    appform=form;
+    appform = form;
 
     return Column(
       children: [
@@ -136,20 +147,19 @@ class SettingsPage extends StatelessWidget {
         getMarkWidget('chemistry'),
         const SizedBox(height: 16.0),
         ReactiveDropdownField<CommunityGroup>(
-          formControlName: 'communitygroup',
+          formControlName: 'communityGroup',
           hint: Text('Select CommunityGroup...'),
           items: getAllCommunityGroups(),
         )
       ],
     );
   }
+
   Widget settingsFor(BuildContext context) {
     return ReactiveFormBuilder(
-      form: getFormGroup(),
-      builder: (context, form, child) {
-        return formUiBuilder(context,form,child);
-      });
-
+        form: getFormGroup(),
+        builder: (context, form, child) {
+          return formUiBuilder(context, form, child);
+        });
   }
 }
-

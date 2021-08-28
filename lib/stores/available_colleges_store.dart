@@ -18,7 +18,7 @@ class AvailableCollegesStore {
 
     _subject.sink.add(fromData);
   }
-  showLoading() {
+  void showLoading() {
     _subject.sink.add(ListContainer<AvailableCollege>());
   }
 
@@ -34,10 +34,7 @@ class AvailableCollegesStore {
     return _subject;
   }
 
-  void testUpdate() {
 
-
-  }
 
   void showError(String s) {
     var fromData = ListContainer.fromError<AvailableCollege>(s);

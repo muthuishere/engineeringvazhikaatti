@@ -7,23 +7,30 @@ class Preferences{
 
   
   setInt(String key,int value) async {
-
+    throw UnimplementedError("setInt");
   }
-  getInt(String key) async{
+ Future<int?> getInt(String key) async{
+    throw UnimplementedError("getInt");
   }
 
   setDouble(String key,double value) async{
+    throw UnimplementedError("getDouble");
   }
-  getDouble(String key) async{
+  Future<double?> getDouble(String key) async{
+    throw UnimplementedError("getDouble");
   }
   setString(String key,String value) async{
+    throw UnimplementedError("setString");
   }
-  getString(String key) async{
+  Future<String?> getString(String key) async{
+    throw UnimplementedError("getString");
   }
-  setObject<T>(String key,T value) async{
+  void setObject<T>(String key,T value) async{
+    throw UnimplementedError("setObject implemented in down stream");
   }
 
- getObjectAsJson<T>(String key) async{
+  Future<Map<String, dynamic>> getObjectAsJson(String key) async{
+    throw UnimplementedError("getObjectAsJson");
   }
 
 

@@ -1,4 +1,4 @@
-import 'package:engineeringvazhikaatti/providers/io/flutter_file_reader.dart';
+import 'package:engineeringvazhikaatti/adapters/file_reader.dart';
 import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
 import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
 import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
@@ -6,32 +6,46 @@ import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
 import 'package:injector/injector.dart';
 
 class Stores {
-  AppConfigStore getAppConfigStore(){
+  Future<AppConfigStore> getAppConfigStore() async{
 
-    var districts = FlutterFileReader().readFromAssetsFolder("districts.json");
-    var pincodes = FlutterFileReader().readFromAssetsFolder("pincodes.json");
-    var branches = FlutterFileReader().readFromAssetsFolder("allbranches.json");
+    final injector = Injector.appInstance;
+    var fileReader  = injector.get<FileReader>();
+
+    var districts = await fileReader.readFromAssetsFolder("districts.json");
+    var pincodes = await fileReader.readFromAssetsFolder("pincodes.json");
+    var branches = await fileReader.readFromAssetsFolder("allbranches.json");
 
     var appConfigStore = AppConfigStore();
-    appConfigStore.loadDistrictsFromFuture(districts);
-    appConfigStore.loadPincodesFromFuture(pincodes);
-    appConfigStore.loadBranchesFromFuture(branches);
+    appConfigStore.loadDistricts(districts);
+    appConfigStore.loadPincodes(pincodes);
+    appConfigStore.loadBranches(branches);
     return  appConfigStore;
 
   }
-  init() {
+  Future<CollegeDetailsStore> getCollegeDetailsStore() async {
     final injector = Injector.appInstance;
 
-    var collegeDetails = FlutterFileReader().readFromAssetsFolder("colleges.json");
+    var fileReader  = injector.get<FileReader>();
+    var collegeDetails = await fileReader.readFromAssetsFolder("colleges.json");
+    var collegeDetailsStore  =CollegeDetailsStore.from(collegeDetails);
+    return collegeDetailsStore;
+  }
 
-    injector.registerSingleton<CollegeDetailsStore>(() => CollegeDetailsStore.fromFuture(collegeDetails));
-    injector.registerSingleton<AppConfigStore>(() => getAppConfigStore());
+  init() async{
+    final injector = Injector.appInstance;
+    var collegeDetailsStore = await getCollegeDetailsStore();
+    var appConfigStore = await getAppConfigStore();
+
+    injector.registerSingleton<CollegeDetailsStore>(() => collegeDetailsStore);
+    injector.registerSingleton<AppConfigStore>(() =>appConfigStore);
 
     injector.registerSingleton<AvailableCollegesStore>(() => AvailableCollegesStore());
     injector.registerSingleton<SearchFilterStore>(() => SearchFilterStore());
 
 
   }
+
+
 
 
 }

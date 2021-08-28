@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:engineeringvazhikaatti/entities/DistanceConfig.dart';
+import 'package:engineeringvazhikaatti/entities/distance_option.dart';
 import 'package:engineeringvazhikaatti/entities/app_config.dart';
 import 'package:engineeringvazhikaatti/entities/models/engg_branch.dart';
 import 'package:engineeringvazhikaatti/shared/convert.dart';
@@ -21,13 +21,13 @@ class AppConfigStore {
   }
 
 
-  List<DistanceConfig> getDistances() {
+  List<DistanceOption> getDistances() {
     return [
-      DistanceConfig("Less than 50 Kms",50),
-      DistanceConfig("Less than 100 Kms",100),
-      DistanceConfig("Less than 200 Kms",200),
-      DistanceConfig("Less than 500 Kms",500),
-      DistanceConfig("Across Tamilnadu",2500),
+      DistanceOption("Less than 50 Kms",50),
+      DistanceOption("Less than 100 Kms",100),
+      DistanceOption("Less than 200 Kms",200),
+      DistanceOption("Less than 500 Kms",500),
+      DistanceOption("Across Tamilnadu",2500),
     ];
   }
 
@@ -49,18 +49,6 @@ class AppConfigStore {
 
   void loadPincodes(String contents) {
     appConfig.pincodes=Convert.asListofStrings(contents);;
-  }
-
-  void loadDistrictsFromFuture(Future<String> districts) {
-    districts.then((value) => loadDistricts(value));
-  }
-
-  void loadPincodesFromFuture(Future<String> pincodes) {
-    pincodes.then((value) => loadPincodes(value));
-  }
-
-  void loadBranchesFromFuture(Future<String> branches) {
-    branches.then((value) => loadBranches(value));
   }
 
 }

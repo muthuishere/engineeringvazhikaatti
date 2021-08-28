@@ -34,13 +34,15 @@ class BranchesBottomSheetPanel {
       appConfigStore, selectedBranches, BuildContext context, callback) async {
     await showModalBottomSheet(
       isScrollControlled: true, // required for min/max child size
+
       context: context,
       builder: (ctx) {
         return MultiSelectBottomSheet(
+            searchable: true,
             items: getAllBranches(appConfigStore),
             initialValue: getSelectedBranches(selectedBranches),
             onConfirm: (rawInputs) {
-              print(rawInputs);
+           //   print(rawInputs);
               List<String> values = rawInputs.map((e) => e.toString()).toList();
               callback(values);
             });

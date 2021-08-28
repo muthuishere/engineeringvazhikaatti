@@ -6,7 +6,7 @@ class FlutterFileReader implements FileReader{
   Future<String> readFromAssetsFolder(String name) async{
 
       var key = 'assets/'+name;
-      print('reading $key');
+      //print('reading $key');
       return await rootBundle.loadString(key);
   }
 }
