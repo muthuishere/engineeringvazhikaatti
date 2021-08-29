@@ -15,7 +15,7 @@ class TextStyles {
   static TextStyle error(BuildContext context) {
     return Theme.of(context)
         .textTheme
-        .headline4!
+        .bodyText2!
         .copyWith(color: Colors.deepOrangeAccent);
   }
 }

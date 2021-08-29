@@ -135,10 +135,10 @@ class MockAvailableCollegesStore extends _i1.Mock
   }
 
   @override
-  dynamic send(List<_i2.AvailableCollege>? contents) =>
+  dynamic sendData(List<_i2.AvailableCollege>? contents) =>
       super.noSuchMethod(Invocation.method(#send, [contents]));
   @override
-  void showLoading() => super.noSuchMethod(Invocation.method(#showLoading, []),
+  void sendLoading() => super.noSuchMethod(Invocation.method(#showLoading, []),
       returnValueForMissingStub: null);
   @override
   _i4.BehaviorSubject<_i13.ListContainer<_i2.AvailableCollege>> data() =>
@@ -150,7 +150,7 @@ class MockAvailableCollegesStore extends _i1.Mock
   void testUpdate() => super.noSuchMethod(Invocation.method(#testUpdate, []),
       returnValueForMissingStub: null);
   @override
-  void showError(String? s) =>
+  void sendMessage(String? s) =>
       super.noSuchMethod(Invocation.method(#showError, [s]),
           returnValueForMissingStub: null);
   @override

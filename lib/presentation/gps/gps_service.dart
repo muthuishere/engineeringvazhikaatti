@@ -1,13 +1,8 @@
-import 'dart:convert';
 
-import 'package:engineeringvazhikaatti/entities/available_colleges_response.dart';
-import 'package:engineeringvazhikaatti/entities/containers/list_container.dart';
-import 'package:engineeringvazhikaatti/entities/filter.dart';
-import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
-import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
-import 'package:engineeringvazhikaatti/presentation/shared/gps_status.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:rxdart/rxdart.dart';
+
+import 'gps_status.dart';
 
 class GpsService {
 
@@ -80,6 +75,7 @@ class GpsService {
     // When we reach here, permissions are granted and we can
     // continue accessing the position of the device.
     var position = await Geolocator.getCurrentPosition();
+   // print("position" + position.toString());
     set(GpsStatus.COMPLETED);
     return position;
   }

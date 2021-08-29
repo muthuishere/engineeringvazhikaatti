@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:test/test.dart';
 
-import '../shared/TestDataGenerator.dart';
+import '../../../shared/TestDataGenerator.dart';
 
 void main() {
   test('College Details Store test', () {

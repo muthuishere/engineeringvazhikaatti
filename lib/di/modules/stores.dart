@@ -15,6 +15,7 @@ class Stores {
     var pincodes = await fileReader.readFromAssetsFolder("pincodes.json");
     var branches = await fileReader.readFromAssetsFolder("allbranches.json");
 
+    print("branches size" + branches.length.toString());
     var appConfigStore = AppConfigStore();
     appConfigStore.loadDistricts(districts);
     appConfigStore.loadPincodes(pincodes);
@@ -27,7 +28,9 @@ class Stores {
 
     var fileReader  = injector.get<FileReader>();
     var collegeDetails = await fileReader.readFromAssetsFolder("colleges.json");
-    var collegeDetailsStore  =CollegeDetailsStore.from(collegeDetails);
+   // print("collegeDetails size" + collegeDetails.length.toString());
+    CollegeDetailsStore collegeDetailsStore  =CollegeDetailsStore.from(collegeDetails);
+    //print("Total Colleges size" + collegeDetailsStore.collegeDetails.length.toString());
     return collegeDetailsStore;
   }
 

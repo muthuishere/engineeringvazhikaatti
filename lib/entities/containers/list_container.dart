@@ -15,7 +15,7 @@ class ListContainer<T>{
     this.items = availableColleges;
   }
 
-  setError(String message) {
+  setStatusMessage(String message) {
     dataStatus = DataStatus.ERROR;
     this.message = message;
     items = List.empty();
@@ -33,10 +33,10 @@ class ListContainer<T>{
     return res;
   }
 
-  static ListContainer<T> fromError<T>(String msg) {
+  static ListContainer<T> fromMessage<T>(String msg) {
     var res = ListContainer<T>();
 
-      res.setError(msg);
+      res.setStatusMessage(msg);
 
     return res;
   }
@@ -44,5 +44,14 @@ class ListContainer<T>{
   void setNoData() {
     this.dataStatus = DataStatus.NODATA;
     this.message = "No Data for selected criteria";
+  }
+
+  static fromLoading<T>() {
+
+    var res = ListContainer<T>();
+
+    res.dataStatus = DataStatus.LOADING;
+
+    return res;
   }
 }

@@ -12,21 +12,23 @@ class AvailableCollegesStore {
   BehaviorSubject<ListContainer<AvailableCollege>> _subject =
       new BehaviorSubject<ListContainer<AvailableCollege>>();
 
-  send(List<AvailableCollege> contents) {
+  sendData(List<AvailableCollege> contents) {
 
     var fromData = ListContainer.fromData<AvailableCollege>(contents);
 
     _subject.sink.add(fromData);
   }
-  void showLoading() {
-    _subject.sink.add(ListContainer<AvailableCollege>());
+  void sendLoading() {
+    var fromData = ListContainer.fromLoading<AvailableCollege>();
+
+    _subject.sink.add(fromData);
   }
 
   dispose(){
     _subject.close();
   }
   AvailableCollegesStore() {
-    _subject.sink.add(ListContainer.fromData<AvailableCollege>([]));
+    _subject.sink.add(ListContainer.fromMessage<AvailableCollege>("Please Select District/Distance to continue!!"));
   }
 
   BehaviorSubject<ListContainer<AvailableCollege>>  data(){
@@ -36,8 +38,8 @@ class AvailableCollegesStore {
 
 
 
-  void showError(String s) {
-    var fromData = ListContainer.fromError<AvailableCollege>(s);
+  void sendMessage(String s) {
+    var fromData = ListContainer.fromMessage<AvailableCollege>(s);
 
     _subject.sink.add(fromData);
   }

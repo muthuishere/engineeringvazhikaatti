@@ -4,7 +4,7 @@ import 'package:engineeringvazhikaatti/usecases/search_colleges_by_community_and
 import 'package:test/test.dart';
 
 import '../entities/results/available_college_test.dart';
-import 'shared/TestDataGenerator.dart';
+import '../../shared/TestDataGenerator.dart';
 
 void main() {
   test('Test Within Area', () {

@@ -9,7 +9,7 @@ import 'package:rxdart/rxdart.dart';
 
 class SearchFilterStore {
 
-  bool searchByDistrictsEnabled = false;
+  bool searchByDistrictsEnabled = true;
   var searchFilter =Filter();
   String searchMsg ="";
   BehaviorSubject<bool> _searchByDistricts =

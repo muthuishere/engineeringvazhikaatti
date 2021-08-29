@@ -4,7 +4,7 @@ import 'package:engineeringvazhikaatti/usecases/search_colleges.dart';
 import 'package:test/test.dart';
 
 import '../../shared/JsonConvert.dart';
-import 'shared/TestDataGenerator.dart';
+import '../../shared/TestDataGenerator.dart';
 
 void main() {
   var distanceCalculator = TestDataGenerator.getDistanceCalculator();

@@ -37,31 +37,31 @@ void main() {
   test('Dashboard Api should invoke showError if no data', () {
 
     when(_settingsUpdater.hasAllData()).thenReturn(false);
-    when(_availableCollegesStore.showLoading()).thenReturn(false);
+    when(_availableCollegesStore.sendLoading()).thenReturn(false);
     dashboardApi.updateDashboard();
-    verify(_availableCollegesStore.showError(any));
+    verify(_availableCollegesStore.sendMessage(any));
   });
 
   test('Dashboard Api should invoke updateDashboardByDistance followed by showerror if searchByDistrictsEnabled is false and no location', () {
 
     when(_settingsUpdater.hasAllData()).thenReturn(true);
-    when(_availableCollegesStore.showLoading()).thenReturn(false);
+    when(_availableCollegesStore.sendLoading()).thenReturn(false);
     when(_searchFilterStore.searchByDistrictsEnabled).thenReturn(false);
     when(_locationUpdater.hasLocation()).thenReturn(false);
 
     dashboardApi.updateDashboard();
-    verify(_availableCollegesStore.showError(any));
+    verify(_availableCollegesStore.sendMessage(any));
   });
 
   test('Dashboard Api should invoke updateDashboardByDistrict followed by showerror  if searchByDistrictsEnabled and no Districts been selected', () {
 
     when(_settingsUpdater.hasAllData()).thenReturn(true);
-    when(_availableCollegesStore.showLoading()).thenReturn(false);
+    when(_availableCollegesStore.sendLoading()).thenReturn(false);
     when(_searchFilterStore.searchByDistrictsEnabled).thenReturn(true);
     when(_searchFilterStore.hasDistrictsSelected()).thenReturn(false);
 
 
     dashboardApi.updateDashboard();
-    verify(_availableCollegesStore.showError(any));
+    verify(_availableCollegesStore.sendMessage(any));
   });
 }

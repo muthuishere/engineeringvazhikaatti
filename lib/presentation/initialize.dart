@@ -1,21 +1,13 @@
-import 'package:engineeringvazhikaatti/entities/containers/data_container.dart';
-import 'package:engineeringvazhikaatti/entities/containers/list_container.dart';
-import 'package:engineeringvazhikaatti/entities/datastatus.dart';
-import 'package:engineeringvazhikaatti/entities/results/available_branch.dart';
-import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
 import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
-import 'package:engineeringvazhikaatti/presentation/shared/gps_status.dart';
-import 'package:engineeringvazhikaatti/presentation/shared/gps_service.dart';
-import 'package:engineeringvazhikaatti/presentation/shared/text_styles.dart';
 import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
 import 'package:engineeringvazhikaatti/usecases/location_updater.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:injector/injector.dart';
 
-import 'filter_panel.dart';
+import 'gps/gps_service.dart';
+import 'gps/gps_status.dart';
 
 class Initialize extends StatelessWidget {
   late final AvailableCollegesStore? availableCollegesStore;

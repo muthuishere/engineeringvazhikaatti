@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:engineeringvazhikaatti/entities/filter.dart';
 import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
@@ -8,12 +7,11 @@ import 'package:engineeringvazhikaatti/usecases/location_updater.dart';
 import 'package:engineeringvazhikaatti/usecases/search_filter_updater.dart';
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
-import 'package:multi_select_flutter/multi_select_flutter.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
-import 'filter/branches_bottom_sheet_panel.dart';
-import 'filter/distance_bottom_sheet_panel.dart';
-import 'filter/districts_bottom_sheet_panel.dart';
+import '../shared/branch_selector.dart';
+import '../shared/distance_selector.dart';
+import '../shared/district_selector.dart';
 
 class FilterPanel extends StatelessWidget {
   late final SearchFilterStore? searchFilterStore;
@@ -24,9 +22,9 @@ class FilterPanel extends StatelessWidget {
   late final appNotification;
   bool canShowDistrict = false;
   late var appform = null;
-  var branchesDetail = BranchesBottomSheetPanel();
-  var distancesDetail = DistanceBottomSheetPanel();
-  var districtsDetail = DistrictsBottomSheetPanel();
+  var branchesDetail = BranchSelector();
+  var distancesDetail = DistanceSelector();
+  var districtsDetail = DistrictSelector();
 
   FilterPanel({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
@@ -113,6 +111,7 @@ class FilterPanel extends StatelessWidget {
 
   Widget distanceDropDown(context, form, child) {
     return ElevatedButton(
+
       onPressed: () {
         distancesDetail.showMultiSelectDistances(
             appConfigStore,
@@ -184,9 +183,9 @@ class FilterPanel extends StatelessWidget {
     bool showDistricts = form.control('searchByDistricts').value;
     if (showDistricts) {
       return ElevatedButton(
-        // style: ElevatedButton.styleFrom(
-        //    primary: ThemeColors.primary,
-        // ),
+        style:ElevatedButton.styleFrom(
+          primary: Colors.black, // background
+        ),
         onPressed: () {
           toggle(form);
         },
@@ -201,7 +200,7 @@ class FilterPanel extends StatelessWidget {
               ),
             ),
             Icon(
-              Icons.developer_board,
+              Icons.album_rounded,
               color: Colors.white,
             ),
           ],
@@ -209,15 +208,19 @@ class FilterPanel extends StatelessWidget {
       );
     } else {
       return ElevatedButton(
-        // style: ElevatedButton.styleFrom(
-        //   primary: ThemeColors.white,
-        // ),
+        style:ElevatedButton.styleFrom(
+          primary: Colors.deepPurple, // background
+        ),
         onPressed: () {
           toggle(form);
         },
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
+            Icon(
+              Icons.album_rounded,
+              color: Colors.white,
+            ),
             Text(
               'By Distance',
               style: TextStyle(
@@ -225,10 +228,7 @@ class FilterPanel extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            Icon(
-              Icons.edit_road,
-              color: Colors.white,
-            ),
+
           ],
         ),
       );

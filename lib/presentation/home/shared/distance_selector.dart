@@ -5,7 +5,7 @@ import 'package:engineeringvazhikaatti/entities/filter.dart';
 import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
 import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
-import 'package:engineeringvazhikaatti/presentation/shared/text_styles.dart';
+import 'text_styles.dart';
 import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
 import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
 import 'package:engineeringvazhikaatti/usecases/location_updater.dart';
@@ -15,7 +15,7 @@ import 'package:injector/injector.dart';
 import 'package:multi_select_flutter/multi_select_flutter.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
-class DistanceBottomSheetPanel {
+class DistanceSelector {
   getAllDistances(AppConfigStore appConfigStore) {
     return appConfigStore
         .getDistances()

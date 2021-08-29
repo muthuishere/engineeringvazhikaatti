@@ -43,6 +43,7 @@ dependencies:
   reactive_advanced_switch: ^0.0.5
   multi_select_flutter: ^4.0.0
   badges: ^2.0.1
+  collection: ^1.15.0
 
 flutter_icons:
   image_path: "assets/images/icon_128.png"

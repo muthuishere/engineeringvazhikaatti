@@ -112,20 +112,24 @@ class AboutPage extends StatelessWidget {
                       title: Text('Sorted by branch ranks'),
                     ),
                     const SizedBox(height: 30.0),
-                    Text("Credits",
+                    Text("Configuration",
                         style: Theme.of(context).textTheme.headline5),
                     const SizedBox(height: 15.0),
                     ListTile(
                       leading: Icon(Icons.person_outline),
-                      title: Text('Agalya'),
+                      title: Text('Change your cutoff data on clicking on settings icon'),
                     ),
                     ListTile(
                       leading: Icon(Icons.person_outline),
-                      title: Text('Sasi'),
+                      title: Text('Change Search type by districts or distance'),
                     ),
                     ListTile(
                       leading: Icon(Icons.person_outline),
-                      title: Text('Mahe'),
+                      title: Text('Choose Travel Distance or Districts '),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.person_outline),
+                      title: Text('Choose Branches to filter '),
                     ),
                   ]),
             )),

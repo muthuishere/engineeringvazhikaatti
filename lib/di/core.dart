@@ -10,7 +10,7 @@ init() async{
   var usecases = Usecases();
   var entrypoints = Entrypoints();
 
- await adapters.init();
+  adapters.init();
   await stores.init();
   usecases.init();
   entrypoints.init();

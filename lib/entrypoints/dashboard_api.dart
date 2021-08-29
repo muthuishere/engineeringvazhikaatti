@@ -30,19 +30,19 @@ class DashboardApi {
   );
 
   updateDashboardOld() {
-    this._availableCollegesStore.showLoading();
+    this._availableCollegesStore.sendLoading();
     var results = _searchCollegesByCommunityAndCutoff.byBranchAndDistricts(
         ['CS', 'IT'], ['Chennai'], 184, CommunityGroup.BC);
-    this._availableCollegesStore.send(results);
+    this._availableCollegesStore.sendData(results);
   }
 
   updateDashboard() {
     msg = "";
     _searchFilterStore.searchMsg = msg;
-    this._availableCollegesStore.showLoading();
+    this._availableCollegesStore.sendLoading();
 
     if (!_settingsUpdater.hasAllData()) {
-      this._availableCollegesStore.showError("Please Update Cutoff Details");
+      this._availableCollegesStore.sendMessage("Please Update Cutoff Details");
       return;
     }
 
@@ -59,7 +59,7 @@ class DashboardApi {
     if (!_searchFilterStore.hasDistrictsSelected()) {
       this
           ._availableCollegesStore
-          .showError("Please Select Districts to Continue");
+          .sendMessage("Please Select Districts to Continue");
       return;
     }
 
@@ -69,13 +69,7 @@ class DashboardApi {
 
     var districts = _searchFilterStore.searchFilter.districts;
 
-    msg = "Searching on " +
-        branchCodes.length.toString() +
-        " branches &  " +
-        districts.length.toString() +
-        " districts / sorted by" +
-        branchCodeToBeSorted +
-        " Branch ";
+    msg =  filterMessageForDistricts(branchCodes, districts, branchCodeToBeSorted);
 
     var results = _searchCollegesByCommunityAndCutoff.byBranchAndDistricts(
         branchCodes,
@@ -86,14 +80,15 @@ class DashboardApi {
     sortAndSend(results, branchCodeToBeSorted);
   }
 
+
   updateDashboardByDistance() {
     if (!_locationUpdater.hasLocation()) {
-      this._availableCollegesStore.showError("Please Enable Gps to Continue");
+      this._availableCollegesStore.sendMessage("Please Enable Gps to Continue");
       return;
     }
 
     if (!_searchFilterStore.hasDistanceInKmsSelected()) {
-      this._availableCollegesStore.showError("Please Select Distance in Kms");
+      this._availableCollegesStore.sendMessage("Please Select Distance in Kms");
       return;
     }
 
@@ -108,13 +103,7 @@ class DashboardApi {
     var branchCodeToBeSorted = branchCodes[0];
 
 
-    msg = "Searching on " +
-        branchCodes.length.toString() +
-        " branches within " +
-        maximumDistanceCandidateCanTravel.toInt().toString() +
-        " kms / sorted by " +
-        branchCodeToBeSorted +
-        " Branch ";
+    msg = filterMessageForDistance(branchCodes, maximumDistanceCandidateCanTravel, branchCodeToBeSorted);
 
     var results = _searchCollegesByCommunityAndCutoff.byBranchAndDistance(
         branchCodes,
@@ -128,16 +117,40 @@ class DashboardApi {
     sortAndSend(results, branchCodeToBeSorted);
   }
 
+  String filterMessageForDistance(List<String> branchCodes, double maximumDistanceCandidateCanTravel, String branchCodeToBeSorted) {
+    return "Searching on " +
+        branchCodes.length.toString() +
+        " branches " +
+        labelFrom(maximumDistanceCandidateCanTravel) +
+        " / sorted by ranks on " +
+        branchNameFrom(branchCodeToBeSorted) ;
+  }
+
+  String labelFrom(double maximumDistanceCandidateCanTravel) => _appConfigStore.getDistance(maximumDistanceCandidateCanTravel.toInt())!.label;
+
+  String filterMessageForDistricts(List<String> branchCodes, List<String> districts, String branchCodeToBeSorted) {
+    return "Searching on " +
+        branchCodes.length.toString() +
+        " branches &  " +
+        districts.length.toString() +
+        " districts " +
+        " / sorted by ranks on " +
+        branchNameFrom(branchCodeToBeSorted) ;
+  }
+
+  String branchNameFrom(String branchCodeToBeSorted) => _appConfigStore.getBranch(branchCodeToBeSorted)!.name!;
+
+
   void sortAndSend(
       List<AvailableCollege> results, String branchCodeToBeSorted) {
    // print(results.length);
     // var sortedResults=results;
     var sortedResults = _sortColleges.sortByRank(results, branchCodeToBeSorted);
     //
-    // print("filtering with" + msg);
-    // print(sortedResults);
-    msg= msg+" resulted in " + sortedResults.length.toString() + " Colleges";
-    this._availableCollegesStore.send(sortedResults);
+    //  print("filtering with" + msg);
+    // print(sortedResults.length);
+    msg= msg+" resulted in " + sortedResults.length.toString() + " Colleges for cutoff " + _settingsUpdater.settings.getCutOff().toInt().toString() + " with " +_settingsUpdater.settings.communityGroup.toValidString() + " community";
+    this._availableCollegesStore.sendData(sortedResults);
   }
 
   List<String> getBranchCodes() {

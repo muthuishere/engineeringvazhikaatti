@@ -4,6 +4,7 @@ import 'package:engineeringvazhikaatti/entities/distance_option.dart';
 import 'package:engineeringvazhikaatti/entities/app_config.dart';
 import 'package:engineeringvazhikaatti/entities/models/engg_branch.dart';
 import 'package:engineeringvazhikaatti/shared/convert.dart';
+import 'package:collection/collection.dart';
 
 class AppConfigStore {
   var appConfig = AppConfig();
@@ -29,6 +30,14 @@ class AppConfigStore {
       DistanceOption("Less than 500 Kms",500),
       DistanceOption("Across Tamilnadu",2500),
     ];
+  }
+
+ DistanceOption? getDistance(int num) {
+  return  getDistances().firstWhereOrNull((element) => element.distance == num);
+}
+
+  EnggBranch? getBranch(String code) {
+    return getBranches().firstWhereOrNull((element) => element.code == code);
   }
 
 

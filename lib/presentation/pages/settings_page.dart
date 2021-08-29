@@ -16,14 +16,6 @@ class SettingsPage extends StatelessWidget {
   }
 
 
-  static final RegExp numberRegex = RegExp(r'^-?[0-9]+$');
-  /// Validates that control's value must be `true`
-  Map<String, dynamic>? _requiredTrue(AbstractControl<dynamic> control) {
-    return (control.value == null) ||
-        !numberRegex.hasMatch(control.value.toString())
-        ? <String, dynamic>{ValidationMessage.number: true}
-        : null;
-  }
 
 
   markValidator() {
