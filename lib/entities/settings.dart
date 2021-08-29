@@ -25,7 +25,6 @@ class Settings {
   }
 
   factory Settings.fromJson(Map<String, dynamic> json) {
-    //print("from fromJson preferences");
     return Settings(
         physics: json['physics'],
         chemistry: json['chemistry'],
