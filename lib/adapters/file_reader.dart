@@ -4,6 +4,7 @@ import 'package:flutter/services.dart' show rootBundle;
 class FileReader{
 
   Future<String> readFromAssetsFolder(String name) async{
-     return Future.delayed(const Duration(seconds: 2), () => '');
+    throw UnimplementedError("readFromAssetsFolder");
+
   }
 }
