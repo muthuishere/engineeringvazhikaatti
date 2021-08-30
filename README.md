@@ -1,25 +1,28 @@
 # Engineering Vazhikaatti
 
+A small app to priortize Engineering colleges in TNEA  2021 based on your cutoff and community against last three years data across TNEA affiliated engineering colleges.
+
+And our Dev stuff
+
 A Flutter project attempted to develop based on clean architecture concepts.
 
+After working some time in any project be it mobile or web or front end or backend , Most developers feel , Their estimation capability to add new feature been dropping because of code getting rigid and unsure about what does what? .
 
-After working some time , Most of the developers feel that, The estimation capability to add new feature goes down, .
+I think is mainly due to two reason
 
-This is mainly due to two reason
-
-   If its a backend all our logic are buried in service classes based on db design , rarely it will come out of it ( Thinking of Spring boot , Play framework Actors)
+   If its a backend,  Mostly the logic are buried in service classes based on table or an external service response , rarely it will come out of it ( Thinking of Spring boot , Play framework Actors)
    
    If its frontend all our logic are buried on screens and if not it would be buried within these UI Screens ,or View Models ( Android Dev), Components or Services (Angular), Stores.
 
 
-For me clean architecture helps  to  application to be more scalable for requirements, as every new requirement will be drafted as an usecase , not tightly coupled with screen or database
+I personally feel clean architecture helps  to address these kind of issues in long run , which will ensure to make our coding experience smoother after a very long time , not only for us, for those whom we bring into the project
+  
+As every new requirement will be drafted as an independent usecase , not tightly coupled with any screen or a table
+
+For more details about Clean Architecture refer this [Clean Architecture By Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 
-[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-
-
-
-I tried to adapt it across and ends up something like this. 
+I tried to adapt it for my flutter  and ends up something like this. 
 
 
 ![Clean Architecture adapted for this project](https://github.com/muthuishere/engineeringvazhikaatti/blob/main/docs/images/ca.png?raw=true)
@@ -28,17 +31,11 @@ I tried to adapt it across and ends up something like this.
 Feel Free to reference this project or do let me know , what works well or what not..
 
  
+##Links
+
+ - [Download Android app](https://play.google.com/store/apps/details?id=edu.tools.engineeringvazhikaatti)
+ - [Web version](https://muthuishere.github.io/engineeringvazhikaatti/)   
+ - [Explanation Video](https://youtu.be/KfZsTBuMJnY)   
+ 
 
 
-
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
