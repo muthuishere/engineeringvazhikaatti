@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "43801d8af182576e0c128f1ed3cb955f",
-"assets/assets/allbranches.json": "d10585ad5a1a766194e1d38aac3f7866",
-"assets/assets/colleges.json": "28298441f8ac2d1c961dd4640153f357",
-"assets/assets/districts.json": "c3fb257f585552909035f090fd93bc73",
+"assets/assets/allbranches.json": "b336281bbaa092194436be7ef471cec7",
+"assets/assets/colleges.json": "94d87674ce3340efb87f0847cf855074",
+"assets/assets/districts.json": "5013161681a69edde0b8cb0b11f16fff",
 "assets/assets/fonts/OpenSans-Bold.ttf": "0062c34665a3fc0f2278cd4e955702ec",
 "assets/assets/fonts/OpenSans-Light.ttf": "f51d593e2ab59a38dd41cc76a3f88460",
 "assets/assets/fonts/OpenSans-Regular.ttf": "5a798cdadc7cd321e3f72425b70bface",
@@ -44,12 +44,12 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "27a5e65ab2637e4d878ec098c813f7cf",
 "icons/ms-icon-310x310.png": "2c47a9502092482f6696cd95ca1ef047",
 "icons/ms-icon-70x70.png": "5dde95da72b808f21a3e49fc11f5fbec",
-"index.html": "9d91114935623421c770f1639f28fce2",
-"/": "9d91114935623421c770f1639f28fce2",
-"main.dart.js": "f93cf61e6806ac3e0ddcbaa2b74d7a78",
+"index.html": "bac4a19972ab6e34bb53adec71fbef95",
+"/": "bac4a19972ab6e34bb53adec71fbef95",
+"main.dart.js": "1e397b71103281bfb4640d96fab01f4b",
 "manifest.json": "b0adbbf46ddf483bed3b93d2862ee1c1",
 "privacy_policy.html": "4c0869e99d62fbd13088b99f00db0f56",
-"version.json": "15d3b9ea05c77d1036c140e1b7a5f980"
+"version.json": "f8461fd58c648053cb8673e119594f02"
 };
 
 // The application shell files that are downloaded before a service worker can
