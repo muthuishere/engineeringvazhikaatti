@@ -1,6 +1,11 @@
-import 'package:engineeringvazhikaatti/entities/models/caste.dart';
 
-class Settings {
+
+import 'package:loggy/loggy.dart';
+
+import 'cutoffstatus.dart';
+import 'models/request/community_group.dart';
+
+class Settings with UiLoggy{
   double physics;
   double chemistry;
   double maths;
@@ -45,5 +50,17 @@ class Settings {
     return (this.physics / 2) + (this.chemistry / 2) + this.maths;
   }
 
+
+  CutoffStatus getCutOffStatusWith(double input){
+    var difference =  getCutOff() - input;
+
+    // logInfo("difference is $difference");
+    if(difference < -2)
+      return CutoffStatus.RED;
+    else if(difference >= -2 && difference <= 2)
+      return CutoffStatus.YELLOW;
+    else
+      return CutoffStatus.GREEN;
+  }
 
 }

@@ -3,6 +3,10 @@ import 'dart:convert';
 
 class Convert{
   static double? toDouble(dynamic value){
+
+    if(null == value){
+      return null;
+    }
     if(value is double){
       return value;
     }
@@ -18,6 +22,9 @@ class Convert{
 
   }
   static int? toInt(dynamic value){
+    if(null == value){
+      return null;
+    }
     if(value is int){
       return value;
     }
@@ -41,3 +48,5 @@ class Convert{
     return List<int>.from(iterableContents);
   }
 }
+
+

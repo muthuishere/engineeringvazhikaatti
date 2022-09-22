@@ -1,4 +1,4 @@
-import 'package:engineeringvazhikaatti/entities/models/year_detail.dart';
+
 import 'package:json_annotation/json_annotation.dart';
 
 import 'available_year_detail.dart';

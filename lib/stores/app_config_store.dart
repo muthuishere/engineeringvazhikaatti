@@ -1,25 +1,34 @@
 import 'dart:convert';
 
-import 'package:engineeringvazhikaatti/entities/distance_option.dart';
-import 'package:engineeringvazhikaatti/entities/app_config.dart';
-import 'package:engineeringvazhikaatti/entities/models/engg_branch.dart';
-import 'package:engineeringvazhikaatti/shared/convert.dart';
 import 'package:collection/collection.dart';
+import 'package:engineeringvazhikaatti/entities/distance_option.dart';
+
+import 'package:engineeringvazhikaatti/entities/models/response/college_detail.dart';
+
+import '../entities/models/request/AppData.dart';
+import '../entities/models/request/branch.dart';
+import '../entities/models/request/college_with_branch.dart';
 
 class AppConfigStore {
-  var appConfig = AppConfig();
-
-  List<EnggBranch> getBranches() {
+  late AppData appConfig;
+   AppConfigStore(String contents){
+     this.appConfig= AppData.fromJson(jsonDecode(contents));
+   }
+  List<Branch> getBranches() {
     return appConfig.branches;
+  }
+  List<CollegeWithBranch> getAllCollegeDetailWithBranches() {
+    return appConfig.allcollegedata;
+  }
+
+  List<CollegeDetail> getAllCollegeDetails() {
+    return appConfig.allcollegedata.map((e) => CollegeDetail.fromCollegeDetailWithBranches(e)).toList();
   }
 
   List<String> getDistricts() {
     return appConfig.districts;
   }
 
-  List<String> getPincodes() {
-    return appConfig.pincodes;
-  }
 
 
   List<DistanceOption> getDistances() {
@@ -36,28 +45,19 @@ class AppConfigStore {
   return  getDistances().firstWhereOrNull((element) => element.distance == num);
 }
 
-  EnggBranch? getBranch(String code) {
+  Branch? getBranch(String code) {
     return getBranches().firstWhereOrNull((element) => element.code == code);
   }
 
 
-  List<EnggBranch> branchesFrom(String contents) {
+  List<Branch> branchesFrom(String contents) {
     Iterable iterableContents = json.decode(contents);
-    var items = iterableContents.map((content) => EnggBranch.fromJson(content));
-    return List<EnggBranch>.from(items);
+    var items = iterableContents.map((content) => Branch.fromJson(content));
+    return List<Branch>.from(items);
   }
 
 
-  void loadBranches(String contents) {
-    appConfig.branches = branchesFrom(contents);
-  }
 
-  void loadDistricts(String contents) {
-    appConfig.districts =Convert.asListofStrings(contents);
-  }
 
-  void loadPincodes(String contents) {
-    appConfig.pincodes=Convert.asListofStrings(contents);;
-  }
 
 }

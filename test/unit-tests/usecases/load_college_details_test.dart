@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
+import 'package:engineeringvazhikaatti/entities/models/response/college_detail.dart';
 import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
 
 import 'package:test/test.dart';

@@ -1,0 +1,2950 @@
+{
+    "communities": [
+        "OC",
+        "BC",
+        "BCM",
+        "MBCV",
+        "MBCDNC",
+        "MBC",
+        "SC",
+        "SCA",
+        "ST"
+    ],
+    "years": [
+        2021,
+        2020,
+        2019,
+        2018,
+        2017
+    ],
+    "districts": [
+        "Chengalpattu",
+        "Chennai",
+        "Coimbatore",
+        "Thoothukudi",
+        "Virudhunagar"
+    ],
+    "branches": [
+        {
+            "code": "CS",
+            "name": "COMPUTER SCIENCE AND ENGINEERING",
+            "count": 418
+        },
+        {
+            "code": "EC",
+            "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+            "count": 367
+        },
+        {
+            "code": "ME",
+            "name": "MECHANICAL ENGINEERING",
+            "count": 357
+        },
+        {
+            "code": "EE",
+            "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+            "count": 321
+        },
+        {
+            "code": "CE",
+            "name": "CIVIL  ENGINEERING",
+            "count": 248
+        },
+        {
+            "code": "IT",
+            "name": "INFORMATION TECHNOLOGY",
+            "count": 178
+        }
+       
+    ],
+    "allcollegedata": [
+        {
+            "code": 4676,
+            "description": "Renganayagi Varatharaj College of Engineering, Salvarpatti, Sivakasi, Virudhunagar District 626128",
+            "name": "Renganayagi Varatharaj College of Engineering",
+            "address": "Salvarpatti",
+            "district": "Virudhunagar",
+            "pincode": "626128",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "9.5073",
+                "longitude": "77.9056"
+            },
+            "branches": [
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 164.92,
+                                "bc": 131.275,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 162.33,
+                                "mbc": 159.43,
+                                "sc": 141.615,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 132,
+                                "bc": 80,
+                                "bcm": 96.5,
+                                "mbc": 94,
+                                "sc": 96.5,
+                                "sca": 100,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 90,
+                                "bc": 0,
+                                "bcm": 88,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 95.25,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 82.25,
+                                "sca": 88,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 158.25,
+                                "bc": 106,
+                                "bcm": 0,
+                                "mbc": 122.5,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 165.325,
+                                "bc": 137.275,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 157.705,
+                                "mbc": 0,
+                                "sc": 136.615,
+                                "sca": 160.3,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 99,
+                                "bc": 80,
+                                "bcm": 0,
+                                "mbc": 81.5,
+                                "sc": 92.5,
+                                "sca": 96.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 112.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 149.75,
+                                "bc": 131.25,
+                                "bcm": 0,
+                                "mbc": 91.25,
+                                "sc": 116.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 92.75,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EE",
+                    "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 145.1,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 131.5,
+                                "mbc": 0,
+                                "sc": 133.1,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 86.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 80.5,
+                                "sca": 84,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 102.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 84.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 101.75,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "ME",
+                    "name": "MECHANICAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 146.9,
+                                "bc": 124.19,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 144.9,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 80,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 84,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 88.75,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 81,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": 4024,
+            "description": "University V.O.C. College of Engineering, Thoothukudi, Near V.O.C. College, Millerpuram, Thoothukudi District 628008",
+            "name": "University V.O.C. College of Engineering",
+            "address": "Thoothukudi",
+            "district": "Thoothukudi",
+            "pincode": "628008",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "8.5782",
+                "longitude": "78.0462"
+            },
+            "branches": [
+                {
+                    "code": "CE",
+                    "name": "CIVIL  ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 154.2,
+                                "bc": 87.5,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 139.925,
+                                "mbc": 139.5,
+                                "sc": 110,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 88.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 82,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 143.5,
+                                "bc": 104.25,
+                                "bcm": 101.25,
+                                "mbc": 98.75,
+                                "sc": 88.25,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 168,
+                                "bc": 163.25,
+                                "bcm": 160,
+                                "mbc": 148.5,
+                                "sc": 141.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 175.5,
+                                "bc": 172.11,
+                                "bcm": 163.965,
+                                "mbcv": 157.845,
+                                "mbcdnc": 166.02,
+                                "mbc": 165.22,
+                                "sc": 158.275,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 120,
+                                "bc": 92.5,
+                                "bcm": 98,
+                                "mbc": 80.5,
+                                "sc": 84,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 135,
+                                "bc": 105.5,
+                                "bcm": 118,
+                                "mbc": 101.5,
+                                "sc": 97.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 172.5,
+                                "bc": 156.75,
+                                "bcm": 126,
+                                "mbc": 110.75,
+                                "sc": 134,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 183.75,
+                                "bc": 174.5,
+                                "bcm": 180.25,
+                                "mbc": 171,
+                                "sc": 159,
+                                "sca": 127,
+                                "st": 160.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EE",
+                    "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 166.01,
+                                "bc": 159.35,
+                                "bcm": 160.24,
+                                "mbcv": 125.045,
+                                "mbcdnc": 155.955,
+                                "mbc": 0,
+                                "sc": 143.615,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 97.5,
+                                "bc": 89,
+                                "bcm": 83.5,
+                                "mbc": 95,
+                                "sc": 85,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 129,
+                                "bc": 102,
+                                "bcm": 105,
+                                "mbc": 83.5,
+                                "sc": 97,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 145,
+                                "bc": 122.25,
+                                "bcm": 122.25,
+                                "mbc": 98.5,
+                                "sc": 111.25,
+                                "sca": 138,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 178.75,
+                                "bc": 168.5,
+                                "bcm": 153.5,
+                                "mbc": 159,
+                                "sc": 163.75,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": 2005,
+            "description": "Government College of Technology (Autonomous), Thadagam Road, Coimbatore District 641013",
+            "name": "Government College of Technology (Autonomous)",
+            "address": "Thadagam Road",
+            "district": "Coimbatore",
+            "pincode": "641013",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "11.0167",
+                "longitude": "76.9707"
+            },
+            "branches": [
+                {
+                    "code": "CE",
+                    "name": "CIVIL  ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 186.465,
+                                "bc": 184.065,
+                                "bcm": 181.69,
+                                "mbcv": 181,
+                                "mbcdnc": 183.2,
+                                "mbc": 184.87,
+                                "sc": 179.35,
+                                "sca": 177.58,
+                                "st": 175.68
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 175,
+                                "bc": 170,
+                                "bcm": 162,
+                                "mbc": 163.5,
+                                "sc": 146,
+                                "sca": 134.5,
+                                "st": 138.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 178,
+                                "bc": 173.5,
+                                "bcm": 165,
+                                "mbc": 166,
+                                "sc": 148,
+                                "sca": 138,
+                                "st": 123.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 191,
+                                "bc": 189.75,
+                                "bcm": 185.75,
+                                "mbc": 188,
+                                "sc": 170.75,
+                                "sca": 171.75,
+                                "st": 153.5
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 195.75,
+                                "bc": 195,
+                                "bcm": 192.75,
+                                "mbc": 193.75,
+                                "sc": 187.25,
+                                "sca": 181.5,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 194.615,
+                                "bc": 193.78,
+                                "bcm": 191.56,
+                                "mbcv": 192.98,
+                                "mbcdnc": 192.24,
+                                "mbc": 193.5,
+                                "sc": 188.23,
+                                "sca": 188.64,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 190,
+                                "bc": 189.5,
+                                "bcm": 180,
+                                "mbc": 185.5,
+                                "sc": 172,
+                                "sca": 164,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 190,
+                                "bc": 188.5,
+                                "bcm": 185.5,
+                                "mbc": 185.5,
+                                "sc": 174,
+                                "sca": 179,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 195.75,
+                                "bc": 195.25,
+                                "bcm": 192.25,
+                                "mbc": 194,
+                                "sc": 182.25,
+                                "sca": 173.75,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 197.5,
+                                "bc": 197.25,
+                                "bcm": 195.75,
+                                "mbc": 195.75,
+                                "sc": 188.75,
+                                "sca": 188,
+                                "st": 170.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 193.35,
+                                "bc": 192.845,
+                                "bcm": 190.78,
+                                "mbcv": 190.98,
+                                "mbcdnc": 191.68,
+                                "mbc": 192.5,
+                                "sc": 186,
+                                "sca": 186.01,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 189,
+                                "bc": 188,
+                                "bcm": 184,
+                                "mbc": 182,
+                                "sc": 168,
+                                "sca": 153,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 189,
+                                "bc": 187.25,
+                                "bcm": 183.5,
+                                "mbc": 184,
+                                "sc": 173.5,
+                                "sca": 168.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 196.25,
+                                "bc": 195.5,
+                                "bcm": 191.5,
+                                "mbc": 194.5,
+                                "sc": 185.5,
+                                "sca": 184.25,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 198,
+                                "bc": 197.75,
+                                "bcm": 195.75,
+                                "mbc": 197.25,
+                                "sc": 192.25,
+                                "sca": 191,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EE",
+                    "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 192.25,
+                                "bc": 191.5,
+                                "bcm": 189.935,
+                                "mbcv": 189.485,
+                                "mbcdnc": 189.825,
+                                "mbc": 191,
+                                "sc": 185.67,
+                                "sca": 182.095,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 186,
+                                "bc": 184.5,
+                                "bcm": 175.5,
+                                "mbc": 179.5,
+                                "sc": 166.5,
+                                "sca": 149,
+                                "st": 118.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 186.5,
+                                "bc": 185.5,
+                                "bcm": 181.5,
+                                "mbc": 181.5,
+                                "sc": 168.5,
+                                "sca": 168.5,
+                                "st": 143
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 195,
+                                "bc": 194.25,
+                                "bcm": 189.75,
+                                "mbc": 193,
+                                "sc": 184.5,
+                                "sca": 180,
+                                "st": 179.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 197.25,
+                                "bc": 197,
+                                "bcm": 196.25,
+                                "mbc": 196.25,
+                                "sc": 191.75,
+                                "sca": 188.25,
+                                "st": 197
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EI",
+                    "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 191,
+                                "bc": 190,
+                                "bcm": 188.78,
+                                "mbcv": 187.02,
+                                "mbcdnc": 189.68,
+                                "mbc": 191,
+                                "sc": 182.07,
+                                "sca": 0,
+                                "st": 177.57
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 182,
+                                "bc": 179.5,
+                                "bcm": 180,
+                                "mbc": 169.5,
+                                "sc": 148,
+                                "sca": 146.75,
+                                "st": 102.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 182,
+                                "bc": 180.5,
+                                "bcm": 178,
+                                "mbc": 174.5,
+                                "sc": 151,
+                                "sca": 155,
+                                "st": 113.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 193,
+                                "bc": 191.5,
+                                "bcm": 186.25,
+                                "mbc": 188.5,
+                                "sc": 170,
+                                "sca": 156,
+                                "st": 163.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 196.5,
+                                "bc": 196,
+                                "bcm": 194,
+                                "mbc": 194,
+                                "sc": 182,
+                                "sca": 189.5,
+                                "st": 172.75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "IB",
+                    "name": "INDUSTRIAL BIO TECHNOLOGY",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 189.385,
+                                "bc": 187.42,
+                                "bcm": 183.73,
+                                "mbcv": 181.33,
+                                "mbcdnc": 183.505,
+                                "mbc": 189.305,
+                                "sc": 176.87,
+                                "sca": 170.46,
+                                "st": 165.935
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 175.5,
+                                "bc": 171,
+                                "bcm": 157,
+                                "mbc": 155,
+                                "sc": 140.5,
+                                "sca": 150.5,
+                                "st": 104
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 177,
+                                "bc": 169.5,
+                                "bcm": 153.5,
+                                "mbc": 155.5,
+                                "sc": 135.5,
+                                "sca": 152,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 189.75,
+                                "bc": 186.5,
+                                "bcm": 181.5,
+                                "mbc": 181.75,
+                                "sc": 158.25,
+                                "sca": 150.5,
+                                "st": 165.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 194.5,
+                                "bc": 192.75,
+                                "bcm": 192.5,
+                                "mbc": 192,
+                                "sc": 178,
+                                "sca": 176.75,
+                                "st": 177
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "IT",
+                    "name": "INFORMATION TECHNOLOGY",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 193.21,
+                                "bc": 192.735,
+                                "bcm": 191.58,
+                                "mbcv": 191,
+                                "mbcdnc": 190.71,
+                                "mbc": 192.715,
+                                "sc": 186.86,
+                                "sca": 184.475,
+                                "st": 181.855
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 189,
+                                "bc": 187.5,
+                                "bcm": 181.5,
+                                "mbc": 182,
+                                "sc": 170.25,
+                                "sca": 161.5,
+                                "st": 132.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 187,
+                                "bc": 186,
+                                "bcm": 180.5,
+                                "mbc": 182,
+                                "sc": 165.5,
+                                "sca": 174.5,
+                                "st": 144.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 194.75,
+                                "bc": 194.25,
+                                "bcm": 191.5,
+                                "mbc": 192.5,
+                                "sc": 177,
+                                "sca": 178.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 196.75,
+                                "bc": 196.5,
+                                "bcm": 195.5,
+                                "mbc": 195,
+                                "sc": 185.5,
+                                "sca": 178.5,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "ME",
+                    "name": "MECHANICAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 188.24,
+                                "bc": 186.725,
+                                "bcm": 182.705,
+                                "mbcv": 184.14,
+                                "mbcdnc": 185.495,
+                                "mbc": 187.5,
+                                "sc": 180.22,
+                                "sca": 180.11,
+                                "st": 172.185
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 179.5,
+                                "bc": 176,
+                                "bcm": 170.5,
+                                "mbc": 168,
+                                "sc": 148,
+                                "sca": 127.5,
+                                "st": 143
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 182,
+                                "bc": 179.5,
+                                "bcm": 175,
+                                "mbc": 173.75,
+                                "sc": 151.5,
+                                "sca": 156,
+                                "st": 152.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 193.75,
+                                "bc": 192.5,
+                                "bcm": 188,
+                                "mbc": 191,
+                                "sc": 176.5,
+                                "sca": 178.25,
+                                "st": 180.25
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 197.25,
+                                "bc": 196.75,
+                                "bcm": 195,
+                                "mbc": 195.75,
+                                "sc": 191,
+                                "sca": 187.25,
+                                "st": 180.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "PR",
+                    "name": "PRODUCTION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 186.055,
+                                "bc": 184,
+                                "bcm": 181.67,
+                                "mbcv": 181.045,
+                                "mbcdnc": 181.24,
+                                "mbc": 185.12,
+                                "sc": 177.5,
+                                "sca": 174.87,
+                                "st": 165.67
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 169.5,
+                                "bc": 162,
+                                "bcm": 162,
+                                "mbc": 163.5,
+                                "sc": 139.5,
+                                "sca": 114.5,
+                                "st": 104
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 175,
+                                "bc": 170.5,
+                                "bcm": 155.5,
+                                "mbc": 165.5,
+                                "sc": 132.5,
+                                "sca": 127,
+                                "st": 118.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 190,
+                                "bc": 188.5,
+                                "bcm": 179.5,
+                                "mbc": 186.25,
+                                "sc": 163.75,
+                                "sca": 148.5,
+                                "st": 134
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 195.25,
+                                "bc": 194.75,
+                                "bcm": 193.5,
+                                "mbc": 192.5,
+                                "sc": 178.75,
+                                "sca": 175.5,
+                                "st": 151.25
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": 1,
+            "description": "University Departments of Anna University, Chennai - CEG Campus, Sardar Patel Road, Guindy, Chennai 600 025",
+            "name": "University Departments of Anna University",
+            "address": "Chennai - CEG Campus",
+            "district": "Chennai",
+            "pincode": "600025",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "13.0484",
+                "longitude": "80.2473"
+            },
+            "branches": [
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 199,
+                                "bc": 198.12,
+                                "bcm": 197.02,
+                                "mbcv": 198,
+                                "mbcdnc": 198,
+                                "mbc": 198.625,
+                                "sc": 196.5,
+                                "sca": 193.935,
+                                "st": 192.165
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 198.25,
+                                "bc": 197,
+                                "bcm": 196.5,
+                                "mbc": 195,
+                                "sc": 192,
+                                "sca": 193.5,
+                                "st": 195.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 198,
+                                "bc": 196.5,
+                                "bcm": 197.5,
+                                "mbc": 194.75,
+                                "sc": 190.25,
+                                "sca": 0,
+                                "st": 171
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 199.5,
+                                "bc": 199.25,
+                                "bcm": 198.75,
+                                "mbc": 198.25,
+                                "sc": 195.5,
+                                "sca": 195.25,
+                                "st": 190.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 199.75,
+                                "bc": 199.5,
+                                "bcm": 199.5,
+                                "mbc": 199,
+                                "sc": 197.5,
+                                "sca": 196.25,
+                                "st": 193.75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 197.99,
+                                "bc": 197.3333333,
+                                "bcm": 196,
+                                "mbcv": 195.78,
+                                "mbcdnc": 195.54,
+                                "mbc": 197.13,
+                                "sc": 194.35,
+                                "sca": 192,
+                                "st": 192.5
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 196.5,
+                                "bc": 194.5,
+                                "bcm": 192,
+                                "mbc": 192,
+                                "sc": 190,
+                                "sca": 186.5,
+                                "st": 189
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 196.75,
+                                "bc": 195.5,
+                                "bcm": 195,
+                                "mbc": 193,
+                                "sc": 191,
+                                "sca": 179.5,
+                                "st": 186
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 199.33,
+                                "bc": 198.75,
+                                "bcm": 198.25,
+                                "mbc": 198.5,
+                                "sc": 195.75,
+                                "sca": 193.25,
+                                "st": 187.25
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 200,
+                                "bc": 199.75,
+                                "bcm": 199.75,
+                                "mbc": 199.25,
+                                "sc": 198.25,
+                                "sca": 197,
+                                "st": 190.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EE",
+                    "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 195.995,
+                                "bc": 195,
+                                "bcm": 193.825,
+                                "mbcv": 193.955,
+                                "mbcdnc": 193.89,
+                                "mbc": 195.46,
+                                "sc": 191,
+                                "sca": 190.385,
+                                "st": 191
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 193.5,
+                                "bc": 191.5,
+                                "bcm": 193,
+                                "mbc": 190.5,
+                                "sc": 189,
+                                "sca": 190,
+                                "st": 176.5
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 195,
+                                "bc": 192,
+                                "bcm": 190,
+                                "mbc": 191.5,
+                                "sc": 184.5,
+                                "sca": 176.5,
+                                "st": 182.75
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 198.25,
+                                "bc": 197.5,
+                                "bcm": 196.75,
+                                "mbc": 197.25,
+                                "sc": 194.75,
+                                "sca": 191.25,
+                                "st": 173.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 199.25,
+                                "bc": 199,
+                                "bcm": 198.5,
+                                "mbc": 198.75,
+                                "sc": 196.5,
+                                "sca": 197,
+                                "st": 193.25
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "code": "ME",
+                    "name": "MECHANICAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 194.615,
+                                "bc": 193.5,
+                                "bcm": 193,
+                                "mbcv": 191,
+                                "mbcdnc": 191.33,
+                                "mbc": 193.54,
+                                "sc": 188.255,
+                                "sca": 186.53,
+                                "st": 181.065
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 192,
+                                "bc": 190,
+                                "bcm": 190,
+                                "mbc": 189.5,
+                                "sc": 183.5,
+                                "sca": 160,
+                                "st": 176
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 192.5,
+                                "bc": 190.5,
+                                "bcm": 189.75,
+                                "mbc": 187.5,
+                                "sc": 183.5,
+                                "sca": 172.5,
+                                "st": 177
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 198,
+                                "bc": 197.25,
+                                "bcm": 195.75,
+                                "mbc": 196.25,
+                                "sc": 192.75,
+                                "sca": 190,
+                                "st": 186.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 199.25,
+                                "bc": 199,
+                                "bcm": 198.5,
+                                "mbc": 198.25,
+                                "sc": 196.5,
+                                "sca": 196.5,
+                                "st": 190.75
+                            }
+                        }
+                    ]
+                }
+
+
+            ]
+        },
+
+        {
+            "code": 4,
+            "description": "University Departments of Anna University, Chennai - MIT Campus, Chrompet, Tambaram Taluk, Chengalpattu District 600 044",
+            "name": "University Departments of Anna University",
+            "address": "Chennai - MIT Campus",
+            "district": "Chengalpattu",
+            "pincode": "600044",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "12.8072",
+                "longitude": "80.0591"
+            },
+            "branches": [
+
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 197.175,
+                                "bc": 196.825,
+                                "bcm": 195.095,
+                                "mbcv": 195.53,
+                                "mbcdnc": 195.33,
+                                "mbc": 197.155,
+                                "sc": 192.5,
+                                "sca": 193.26,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 195,
+                                "bc": 194,
+                                "bcm": 192.5,
+                                "mbc": 191,
+                                "sc": 189.75,
+                                "sca": 184,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 194.5,
+                                "bc": 193.25,
+                                "bcm": 190,
+                                "mbc": 191.5,
+                                "sc": 184.5,
+                                "sca": 190,
+                                "st": 165.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 198,
+                                "bc": 197.5,
+                                "bcm": 197.5,
+                                "mbc": 196.5,
+                                "sc": 192.25,
+                                "sca": 189.25,
+                                "st": 185.5
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 198.75,
+                                "bc": 198.5,
+                                "bcm": 198,
+                                "mbc": 197.75,
+                                "sc": 195,
+                                "sca": 197.5,
+                                "st": 192.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 196,
+                                "bc": 195.515,
+                                "bcm": 193.9,
+                                "mbcv": 193.815,
+                                "mbcdnc": 194,
+                                "mbc": 0,
+                                "sc": 192,
+                                "sca": 190.865,
+                                "st": 186
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 193,
+                                "bc": 192,
+                                "bcm": 190,
+                                "mbc": 190,
+                                "sc": 188.5,
+                                "sca": 173.5,
+                                "st": 182
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 193.5,
+                                "bc": 192,
+                                "bcm": 190,
+                                "mbc": 190,
+                                "sc": 183.75,
+                                "sca": 173.5,
+                                "st": 161.5
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 197.75,
+                                "bc": 197.5,
+                                "bcm": 196.5,
+                                "mbc": 196.75,
+                                "sc": 194,
+                                "sca": 191.75,
+                                "st": 183.5
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 199.25,
+                                "bc": 199,
+                                "bcm": 198,
+                                "mbc": 198.25,
+                                "sc": 196.5,
+                                "sca": 196.25,
+                                "st": 188.25
+                            }
+                        }
+                    ]
+                }
+
+
+            ]
+        },
+
+
+        {
+            "code": 5,
+            "description": "Annamalai University Faculty of Engineering and Technology,Annamalai nagar,Cuddalore 608001",
+            "name": "Annamalai University Faculty of Engineering and Technology",
+            "address": "Annamalai nagar",
+            "district": "Cuddalore",
+            "pincode": "608001",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "11.6327",
+                "longitude": "79.4467"
+            },
+            "branches": [
+                {
+                    "code": "AM",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING)",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 182.46,
+                                "bc": 174.535,
+                                "bcm": 171.92,
+                                "mbcv": 174.705,
+                                "mbcdnc": 168.055,
+                                "mbc": 180.32,
+                                "sc": 166.925,
+                                "sca": 0,
+                                "st": 141.54
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 133,
+                                "bc": 86.5,
+                                "bcm": 97.5,
+                                "mbc": 92,
+                                "sc": 86,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 152.5,
+                                "bc": 126.5,
+                                "bcm": 109.5,
+                                "mbc": 110.5,
+                                "sc": 98.5,
+                                "sca": 110.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "CE",
+                    "name": "CIVIL  ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 169.055,
+                                "bc": 152.49,
+                                "bcm": 102.75,
+                                "mbcv": 143.5,
+                                "mbcdnc": 163.935,
+                                "mbc": 155.19,
+                                "sc": 159.755,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 109,
+                                "bc": 88,
+                                "bcm": 0,
+                                "mbc": 88.5,
+                                "sc": 80,
+                                "sca": 99.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 116.5,
+                                "bc": 85,
+                                "bcm": 111.5,
+                                "mbc": 83,
+                                "sc": 96.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "CF",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 176.955,
+                                "bc": 172.32,
+                                "bcm": 169.715,
+                                "mbcv": 173.67,
+                                "mbcdnc": 167.59,
+                                "mbc": 176.36,
+                                "sc": 165.265,
+                                "sca": 129,
+                                "st": 159.11
+                            }
+                        },
+                        {
+                            "year": 2020
+                        },
+                        {
+                            "year": 2019
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "CH",
+                    "name": "CHEMICAL  ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 168.255,
+                                "bc": 149.7,
+                                "bcm": 140.55,
+                                "mbcv": 158.625,
+                                "mbcdnc": 153.425,
+                                "mbc": 155.89,
+                                "sc": 153.405,
+                                "sca": 166.55,
+                                "st": 137.365
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 127.5,
+                                "bc": 91,
+                                "bcm": 0,
+                                "mbc": 88.5,
+                                "sc": 81.5,
+                                "sca": 100,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 155,
+                                "bc": 116.5,
+                                "bcm": 136.5,
+                                "mbc": 107,
+                                "sc": 113,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 184.185,
+                                "bc": 176.11,
+                                "bcm": 176.935,
+                                "mbcv": 176.5,
+                                "mbcdnc": 175.495,
+                                "mbc": 179.725,
+                                "sc": 167.965,
+                                "sca": 161.405,
+                                "st": 163.32
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 128,
+                                "bc": 91.5,
+                                "bcm": 98,
+                                "mbc": 104,
+                                "sc": 91,
+                                "sca": 118,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 139,
+                                "bc": 106,
+                                "bcm": 81,
+                                "mbc": 115.5,
+                                "sc": 112,
+                                "sca": 107,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "CZ",
+                    "name": "CIVIL AND STRUCTUTURAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 157.185,
+                                "bc": 121,
+                                "bcm": 143.9,
+                                "mbcv": 141.5,
+                                "mbcdnc": 119.955,
+                                "mbc": 144,
+                                "sc": 150.44,
+                                "sca": 155.02,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 94,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 104.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 87.5,
+                                "sc": 82,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 177.3,
+                                "bc": 172.065,
+                                "bcm": 167.5,
+                                "mbcv": 169.67,
+                                "mbcdnc": 171.31,
+                                "mbc": 167.5,
+                                "sc": 167.205,
+                                "sca": 126.67,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 125,
+                                "bc": 83,
+                                "bcm": 84,
+                                "mbc": 100,
+                                "sc": 86.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 163,
+                                "bc": 120.5,
+                                "bcm": 94,
+                                "mbc": 120.5,
+                                "sc": 119,
+                                "sca": 95.5,
+                                "st": 91
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "EE",
+                    "name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 170.25,
+                                "bc": 161.075,
+                                "bcm": 162.49,
+                                "mbcv": 162.505,
+                                "mbcdnc": 158.905,
+                                "mbc": 159.615,
+                                "sc": 157.23,
+                                "sca": 145.86,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 98.5,
+                                "bc": 81,
+                                "bcm": 88,
+                                "mbc": 80.5,
+                                "sc": 80,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 115,
+                                "bc": 84,
+                                "bcm": 109,
+                                "mbc": 87,
+                                "sc": 91.5,
+                                "sca": 94,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "EI",
+                    "name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 164.055,
+                                "bc": 157.22,
+                                "bcm": 154,
+                                "mbcv": 150.5,
+                                "mbcdnc": 151.85,
+                                "mbc": 0,
+                                "sc": 152.25,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 81.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 81.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 98.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "IT",
+                    "name": "INFORMATION TECHNOLOGY",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 180.165,
+                                "bc": 174.5,
+                                "bcm": 168.135,
+                                "mbcv": 172.805,
+                                "mbcdnc": 168.065,
+                                "mbc": 176.09,
+                                "sc": 167.46,
+                                "sca": 112.5,
+                                "st": 102.5
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 113,
+                                "bc": 85.5,
+                                "bcm": 89.5,
+                                "mbc": 81,
+                                "sc": 88.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 125,
+                                "bc": 83,
+                                "bcm": 80.5,
+                                "mbc": 88.5,
+                                "sc": 93.5,
+                                "sca": 106.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "ME",
+                    "name": "MECHANICAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 160.58,
+                                "bc": 122.99,
+                                "bcm": 142.275,
+                                "mbcv": 147.035,
+                                "mbcdnc": 136.24,
+                                "mbc": 136.425,
+                                "sc": 153.45,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 98.5,
+                                "bc": 81,
+                                "bcm": 86.5,
+                                "mbc": 83,
+                                "sc": 83.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 120.5,
+                                "bc": 82.5,
+                                "bcm": 94,
+                                "mbc": 94,
+                                "sc": 104.5,
+                                "sca": 86,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                },
+                {
+                    "code": "MM",
+                    "name": "MECHANICAL ENGINEERING (MANUFACTURING)",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 153.47,
+                                "bc": 111,
+                                "bcm": 149.33,
+                                "mbcv": 140.87,
+                                "mbcdnc": 143.74,
+                                "mbc": 0,
+                                "sc": 145.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 80,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 82.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 80,
+                                "sc": 79,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018
+                        },
+                        {
+                            "year": 2017
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": 1013,
+            "description": "University College of Engineering, Villupuram, Kakuppam, Villupuram District 605103 ",
+            "name": "University College of Engineering",
+            "address": "Villupuram",
+            "district": "Villupuram",
+            "pincode": "605103",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "11.8712",
+                "longitude": "79.5294"
+            },
+            "branches": [
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 182.32,
+                                "bc": 175.845,
+                                "bcm": 179.295,
+                                "mbcv": 177.42,
+                                "mbcdnc": 178.01,
+                                "mbc": 174.495,
+                                "sc": 169.78,
+                                "sca": 157.24,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 148,
+                                "bc": 138,
+                                "bcm": 101.5,
+                                "mbc": 127,
+                                "sc": 112,
+                                "sca": 110.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 150.5,
+                                "bc": 133.5,
+                                "bcm": 122,
+                                "mbc": 121,
+                                "sc": 109,
+                                "sca": 84.5,
+                                "st": 103
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 175,
+                                "bc": 161.75,
+                                "bcm": 159.25,
+                                "mbc": 163.5,
+                                "sc": 143.5,
+                                "sca": 0,
+                                "st": 118
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 179.25,
+                                "bc": 174,
+                                "bcm": 168.75,
+                                "mbc": 175.5,
+                                "sc": 162.75,
+                                "sca": 163.25,
+                                "st": 149.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 175.95,
+                                "bc": 171.22,
+                                "bcm": 166.615,
+                                "mbcv": 174.36,
+                                "mbcdnc": 168.33,
+                                "mbc": 174.67,
+                                "sc": 160.01,
+                                "sca": 162.01,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 128,
+                                "bc": 94.5,
+                                "bcm": 99,
+                                "mbc": 111,
+                                "sc": 83.5,
+                                "sca": 113.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 140.5,
+                                "bc": 109.5,
+                                "bcm": 104.5,
+                                "mbc": 108.5,
+                                "sc": 98,
+                                "sca": 105.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 173.5,
+                                "bc": 148,
+                                "bcm": 162.5,
+                                "mbc": 165.5,
+                                "sc": 139.5,
+                                "sca": 157.75,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 183.75,
+                                "bc": 176.75,
+                                "bcm": 177.75,
+                                "mbc": 180.25,
+                                "sc": 165.5,
+                                "sca": 138,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "IT",
+                    "name": "INFORMATION TECHNOLOGY",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 179.065,
+                                "bc": 174.935,
+                                "bcm": 171.1,
+                                "mbcv": 174.86,
+                                "mbcdnc": 170,
+                                "mbc": 177.525,
+                                "sc": 169.5,
+                                "sca": 161.32,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 136.5,
+                                "bc": 118.5,
+                                "bcm": 123,
+                                "mbc": 121.5,
+                                "sc": 98,
+                                "sca": 96,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 138.5,
+                                "bc": 108,
+                                "bcm": 0,
+                                "mbc": 122.5,
+                                "sc": 98.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 165.25,
+                                "bc": 150.75,
+                                "bcm": 158.75,
+                                "mbc": 153.75,
+                                "sc": 136.75,
+                                "sca": 90.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 173.75,
+                                "bc": 165.5,
+                                "bcm": 145.25,
+                                "mbc": 163.25,
+                                "sc": 156.75,
+                                "sca": 134.75,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "ME",
+                    "name": "MECHANICAL ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 161.98,
+                                "bc": 145.46,
+                                "bcm": 156.55,
+                                "mbcv": 159.615,
+                                "mbcdnc": 129.5,
+                                "mbc": 118.85,
+                                "sc": 149.9,
+                                "sca": 136.615,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 107.5,
+                                "bc": 89.5,
+                                "bcm": 0,
+                                "mbc": 83,
+                                "sc": 80,
+                                "sca": 85.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 127,
+                                "bc": 81,
+                                "bcm": 91,
+                                "mbc": 103.5,
+                                "sc": 81,
+                                "sca": 98,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 168.75,
+                                "bc": 157.25,
+                                "bcm": 162.5,
+                                "mbc": 160.5,
+                                "sc": 130.75,
+                                "sca": 136.75,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 180.25,
+                                "bc": 176,
+                                "bcm": 174,
+                                "mbc": 176.5,
+                                "sc": 167.5,
+                                "sca": 144.25,
+                                "st": 175.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "XM",
+                    "name": "MECHANICAL ENGINEERING (TAMIL MEDIUM)",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 86,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 113.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 101,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 87,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 125,
+                                "bc": 92.75,
+                                "bcm": 0,
+                                "mbc": 92.5,
+                                "sc": 96,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": 1014,
+            "description": "University College of Engineering, Tindivanam, Melpakkam, Tindivanam, Villupuram District 604001 ",
+            "name": "University College of Engineering",
+            "address": "Tindivanam",
+            "district": "Villupuram",
+            "pincode": "604001",
+            "state": "TamilNadu",
+            "location": {
+                "latitude": "12.2272",
+                "longitude": "79.6529"
+            },
+            "branches": [
+                {
+                    "code": "CE",
+                    "name": "CIVIL  ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 159.31,
+                                "bc": 127,
+                                "bcm": 149,
+                                "mbcv": 150.87,
+                                "mbcdnc": 136.135,
+                                "mbc": 142.925,
+                                "sc": 146.285,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 80,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 87,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 140.5,
+                                "bc": 94,
+                                "bcm": 95,
+                                "mbc": 125.5,
+                                "sc": 100.5,
+                                "sca": 0,
+                                "st": 116.75
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 174.75,
+                                "bc": 158.75,
+                                "bcm": 156.5,
+                                "mbc": 163.75,
+                                "sc": 161.5,
+                                "sca": 122.25,
+                                "st": 139.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "CS",
+                    "name": "COMPUTER SCIENCE AND ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 177.89,
+                                "bc": 174.01,
+                                "bcm": 170.55,
+                                "mbcv": 174.385,
+                                "mbcdnc": 172.22,
+                                "mbc": 177.495,
+                                "sc": 167,
+                                "sca": 149.845,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 143.5,
+                                "bc": 112,
+                                "bcm": 82,
+                                "mbc": 114.5,
+                                "sc": 103,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 130.5,
+                                "bc": 113.5,
+                                "bcm": 104.5,
+                                "mbc": 118,
+                                "sc": 100.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 162,
+                                "bc": 145,
+                                "bcm": 120.25,
+                                "mbc": 143,
+                                "sc": 132.75,
+                                "sca": 0,
+                                "st": 97.5
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 173.5,
+                                "bc": 167,
+                                "bcm": 156,
+                                "mbc": 168.25,
+                                "sc": 161.25,
+                                "sca": 164.5,
+                                "st": 139.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "EC",
+                    "name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 172.845,
+                                "bc": 168.58,
+                                "bcm": 158.3,
+                                "mbcv": 167.78,
+                                "mbcdnc": 161.54,
+                                "mbc": 164,
+                                "sc": 160.635,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 118,
+                                "bc": 80,
+                                "bcm": 86,
+                                "mbc": 86,
+                                "sc": 81,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 116,
+                                "bc": 93,
+                                "bcm": 98.5,
+                                "mbc": 87.5,
+                                "sc": 94.5,
+                                "sca": 122.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 165.5,
+                                "bc": 140.25,
+                                "bcm": 111.5,
+                                "mbc": 152.25,
+                                "sc": 115.75,
+                                "sca": 122,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 180.25,
+                                "bc": 172.5,
+                                "bcm": 160.25,
+                                "mbc": 172.75,
+                                "sc": 161.75,
+                                "sca": 118,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "IT",
+                    "name": "INFORMATION TECHNOLOGY",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 176.31,
+                                "bc": 172.65,
+                                "bcm": 162.35,
+                                "mbcv": 173.6666667,
+                                "mbcdnc": 170.32,
+                                "mbc": 168.87,
+                                "sc": 166.085,
+                                "sca": 158.81,
+                                "st": 152.92
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 118,
+                                "bc": 106,
+                                "bcm": 86,
+                                "mbc": 111,
+                                "sc": 95,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 116.25,
+                                "bc": 87.5,
+                                "bcm": 94,
+                                "mbc": 110.5,
+                                "sc": 89.5,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 157.25,
+                                "bc": 136.75,
+                                "bcm": 109,
+                                "mbc": 146.75,
+                                "sc": 118.75,
+                                "sca": 127.5,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 162.5,
+                                "bc": 155.75,
+                                "bcm": 151,
+                                "mbc": 157,
+                                "sc": 152.75,
+                                "sca": 113.75,
+                                "st": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "XC",
+                    "name": "CIVIL ENGINEERING (TAMIL MEDIUM)",
+                    "cutoffs": [
+                        {
+                            "year": 2021,
+                            "cutOff": {
+                                "oc": 140,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbcv": 0,
+                                "mbcdnc": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2020,
+                            "cutOff": {
+                                "oc": 88.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2019,
+                            "cutOff": {
+                                "oc": 85.5,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2018,
+                            "cutOff": {
+                                "oc": 122.25,
+                                "bc": 0,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        },
+                        {
+                            "year": 2017,
+                            "cutOff": {
+                                "oc": 100.25,
+                                "bc": 90.25,
+                                "bcm": 0,
+                                "mbc": 0,
+                                "sc": 0,
+                                "sca": 0,
+                                "st": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+       
+    ]
+}

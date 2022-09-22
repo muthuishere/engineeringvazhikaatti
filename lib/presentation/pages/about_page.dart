@@ -1,18 +1,16 @@
-import 'package:engineeringvazhikaatti/entities/models/caste.dart';
-import 'package:engineeringvazhikaatti/entities/settings.dart';
-import 'package:engineeringvazhikaatti/shared/string_extension.dart';
-import 'package:engineeringvazhikaatti/usecases/settings_updater.dart';
+
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
-import 'package:reactive_forms/reactive_forms.dart';
+
+import '../../stores/settings_store.dart';
 
 class AboutPage extends StatelessWidget {
-  late final SettingsUpdater settingsUpdater;
+  late final SettingsStore settingsUpdater;
   late var appform = null;
 
   AboutPage({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
-    settingsUpdater = injector.get<SettingsUpdater>();
+    settingsUpdater = injector.get<SettingsStore>();
   }
 
   String longText =

@@ -1,64 +1,88 @@
-import 'dart:convert';
 
-import 'package:engineeringvazhikaatti/entities/available_colleges_response.dart';
-import 'package:engineeringvazhikaatti/entities/containers/list_container.dart';
-import 'package:engineeringvazhikaatti/entities/filter.dart';
-import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
-import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
 import 'package:rxdart/rxdart.dart';
+
+import '../entities/search_filter.dart';
 
 class SearchFilterStore {
 
-  bool searchByDistrictsEnabled = true;
-  var searchFilter =Filter();
-  String searchMsg ="";
-  BehaviorSubject<bool> _searchByDistricts =
-      new BehaviorSubject<bool>();
+  BehaviorSubject<SearchFilter> _searchFilterObserver =
+      BehaviorSubject<SearchFilter>.seeded(SearchFilter());
 
 
-  toggle() {
-    searchByDistrictsEnabled=!searchByDistrictsEnabled;
+  String filterMessageForDistricts(List<String> branchCodes,
+      List<String> districts) {
+    return "Searching on " +
+        branchCodes.length.toString() +
+        " branches &  " +
+        districts.length.toString() +       " districts ";
 
-    _searchByDistricts.sink.add(searchByDistrictsEnabled);
   }
 
+
+
+  notify(SearchFilter input){
+    // input.generateMessage();
+    _searchFilterObserver.sink.add(input);
+  }
+
+  toggle() {
+    var toggledSearchByDistricts = !getSearchFilter().searchByDistricts;
+    notify(getSearchFilter().copyWith(searchByDistricts:toggledSearchByDistricts ));
+  }
+
+
+  getSearchFilter(){
+    return _searchFilterObserver.value;
+  }
 
 
 
   dispose(){
-    _searchByDistricts.close();
-  }
-  SearchFilterStore() {
-    _searchByDistricts.sink.add(searchByDistrictsEnabled);
+    _searchFilterObserver.close();
   }
 
-  BehaviorSubject<bool>  searchByDistrictChanges(){
 
-    return _searchByDistricts;
-  }
 
-  void send(Filter searchFilter) {
-    this.searchFilter=searchFilter;
-  }
 
   void setDistanceInKms(value) {
-    searchFilter.distanceInKms=value;
+
+    notify(getSearchFilter().copyWith(distanceInKms:value ));
+  }
+
+  void setYear(value) {
+
+    notify(getSearchFilter().copyWith(year:value ));
   }
 
   void setSearchByDistricts(value) {
-    searchByDistrictsEnabled=value;
 
+    notify(getSearchFilter().copyWith(searchByDistricts:value ));
+  }
+  void setSearchMessage(value) {
+
+    notify(getSearchFilter().copyWith(message:value ));
+  }
+
+  void reload() {
+    notify(getSearchFilter().copy());
   }
 
   bool hasDistrictsSelected(){
-    return this.searchFilter.districts.isNotEmpty;
+    return getSearchFilter().districts.isNotEmpty;
   }
 
   bool hasDistanceInKmsSelected(){
-    return this.searchFilter.distanceInKms! > 5;
+    return getSearchFilter().distanceInKms! > 5;
   }
 
 
+  Stream<SearchFilter>  listener(){
+    return _searchFilterObserver.stream;
+  }
+
+  void updateWith(SearchFilter searchFilter) {
+    notify(searchFilter);
+  }
 
 
 

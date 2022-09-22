@@ -1,5 +1,5 @@
 import 'package:engineeringvazhikaatti/entities/settings.dart';
-import 'package:engineeringvazhikaatti/entities/models/caste.dart';
+import 'package:engineeringvazhikaatti/entities/models/request/community_group.dart';
 import 'package:engineeringvazhikaatti/usecases/search_colleges.dart';
 import 'package:test/test.dart';
 

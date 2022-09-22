@@ -5,17 +5,33 @@ class ListContainer<T>{
   DataStatus dataStatus = DataStatus.LOADING;
   String message = "";
 
+  @override
+  String toString() {
+    return toJson().toString();
+  }
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.items != null) {
+      data['items'] = this.items.map((v) => v?.toString()).toList();
+    }
+
+      data['dataStatus'] =dataStatus.toString();
+      data['message'] =message.toString();
+
+    return data;
+  }
+
   setLoading() {
     dataStatus = DataStatus.LOADING;
     items = List.empty();
   }
 
-  setData(List<T> availableColleges) {
+  setData(List<T> items) {
     dataStatus = DataStatus.SUCCESS;
-    this.items = availableColleges;
+    this.items = items;
   }
 
-  setStatusMessage(String message) {
+  setError(String message) {
     dataStatus = DataStatus.ERROR;
     this.message = message;
     items = List.empty();
@@ -33,10 +49,10 @@ class ListContainer<T>{
     return res;
   }
 
-  static ListContainer<T> fromMessage<T>(String msg) {
+  static ListContainer<T> withError<T>(String msg) {
     var res = ListContainer<T>();
 
-      res.setStatusMessage(msg);
+      res.setError(msg);
 
     return res;
   }

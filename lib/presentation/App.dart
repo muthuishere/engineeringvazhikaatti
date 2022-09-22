@@ -14,7 +14,7 @@ class App extends StatelessWidget {
 
 
     return MaterialApp(
-        title: 'Engineering Vazhikatti 2021',
+        title: 'Engineering Vazhikatti 2022',
         theme: ThemeData(
             fontFamily: 'OpenSans'
         ),

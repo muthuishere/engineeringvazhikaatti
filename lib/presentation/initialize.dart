@@ -1,27 +1,29 @@
 import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
-import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
-import 'package:engineeringvazhikaatti/usecases/location_updater.dart';
+import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
 
+import '../stores/location_store.dart';
 import 'gps/gps_service.dart';
 import 'gps/gps_status.dart';
 
 class Initialize extends StatelessWidget {
-  late final AvailableCollegesStore? availableCollegesStore;
+
   late final DashboardApi? dashboardApi;
-  late final LocationUpdater? locationUpdater;
+  late final LocationStore locationUpdater;
   late final AppNotification appNotification;
   late final  GpsService gpsService;
-
+  late final SearchFilterStore searchFilterStore;
 
   Initialize({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
-    availableCollegesStore = injector.get<AvailableCollegesStore>();
-    dashboardApi = injector.get<DashboardApi>();
-    locationUpdater = injector.get<LocationUpdater>();
+
+    searchFilterStore = injector.get<SearchFilterStore>();
+    locationUpdater = injector.get<LocationStore>();
      gpsService = GpsService();
   }
 
@@ -32,12 +34,12 @@ class Initialize extends StatelessWidget {
   // _DashboardState createState() => _DashboardState();
 
   void reload() {
-    dashboardApi?.updateDashboard();
+    searchFilterStore.reload();
   }
 
   void updateGps(BuildContext context) {
     gpsService.retrieveLocation().then((position) {
-      locationUpdater?.setLocation(position.latitude, position.longitude);
+      locationUpdater.setLocation(position.latitude, position.longitude);
       Navigator.pushReplacementNamed(context, '/home');
     }).catchError((msg) {
       appNotification.showError(msg);

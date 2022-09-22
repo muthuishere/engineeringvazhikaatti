@@ -10,4 +10,10 @@ extension IterableExtension<T> on Iterable<T> {
     }
     return false;
   }
+
+
+}
+
+extension IterableToMap<K, V> on Iterable<MapEntry<K, V>> {
+  Map<K, V> toMap() => Map<K, V>.fromEntries(this);
 }
