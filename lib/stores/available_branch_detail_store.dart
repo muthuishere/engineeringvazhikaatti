@@ -4,6 +4,7 @@ import 'package:collection/collection.dart';
 import 'package:engineeringvazhikaatti/entities/containers/list_container.dart';
 import 'package:engineeringvazhikaatti/entities/models/request/college_with_branch.dart';
 import 'package:engineeringvazhikaatti/entities/models/request/community_group.dart';
+import 'package:engineeringvazhikaatti/stores/AppDefaultConfig.dart';
 import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
 import 'package:engineeringvazhikaatti/stores/settings_store.dart';
 import 'package:loggy/loggy.dart';
@@ -66,7 +67,7 @@ class AvailableBranchDetailStore with  UiLoggy {
   List<BranchWithCollege> search(SearchFilter searchFilter, Settings settings) {
 
 
-      bool Function(BranchWithCollege) cutoffWithinRange = (branch) =>branch.cutoff <= settings.getCutOff();
+      bool Function(BranchWithCollege) cutoffWithinRange = (branch) =>branch.cutoff <= settings.getCutOff()+AppDefaultConfig.getAllowedRange();
 
 
     logInfo("search.login() searchFilter.searchByDistricts"+searchFilter.toString());

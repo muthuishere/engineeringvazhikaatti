@@ -3,10 +3,12 @@ import 'package:engineeringvazhikaatti/entities/datastatus.dart';
 import 'package:engineeringvazhikaatti/entities/models/request/college_location.dart';
 import 'package:engineeringvazhikaatti/entities/models/response/branch_with_college.dart';
 import 'package:engineeringvazhikaatti/entities/results/available_college.dart';
+import 'package:engineeringvazhikaatti/entities/settings.dart';
 import 'package:engineeringvazhikaatti/presentation/home/widgets/branch_with_college_widget.dart';
 import 'package:engineeringvazhikaatti/presentation/home/widgets/loading_indicator.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
 import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
+import 'package:engineeringvazhikaatti/stores/settings_store.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
@@ -23,18 +25,20 @@ class Dashboard extends StatelessWidget {
   late final LocationStore locationStore;
   late final AppNotification appNotification;
   late final SearchFilterStore searchFilterStore;
+  late final SettingsStore settingsStore;
   late final GpsService gpsService;
 
   Dashboard({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
 
     availableBranchDetailStore = injector.get<AvailableBranchDetailStore>();
+    settingsStore = injector.get<SettingsStore>();
     locationStore = injector.get<LocationStore>();
     searchFilterStore = injector.get<SearchFilterStore>();
     gpsService = GpsService();
   }
 
-  final String title = "Engg Vazhikatti";
+  final String title = "Vazhikatti";
 
   void reload() {
     searchFilterStore.reload();
@@ -133,7 +137,17 @@ class Dashboard extends StatelessWidget {
         appBar: AppBar(
           // Here we take the value from the Dashboard object that was created by
           // the App.build method, and use it to set our appbar title.
-          title: Text(title),
+          title:  StreamBuilder<Settings>(
+        stream: settingsStore.listener(),
+    builder: (context, snapshot) {
+      if(snapshot.hasData) {
+          return Text("Your Cutoff - " + snapshot.data!.getCutOff().toString() + "");
+
+      }
+      else {
+        return Text(title);
+      }
+    }),
           leading: location(context),
           actions: <Widget>[
             IconButton(
@@ -178,7 +192,7 @@ class Dashboard extends StatelessWidget {
       reload();
     }).catchError((msg) {
       appNotification.showError(msg);
-      print("error" + msg.toString());
+      // print("error" + msg.toString());
     });
   }
 }

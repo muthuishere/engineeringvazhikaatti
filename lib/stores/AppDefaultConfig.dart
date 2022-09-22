@@ -7,6 +7,9 @@ class AppDefaultConfig{
   static int getDefaultYear() {
     return getAvailableYears().first;
   }
+  static int getAllowedRange() {
+    return 2;
+  }
   static List<String> getDefaultBranches() {
     return ["CS"];
   }

@@ -9,18 +9,20 @@ import 'presentation/App.dart';
 import 'presentation/home/dashboard.dart';
 
 void main() async {
-  Loggy.initLoggy(
-    logPrinter: const PrettyPrinter(
-      showColors: true,
-    ),
-    logOptions: const LogOptions(
-      LogLevel.all,
-      stackTraceLevel: LogLevel.off,
-    ),
-    // filters: [
-    //   BlacklistFilter([BlacklistedLoggy]),
-    // ],
-  );
+  if (kDebugMode)
+    Loggy.initLoggy(
+      logPrinter: const PrettyPrinter(
+        showColors: true,
+      ),
+      logOptions: const LogOptions(
+        LogLevel.all,
+        stackTraceLevel: LogLevel.off,
+      ),
+      // filters: [
+      //   BlacklistFilter([BlacklistedLoggy]),
+      // ],
+    );
+
   WidgetsFlutterBinding.ensureInitialized();
   await setPreferredOrientations();
  await di.init();

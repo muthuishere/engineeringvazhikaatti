@@ -17,7 +17,7 @@ late final List<BranchWithCollege> items;
     availableBranchDetailStore = injector.get<AvailableBranchDetailStore>();
     items= availableBranchDetailStore.getAllBranchesIn(branchWithCollege,2021);
     // Get college with branches widget
-print(items.length);
+
 
   }
 

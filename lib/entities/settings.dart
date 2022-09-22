@@ -1,5 +1,6 @@
 
 
+import 'package:engineeringvazhikaatti/stores/AppDefaultConfig.dart';
 import 'package:loggy/loggy.dart';
 
 import 'cutoffstatus.dart';
@@ -54,10 +55,12 @@ class Settings with UiLoggy{
   CutoffStatus getCutOffStatusWith(double input){
     var difference =  getCutOff() - input;
 
+    int lowestRange = AppDefaultConfig.getAllowedRange() * -1;
+    int highestRange = AppDefaultConfig.getAllowedRange() ;
     // logInfo("difference is $difference");
-    if(difference < -2)
+    if(difference < lowestRange)
       return CutoffStatus.RED;
-    else if(difference >= -2 && difference <= 2)
+    else if(difference >= lowestRange && difference <= highestRange)
       return CutoffStatus.YELLOW;
     else
       return CutoffStatus.GREEN;
