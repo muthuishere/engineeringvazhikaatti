@@ -3,21 +3,27 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "43801d8af182576e0c128f1ed3cb955f",
-"assets/assets/allbranches.json": "b336281bbaa092194436be7ef471cec7",
-"assets/assets/colleges.json": "94d87674ce3340efb87f0847cf855074",
-"assets/assets/districts.json": "5013161681a69edde0b8cb0b11f16fff",
+  "assets/AssetManifest.json": "7e7d5a483622837b9b9f419c4a9953f3",
+"assets/assets/finaldelivery.json": "661569c09481171662d9094196c6a138",
 "assets/assets/fonts/OpenSans-Bold.ttf": "0062c34665a3fc0f2278cd4e955702ec",
 "assets/assets/fonts/OpenSans-Light.ttf": "f51d593e2ab59a38dd41cc76a3f88460",
 "assets/assets/fonts/OpenSans-Regular.ttf": "5a798cdadc7cd321e3f72425b70bface",
+"assets/assets/images/blackbg.png": "79616297a2a72ad092c5b607b4baf177",
+"assets/assets/images/greenbg.png": "d1759a631bd9c3376a9ced99410652c1",
 "assets/assets/images/icon_128.png": "39bec2257462be55532c04d07706939f",
 "assets/assets/images/main_image.png": "26177034f112b09dd2d1a6a50e47cf52",
-"assets/assets/pincodes.json": "0ae74ea4adf60d50e4783b96fa428fc0",
+"assets/assets/images/redbg.png": "c57d51beb27add97797aabd13bdc127c",
+"assets/assets/images/yellowbg.png": "4a6423a79138d8feb3ace62a621a0dc3",
 "assets/FontManifest.json": "ffe42c25c79de54e7efb0f3586d432b1",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "c3015cc75d0cbfd88deef028f33d48a4",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "5dfe2b697c55cfbd3cf7606aa964d4d8",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "d81dac4b0f13300ab65034e59d06049c",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/android-icon-144x144.png": "4f4aa85154a31bf1067a770366c60389",
 "icons/android-icon-192x192.png": "fd7eb57bc3b9fe0d73d51bd9cbea1554",
 "icons/android-icon-36x36.png": "ef49ca92d1a029e4a5fe75f25aea88a1",
@@ -44,19 +50,18 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "27a5e65ab2637e4d878ec098c813f7cf",
 "icons/ms-icon-310x310.png": "2c47a9502092482f6696cd95ca1ef047",
 "icons/ms-icon-70x70.png": "5dde95da72b808f21a3e49fc11f5fbec",
-"index.html": "bac4a19972ab6e34bb53adec71fbef95",
-"/": "bac4a19972ab6e34bb53adec71fbef95",
-"main.dart.js": "1e397b71103281bfb4640d96fab01f4b",
+"index.html": "679c6d02a510804dd1b7043c867ba7df",
+"/": "679c6d02a510804dd1b7043c867ba7df",
+"main.dart.js": "7b83ee689094b24e47d97f3b0ae30b73",
 "manifest.json": "b0adbbf46ddf483bed3b93d2862ee1c1",
 "privacy_policy.html": "4c0869e99d62fbd13088b99f00db0f56",
-"version.json": "f8461fd58c648053cb8673e119594f02"
+"version.json": "870d3ff80a70fdecd0ef6e8b24d53efa"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
