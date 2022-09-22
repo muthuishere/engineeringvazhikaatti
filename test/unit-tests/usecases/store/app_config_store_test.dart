@@ -7,7 +7,7 @@ import '../../../shared/TestDataGenerator.dart';
 void main() {
 
   test('App Config store should load all districts well', () {
-   var appConfigStore = TestDataGenerator.getAppConfigStore();
+   var appConfigStore = TestDataGenerator.getFullAppConfigStore();
 
     expect(appConfigStore.getBranches().length,94);
     expect(appConfigStore.getBranches()[0].name,"Civil Engineering");

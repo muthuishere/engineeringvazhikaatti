@@ -1,10 +1,11 @@
-import 'package:engineeringvazhikaatti/entities/filter.dart';
-import 'package:engineeringvazhikaatti/entrypoints/dashboard_api.dart';
+import 'package:dropdown_plus/dropdown_plus.dart';
+import 'package:engineeringvazhikaatti/entities/distance_option.dart';
+import 'package:engineeringvazhikaatti/entities/models/request/college_location.dart';
+import 'package:engineeringvazhikaatti/entities/search_filter.dart';
 import 'package:engineeringvazhikaatti/presentation/shared/appnotification.dart';
 import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
+import 'package:engineeringvazhikaatti/stores/location_store.dart';
 import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
-import 'package:engineeringvazhikaatti/usecases/location_updater.dart';
-import 'package:engineeringvazhikaatti/usecases/search_filter_updater.dart';
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
 import 'package:reactive_forms/reactive_forms.dart';
@@ -14,14 +15,13 @@ import '../shared/distance_selector.dart';
 import '../shared/district_selector.dart';
 
 class FilterPanel extends StatelessWidget {
-  late final SearchFilterStore? searchFilterStore;
-  late final AppConfigStore? appConfigStore;
-  late final SearchFilterUpdater? searchFilterUpdater;
-  late final DashboardApi? dashboardApi;
-  late final LocationUpdater? locationUpdater;
+  late final SearchFilterStore searchFilterStore;
+  late final AppConfigStore appConfigStore;
+
+  late final LocationStore locationStore;
   late final appNotification;
   bool canShowDistrict = false;
-  late var appform = null;
+  late var appform;
   var branchesDetail = BranchSelector();
   var distancesDetail = DistanceSelector();
   var districtsDetail = DistrictSelector();
@@ -29,21 +29,23 @@ class FilterPanel extends StatelessWidget {
   FilterPanel({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
     searchFilterStore = injector.get<SearchFilterStore>();
-    searchFilterUpdater = injector.get<SearchFilterUpdater>();
-    dashboardApi = injector.get<DashboardApi>();
-    locationUpdater = injector.get<LocationUpdater>();
+    locationStore = injector.get<LocationStore>();
     appConfigStore = injector.get<AppConfigStore>();
   }
 
   getFormGroupForSearchByDistricts() {
-    Filter searchFilter = searchFilterUpdater!.searchFilter;
+    SearchFilter searchFilter = searchFilterStore.getSearchFilter();
     return () => fb.group(<String, Object>{
           'searchByDistricts': FormControl<bool>(
-            value: searchFilterStore!.searchByDistrictsEnabled,
+            value: searchFilter.searchByDistricts,
             validators: [],
           ),
           'distanceInKms': FormControl<int>(
             value: searchFilter.distanceInKms,
+            validators: [],
+          ),
+          'year': FormControl<int>(
+            value: searchFilter.year,
             validators: [],
           ),
           'selectedDistricts': FormControl<List<String>>(
@@ -57,51 +59,52 @@ class FilterPanel extends StatelessWidget {
         });
   }
 
-  updateInStore(FormGroup form){
-   // print(form.value);
-    searchFilterUpdater!.setDistricts(form.control('selectedDistricts').value);
-    searchFilterUpdater!.setBranchCodes(form.control('selectedBranches').value);
-    searchFilterUpdater!.setDistanceInKms(form.control('distanceInKms').value);
-    searchFilterUpdater!.setSearchByDistricts(form.control('searchByDistricts').value);
-    dashboardApi!.updateDashboard();
+  updateInStore(FormGroup form) {
+    // print(form.value);
+
+    SearchFilter searchFilter = searchFilterStore.getSearchFilter();
+    searchFilter.searchByDistricts = form.control('searchByDistricts').value;
+    searchFilter.distanceInKms = form.control('distanceInKms').value;
+    searchFilter.year = form.control('year').value;
+    searchFilter.districts = form.control('selectedDistricts').value;
+    searchFilter.branchCodes = form.control('selectedBranches').value;
+    searchFilterStore.updateWith(searchFilter);
   }
+
   void onBranchesDropDownSelected(List<String> values, form) {
     form.control('selectedBranches').value = values;
     updateInStore(form);
   }
 
+
   Widget branchesDropDown(context, form, child) {
+    return ElevatedButton(
+      onPressed: () {
+        //   print(form.control('selectedBranches').value);
 
-    return   ElevatedButton(
-        onPressed: () {
-       //   print(form.control('selectedBranches').value);
-
-          branchesDetail.showMultiSelectBranches(
-              appConfigStore,
-              form.control('selectedBranches').value,
-              context,
-                  (evt) => onBranchesDropDownSelected(evt, form));
-        },
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Text(
-              'Branches',
-              style: TextStyle(
-                fontSize: 10,
-                color: Colors.white,
-              ),
-            ),
-            Icon(
-              Icons.arrow_drop_down,
+        branchesDetail.showMultiSelectBranches(
+            appConfigStore,
+            form.control('selectedBranches').value,
+            context,
+            (evt) => onBranchesDropDownSelected(evt, form));
+      },
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Text(
+            'Branches',
+            style: TextStyle(
+              fontSize: 10,
               color: Colors.white,
             ),
-          ],
-        ),
-      );
-
-
-
+          ),
+          Icon(
+            Icons.arrow_drop_down,
+            color: Colors.white,
+          ),
+        ],
+      ),
+    );
   }
 
   void onDistanceDropDownSelected(int value, form) {
@@ -117,7 +120,7 @@ class FilterPanel extends StatelessWidget {
             appConfigStore,
             form.control('distanceInKms').value,
             context,
-            (evt) => onDistanceDropDownSelected(evt, form));
+                (evt) => onDistanceDropDownSelected(evt, form));
       },
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -139,13 +142,13 @@ class FilterPanel extends StatelessWidget {
   }
 
   void onDistrictsDropDownSelected(List<String> values, form) {
-
-
     form.control('selectedDistricts').value = values;
     updateInStore(form);
   }
 
   Widget districtsDropDown(context, form, child) {
+
+
     return ElevatedButton(
       key: Key('distbutton'),
       onPressed: () {
@@ -179,11 +182,22 @@ class FilterPanel extends StatelessWidget {
         !(form.control('searchByDistricts').value);
   }
 
+  Widget switchDistrictContainerButton(context, form, child) {
+    return StreamBuilder<CollegeLocation>(
+        stream: locationStore.locationStream(),
+        builder: (context, snapshot) {
+          if (snapshot.hasData && snapshot.data != null) {
+            return switchDistrictButton(context, form, child);
+          }
+          return SizedBox.shrink();
+        });
+  }
+
   Widget switchDistrictButton(context, form, child) {
     bool showDistricts = form.control('searchByDistricts').value;
     if (showDistricts) {
       return ElevatedButton(
-        style:ElevatedButton.styleFrom(
+        style: ElevatedButton.styleFrom(
           primary: Colors.black, // background
         ),
         onPressed: () {
@@ -208,7 +222,7 @@ class FilterPanel extends StatelessWidget {
       );
     } else {
       return ElevatedButton(
-        style:ElevatedButton.styleFrom(
+        style: ElevatedButton.styleFrom(
           primary: Colors.deepPurple, // background
         ),
         onPressed: () {
@@ -228,7 +242,6 @@ class FilterPanel extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-
           ],
         ),
       );
@@ -239,7 +252,7 @@ class FilterPanel extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
-        switchDistrictButton(context, form, child),
+        switchDistrictContainerButton(context, form, child),
         districtsDropDown(context, form, child),
         branchesDropDown(context, form, child),
       ],
@@ -250,7 +263,7 @@ class FilterPanel extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
-        switchDistrictButton(context, form, child),
+        switchDistrictContainerButton(context, form, child),
         distanceDropDown(context, form, child),
         branchesDropDown(context, form, child),
       ],

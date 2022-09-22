@@ -1,4 +1,5 @@
 import 'package:engineeringvazhikaatti/adapters/distance_calculator.dart';
+import 'package:engineeringvazhikaatti/entities/models/request/college_location.dart';
 
 
 import 'great_circle_distance_base.dart';
@@ -39,6 +40,12 @@ class GreatCircleDistanceCalculator implements DistanceCalculator{
     //   return gcd.sphericalLawOfCosinesDistance();
     // else
     //   return gcd.vincentyDistance();
+  }
+
+  @override
+  bool withinDistance(CollegeLocation location, int distanceInKilometers) {
+    // TODO: implement withinDistance
+    throw UnimplementedError();
   }
 }
 

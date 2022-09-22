@@ -1,18 +1,21 @@
-import 'package:engineeringvazhikaatti/entities/models/caste.dart';
+
+import 'package:engineeringvazhikaatti/entities/models/request/community_group.dart';
 import 'package:engineeringvazhikaatti/entities/settings.dart';
 import 'package:engineeringvazhikaatti/shared/string_extension.dart';
-import 'package:engineeringvazhikaatti/usecases/settings_updater.dart';
+
 import 'package:flutter/material.dart';
 import 'package:injector/injector.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
+import '../../stores/settings_store.dart';
+
 class SettingsPage extends StatelessWidget {
-  late final SettingsUpdater settingsUpdater;
+  late final SettingsStore settingsUpdater;
   late var appform = null;
 
   SettingsPage({Key? key}) : super(key: key) {
     final injector = Injector.appInstance;
-    settingsUpdater = injector.get<SettingsUpdater>();
+    settingsUpdater = injector.get<SettingsStore>();
   }
 
 
@@ -27,7 +30,7 @@ class SettingsPage extends StatelessWidget {
   }
 
   getFormGroup() {
-    Settings settings = settingsUpdater.settings;
+    Settings settings = settingsUpdater.getSettings();
     return () => fb.group(<String, Object>{
           'maths': FormControl<double>(
             value: settings.maths,
@@ -83,7 +86,7 @@ class SettingsPage extends StatelessWidget {
     for (var currentValue in CommunityGroup.values) {
       items.add(DropdownMenuItem(
         value: currentValue,
-        child: Text(currentValue.toValidString()),
+        child: Text(currentValue.label()),
       ));
     }
     return items;

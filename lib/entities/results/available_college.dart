@@ -1,8 +1,8 @@
 
-import 'package:engineeringvazhikaatti/entities/models/college_detail.dart';
+import 'package:engineeringvazhikaatti/entities/models/response/college_detail.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import '../models/college_location.dart';
+import '../models/request/college_location.dart';
 import 'available_branch.dart';
 
 
@@ -23,7 +23,7 @@ class AvailableCollege {
 
     List<AvailableBranch> validBranches = branches.where((element) => element.isValidBranch()).toList();
 
-    return AvailableCollege(collegeDetail.id,collegeDetail.name,collegeDetail.district,
+    return AvailableCollege(collegeDetail.code,collegeDetail.name,collegeDetail.district,
               collegeDetail.location,collegeDetail.pincode,
     collegeDetail.state,validBranches,collegeDetail.address);
   }

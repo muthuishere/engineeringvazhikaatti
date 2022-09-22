@@ -1,14 +1,17 @@
 import 'dart:ui';
 
+import 'package:engineeringvazhikaatti/entities/models/request/college_with_branch.dart';
+import 'package:engineeringvazhikaatti/entities/models/response/branch_with_college.dart';
 import 'package:engineeringvazhikaatti/entities/results/available_branch.dart';
 
-String formattedCutOffForYear(AvailableBranch branch, int year) {
-  double? cutOffForYear = branch.cutOffForYear(year);
-  if (null != cutOffForYear)
-    return cutOffForYear.toString();
+String formattedCutOffForYear(BranchWithCollege branch, int year) {
+  double? cutOffForYear = branch.cutoffs[year];
+  if (null != cutOffForYear && cutOffForYear > 0)
+    return cutOffForYear.toStringAsFixed(2);
   else
     return "-";
 }
+
 
 Color calculatePositiveColorFor(int rank) {
   const colors = [

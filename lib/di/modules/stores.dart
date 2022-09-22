@@ -1,54 +1,51 @@
 import 'package:engineeringvazhikaatti/adapters/file_reader.dart';
 import 'package:engineeringvazhikaatti/stores/app_config_store.dart';
-import 'package:engineeringvazhikaatti/stores/available_colleges_store.dart';
-import 'package:engineeringvazhikaatti/stores/college_details_store.dart';
+import 'package:engineeringvazhikaatti/stores/location_store.dart';
 import 'package:engineeringvazhikaatti/stores/search_filter_store.dart';
 import 'package:injector/injector.dart';
 
+import '../../adapters/app_preferences.dart';
+import '../../stores/available_branch_detail_store.dart';
+import '../../stores/settings_store.dart';
+
 class Stores {
-  Future<AppConfigStore> getAppConfigStore() async{
-
+  Future<AppConfigStore> getAppConfigStore() async {
     final injector = Injector.appInstance;
-    var fileReader  = injector.get<FileReader>();
-
-    var districts = await fileReader.readFromAssetsFolder("districts.json");
-    var pincodes = await fileReader.readFromAssetsFolder("pincodes.json");
-    var branches = await fileReader.readFromAssetsFolder("allbranches.json");
-
-    print("branches size" + branches.length.toString());
-    var appConfigStore = AppConfigStore();
-    appConfigStore.loadDistricts(districts);
-    appConfigStore.loadPincodes(pincodes);
-    appConfigStore.loadBranches(branches);
-    return  appConfigStore;
-
-  }
-  Future<CollegeDetailsStore> getCollegeDetailsStore() async {
-    final injector = Injector.appInstance;
-
-    var fileReader  = injector.get<FileReader>();
-    var collegeDetails = await fileReader.readFromAssetsFolder("colleges.json");
-   // print("collegeDetails size" + collegeDetails.length.toString());
-    CollegeDetailsStore collegeDetailsStore  =CollegeDetailsStore.from(collegeDetails);
-    //print("Total Colleges size" + collegeDetailsStore.collegeDetails.length.toString());
-    return collegeDetailsStore;
+    var fileReader = injector.get<FileReader>();
+    var contents = await fileReader.readFromAssetsFolder("finaldelivery.json");
+    var appConfigStore = AppConfigStore(contents);
+    return appConfigStore;
   }
 
-  init() async{
+
+  Future<SettingsStore> getSettingsStore() async {
     final injector = Injector.appInstance;
-    var collegeDetailsStore = await getCollegeDetailsStore();
+    var preferences = injector.get<AppPreferences>();
+
+    var existingSettings = await preferences.getSettings();
+    return SettingsStore(existingSettings,preferences);
+  }
+  LocationStore getLocationStore() {
+    final injector = Injector.appInstance;
+   var preferences = injector.get<AppPreferences>();
+    return LocationStore();
+  }
+
+  init() async {
+    final injector = Injector.appInstance;
     var appConfigStore = await getAppConfigStore();
+    var searchFilterStore = SearchFilterStore();
+    var preferences  = injector.get<AppPreferences>();
 
-    injector.registerSingleton<CollegeDetailsStore>(() => collegeDetailsStore);
-    injector.registerSingleton<AppConfigStore>(() =>appConfigStore);
+    var settingsStore = await getSettingsStore();
+    var locationStore = getLocationStore();
+    injector.registerSingleton<LocationStore>(() => locationStore);
+    injector.registerSingleton<SettingsStore>(() => settingsStore);
 
-    injector.registerSingleton<AvailableCollegesStore>(() => AvailableCollegesStore());
-    injector.registerSingleton<SearchFilterStore>(() => SearchFilterStore());
+    injector.registerSingleton<AvailableBranchDetailStore>(() => AvailableBranchDetailStore( settingsStore:settingsStore,   locationStore:locationStore,appConfigStore:appConfigStore ,searchFilterStore: searchFilterStore));
+    injector.registerSingleton<AppConfigStore>(() => appConfigStore);
 
 
+    injector.registerSingleton<SearchFilterStore>(() => searchFilterStore);
   }
-
-
-
-
 }
