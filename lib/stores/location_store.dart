@@ -81,11 +81,14 @@ class LocationStore with UiLoggy{
     }
       var lat1 = getLocation()?.latitude;
       var lon1 = getLocation()?.longitude;
-    logInfo("lat1: $lat1, lon1: $lon1");
+
     // print("lat1: $lat1, lon1: $lon1");
       var lat2 = location.latitude;
       var lon2 = location.longitude;
-      var distance = getDistanceBetween(lat1!, lon1!, lat2, lon2);
+    logInfo("location  lat1: $lat1, lon1: $lon1 lat2: $lat2, lon2: $lon2");
+
+
+    var distance = getDistanceBetween(lat1!, lon1!, lat2, lon2);
       return distance <= distanceInKilometers;
     }
 
